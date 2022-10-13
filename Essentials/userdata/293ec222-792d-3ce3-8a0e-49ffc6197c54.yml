@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 109.51.142.184
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665229502088
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665230705521
+  login: 1665228621799
+money: '107.63083'
+last-account-name: gaspar
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2108.7280667425975
+  y: 70.0
+  z: 795.0152025484969
+  yaw: 85.19949340820312
+  pitch: -48.300045013427734
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 100.2116165105629
+  y: 76.0
+  z: 5.994800179640279
+  yaw: 62.354736328125
+  pitch: -4.5000128746032715

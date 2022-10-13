@@ -1,0 +1,80 @@
+# Backup Upload Configuration
+#  
+# You can configure the backup to external services here
+
+# Enables / Disables Local Backup Deletion after all uploads have been completed
+delete-local: false
+dropbox:
+  # Enables / Disables Dropbox Upload
+  enabled: false
+  # Paste your dropbox access token here
+  #  
+  # Instructions on how to get your token: 
+  # https://prodigysupport.team/wiki/eb/how-tos/how-to-get-your-dropbox-token
+  access-token: ''
+  # Set the DropBox path you want your files to be uploaded to
+  upload-path: /backups/
+  # You can set the max amount of backups you want in your dropbox here
+  # Set it to '-1' to disable it
+  max-backups-before-erase: -1
+  # You can configure the chunk size for uploads here
+  # DO NOT CHANGE THIS IF YOU ARE NOT SURE WHAT YOU ARE DOING
+  chunk-size: 8388608
+google-drive:
+  # Enables / Disables Google Drive Upload
+  enabled: false
+  # Paste your Google Drive access token here
+  #  
+  # Instructions on how to get your token: 
+  # https://prodigysupport.team/wiki/eb/how-tos/how-to-get-your-google-drive-refresh-token
+  refresh-token: 1//09zCCOJBJNKLTCgYIARAAGAkSNwF-L9IrTsaGKdU60dX4zmFMnGPNtMs9VOhBDTbnHfC_Z0iYgl9wvUWGkvmS87TVXXEKk9NC2gw
+  # Set the Google Drive path you want your files to be uploaded to
+  upload-path: /backups/
+  advanced:
+    parent-folder:
+      # Enables / Disables the advanced parent folder mode
+      # DO NOT CHANGE THIS IF YOU ARE NOT SURE WHAT YOU ARE DOING
+      #  
+      # Instructions on how to setup the advanced destination folder
+      # https://prodigysupport.team/wiki/x/M4AiAQ
+      enabled: false
+      # Sets the parent folder (the 'google-drive.upload-path' will become useless)
+      id: ''
+  # You can set the max amount of backups you want in your google drive storage here
+  # Set it to '-1' to disable it
+  max-backups-before-erase: 3
+  # You can configure the chunk size for uploads here
+  # DO NOT CHANGE THIS IF YOU ARE NOT SURE WHAT YOU ARE DOING
+  chunk-size: 8388608
+ftp:
+  # Enables / Disables FTP Upload
+  enabled: false
+  ssh:
+    # If you are using ssh keys to authenticate with your ftp server
+    # You can enable or disable it here
+    use: false
+    # Set the path to your ssh private key here
+    private-key: ''
+    # Set your ssh private key passphrase here
+    passphrase: ''
+  # Select which ftp protocol you want to use.
+  # Available are: 
+  # - SFTP
+  # - FTP
+  # - FTPS
+  protocol: ftp
+  # Set your ftp host address here
+  host: example.com
+  # Set your ftp username here
+  username: root
+  # Set your ftp password here
+  password: ''
+  # Set your ftp port here
+  port: 21
+  # Sets the ftp buffer size
+  buffer: -1
+  # Set the FTP path you want your files to be uploaded to
+  upload-path: /root/backups/
+  # You can set the max amount of backups you want on your ftp server
+  # Set it to '-1' to disable it
+  max-backups-before-erase: -1

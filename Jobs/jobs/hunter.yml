@@ -1,0 +1,157 @@
+Hunter:
+  ChatColour: RED
+  FullDescription:
+  - Earns money killing animals and monsters.
+  Gui:
+    Item: bow
+  Kill:
+    BLAZE:
+      experience: 15.0
+      income: 5.0
+      points: 20
+    CAVE_SPIDER:
+      experience: 15.0
+      income: 5.0
+      points: 20
+    Chicken:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    Cow:
+      experience: 5.0
+      income: 1.5
+      points: 5
+    Creeper:
+      experience: 15.0
+      income: 3.75
+      points: 15
+    DROWNED:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    ENDERMAN:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    ENDER_DRAGON:
+      experience: 2000.0
+      income: 500.0
+      points: 2000
+    GHAST:
+      experience: 30.0
+      income: 7.5
+      points: 30
+    GIANT:
+      experience: 100.0
+      income: 62.5
+      points: 250
+    GUARDIAN:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    HUSK:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    IRON_GOLEM:
+      experience: 30.0
+      income: 7.5
+      points: 30
+    PHANTOM:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    Pig:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    Player:
+      experience: 7.5
+      income: 2.25
+      points: 9
+    RABBIT:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    SHULKER:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    SILVERFISH:
+      experience: 5.0
+      income: 0.75
+      points: 3
+    SNOWMAN:
+      experience: 4.0
+      income: 0.5
+      points: 2
+    SQUID:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    Sheep:
+      experience: 5.0
+      income: 1.25
+      points: 5
+    Skeleton:
+      experience: 15.0
+      income: 2.5
+      points: 10
+    Spider:
+      experience: 15.0
+      income: 2.5
+      points: 10
+    WITHER:
+      experience: 120.0
+      income: 12.5
+      points: 50
+    Wolf:
+      experience: 5.0
+      income: 2.5
+      points: 10
+    Zombie:
+      experience: 15.0
+      income: 2.5
+      points: 10
+    mushroom_cow:
+      experience: 5.0
+      income: 1.25
+      points: 5
+  Quests:
+    '1':
+      Name: Predator
+      Objectives:
+      - Kill;Wolf;10
+      - Kill;Creeper;3
+      - Kill;Skeleton;10
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Kill everything what moves and get money
+      - Get 100 for this!
+  Tame:
+    Horse:
+      experience: 15.0
+      income: 5.0
+      points: 20
+    Ocelot:
+      experience: 15.0
+      income: 5.0
+      points: 20
+    Wolf:
+      experience: 15.0
+      income: 5.0
+      points: 20
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Hunter
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: H

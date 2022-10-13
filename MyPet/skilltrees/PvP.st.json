@@ -1,0 +1,230 @@
+{
+  "Order": 2,
+  "Description": [
+    "- <red><bold>Damage",
+    "- <blue><bold>Sprint",
+    "- <red><bold>Slow",
+    "- <red><bold>Fire",
+    "- <yellow><bold>Beacon"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "6": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "20": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "40": {
+          "drop": false,
+          "rows": "+1"
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "3": {
+          "Active": true
+        }
+      }
+    },
+    "Slow": {
+      "Upgrades": {
+        "4": {
+          "Duration": "+2",
+          "Chance": "+10"
+        },
+        "9": {
+          "Duration": "+1",
+          "Chance": "+5"
+        }
+      }
+    },
+    "Fire": {
+      "Upgrades": {
+        "5": {
+          "Duration": "+3",
+          "Chance": "+15"
+        },
+        "15": {
+          "Chance": "+10"
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "7": {
+          "Buffs": {
+            "Resistance": "+1",
+            "Strength": "+1"
+          },
+          "Duration": "+8",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "14": {
+          "Buffs": {
+            "Resistance": "+1",
+            "Strength": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        },
+        "21": {
+          "Buffs": {
+            "Regeneration": "+1"
+          },
+          "Duration": "+2",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "28": {
+          "Buffs": {
+            "JumpBoost": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "9": {
+          "Health": "+5"
+        },
+        "18": {
+          "Health": "+5"
+        },
+        "27": {
+          "Health": "+5"
+        },
+        "36": {
+          "Health": "+5"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "8": {
+          "Timer": "+60",
+          "Health": "+4"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "3": {
+          "Friend": true,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        },
+        "10": {
+          "Friend": true,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": true,
+          "Raid": true
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "4": {
+          "Active": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1.6"
+        },
+        "2": {
+          "Damage": "+0.1"
+        },
+        "3": {
+          "Damage": "+0.1"
+        },
+        "4": {
+          "Damage": "+0.1"
+        },
+        "5": {
+          "Damage": "+0.1"
+        },
+        "6": {
+          "Damage": "+0.1"
+        },
+        "7": {
+          "Damage": "+0.1"
+        },
+        "8": {
+          "Damage": "+0.1"
+        },
+        "9": {
+          "Damage": "+0.1"
+        },
+        "10": {
+          "Damage": "+0.1"
+        },
+        "11": {
+          "Damage": "+0.1"
+        },
+        "12": {
+          "Damage": "+0.1"
+        },
+        "13": {
+          "Damage": "+0.1"
+        },
+        "14": {
+          "Damage": "+0.1"
+        },
+        "15": {
+          "Damage": "+0.1"
+        },
+        "16": {
+          "Damage": "+0.1"
+        },
+        "17": {
+          "Damage": "+0.1"
+        },
+        "18": {
+          "Damage": "+0.1"
+        },
+        "19": {
+          "Damage": "+0.1"
+        },
+        "20": {
+          "Damage": "+0.1"
+        },
+        "21": {
+          "Damage": "+0.1"
+        },
+        "22": {
+          "Damage": "+0.1"
+        },
+        "23": {
+          "Damage": "+0.1"
+        },
+        "24": {
+          "Damage": "+0.1"
+        },
+        "25": {
+          "Damage": "+0.1"
+        }
+      }
+    }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "PvP",
+  "Icon": {
+    "Material": "diamond_sword"
+  },
+  "Name": "PvP"
+}

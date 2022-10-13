@@ -1,0 +1,70 @@
+Digger:
+  Break:
+    clay:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    coarse_dirt:
+      experience: 1
+      income: 0.25
+      points: 1
+    dirt:
+      experience: 0.25
+      income: 0.06
+      points: 0.25
+    grass_block:
+      experience: 0.3
+      income: 0.07
+      points: 0.3
+    gravel:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    red_sand:
+      experience: 1
+      income: 0.25
+      points: 1
+    sand:
+      experience: 0.5
+      income: 0.1
+      points: 0.4
+  ChatColour: GOLD
+  FullDescription:
+  - Earns money for terraforming the world.
+  Gui:
+    Item: wooden_shovel
+  Kill:
+    Player:
+      experience: 7.5
+      income: 7.5
+      points: 7.5
+  Quests:
+    '1':
+      Name: Ground Mole
+      Objectives:
+      - Break;dirt;50
+      - Break;grass_block;50
+      - Break;gravel;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Dig blocks and get money
+      - Get 100 for this!
+  chat-display: full
+  custom-kill:
+    Digger:
+      experience: 10.0
+      income: 10.0
+      points: 10.0
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Digger
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: D

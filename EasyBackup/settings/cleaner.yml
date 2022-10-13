@@ -1,0 +1,21 @@
+# Cleaner Configuration
+#  
+# You can configure everything regarding the cleaner process here
+
+# Enables / Disables the cleaner
+enabled: true
+# Set the amount of days after the files should be deleted
+days-old: 7
+# Set the directories in which the cleaner checks for files to be deleted
+directories:
+- logs
+# Enables / Disables the usage of the pattern list below
+# If you disabled this all files which are old enough will be deleted
+use-patterns: false
+# You can specify which files you want to be checked by the cleaner
+# Each filename will be checked against the specified patterns below
+# If a match is found and the file is old enough, the file will be deleted
+# You can test your expressions here: https://regex101.com
+file-pattern: []
+# Enables / Disables recursive checking of directories
+recursive: false

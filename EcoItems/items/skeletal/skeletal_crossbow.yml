@@ -1,0 +1,39 @@
+item:
+  item: crossbow ash_artifact:1 custom-model-data:10
+  displayName: "<g:#F8F8FF>Skeletal Crossbow</g:#808080>"
+  effectiveDurability: 465‌
+  lore:
+    - ""
+    - "<g:#F8F8FF>&lSKELETAL CROSSBOW BONUS</g:#808080>"
+    - "&8» &fDeal 20% more damage against skeletons"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:skeletal_shard
+    - ""
+    - ""
+    - crossbow
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 1
+baseAttackSpeed: 4
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - skeleton
+        - stray
+        - wither_skeleton
+    triggers:
+      - bow_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: skeletal
+
+fuels: [ ]

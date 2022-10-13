@@ -1,0 +1,30 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Maximaal
+    baby: Baby
+    adult: Volwassen
+    spawn: '&7%type% &6Spawn Ei'
+    lorecost: '&7Kost: &6$%cost%'
+    lorechance: '&7Kans: &6%chance%%'
+  catcherinfo:
+    type: '&7Type: &6%value%'
+    health: '&7Gezondheid: &6%value%'
+    age: '&7Leeftijd: &6%value%'
+    tamed: '&6Getemd'
+    trusted: '&6Vertrouwd'
+# Event Messages
+event:
+  general:
+    nopermission: '&cJe hebt geen toestemming om dat te doen.'
+  catch:
+    success: '&7Je hebt succesvol een &6%type%&7 gevangen.'
+    failed: '&cJe hebt een &4%type%&c niet kunnen vangen.'
+    notenabled: '&7Je kunt geen &6%type%&7 vangen.'
+    cantafford: '&7Je hebt &6$%amount% &7nodig om een &6%type%&7 te vangen.'
+    notyours: '&cJe kunt geen dieren vangen die getemd zijn door anderen.'
+    blockedcatchingworld: '&cJe kunt geen mobs vangen in &4%world%&c.'
+    blockedspawningworld: '&cJe kunt geen gevangen mobs spawnen in &4%world%&c.'

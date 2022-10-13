@@ -1,0 +1,27 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Max
+    baby: Baby
+    adult: Erwachsen
+    spawn: '&7%type% &6Spawn-Ei'
+    lorecost: '&7Kosten: &6$%cost%'
+    lorechance: '&7Wahrscheinlichkeit: &6%chance%%'
+  catcherinfo:
+    type: '&7Typ: &6%value%'
+    health: '&7Leben: &6%value%'
+    age: '&7Alter: &6%value%'
+    tamed: '&6Gezähmt'
+    trusted: '&6Zuverlässig'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu hast keine Rechte diesen Command auszuführen.'
+  catch:
+    success: '&7Du hast erfolgreich den Typen &6%type%&7 gefangen.'
+    failed: '&cDas Fangen des Typen &4%type%&c schlug fehl.'
+    notenabled: '&7Du kannst den Typen &6%type%&7 nicht fangen.'
+    cantafford: '&7Du brauchst &6$%amount% &7mehr, um den Typen &6%type%&7 fangen zu können.'

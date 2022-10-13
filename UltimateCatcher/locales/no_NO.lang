@@ -1,0 +1,30 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Max
+    baby: Baby
+    adult: Voksen
+    spawn: '&7%type% &6Spawn Egg'
+    lorecost: '&7Kostnad: &6$%cost%'
+    lorechance: '&7Sjanse: &6%chance%%'
+  catcherinfo:
+    type: '&7Type: &6%value%'
+    health: '&7Liv: &6%value%'
+    age: '&7Alder: &6%value%'
+    tamed: '&6Temmet'
+    trusted: '&6Stolt på'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har ikke tillatelse til å gjøre dette.'
+  catch:
+    success: '&7Du har vellykket fanget en &6%type%&7.'
+    failed: '&cDu feilet i å fange en &4%type%&c.'
+    notenabled: '&7Du kan ikke fange en &6%type%&7.'
+    cantafford: '&7Du trenger &6$%amount% &7for å fange en &6%type%&7.'
+    notyours: '&cDu kan ikke fange dyr eller mobs temmet av andre.'
+    blockedcatchingworld: '&cFanging av dyr eller mobs i verden &4%world%&c er deaktivert.'
+    blockedspawningworld: '&cSpawning av fanget dyr eller mobs i verden &4%world%&c er deaktivert.'

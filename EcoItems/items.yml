@@ -1,0 +1,8 @@
+# Item configs are in the /items/ folder, read _example.yml for more information
+# Chains, Fuels, and Recipes go in here
+
+chains: []
+
+fuels: []
+
+recipes: []

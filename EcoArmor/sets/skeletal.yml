@@ -1,0 +1,188 @@
+conditions: []
+effects:
+  - id: hunger_multiplier
+    args:
+      multiplier: 0
+
+advancedEffects:
+  - id: hunger_multiplier
+    args:
+      multiplier: 0
+  - id: damage_multiplier
+    args:
+      multiplier: 0.5
+    filters:
+      projectiles: 
+        - arrow
+    triggers:
+      - take_damage
+
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore:
+  - ''
+  - "<g:#F8F8FF>&lADVANCED BONUS</g:#DCDCDC>"
+  - "&8» &fTake no damage from arrows"
+  - "&8» &fPermanent no hunger"
+  - "&8&oRequires full set to be worn"
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<g:#F8F8FF>Advancement Shard:</g:#DCDCDC> &6Skeletal"
+  lore:
+    - "&8Drop this onto &6Skeletal Armor"
+    - "&8to make it <g:#F8F8FF>Advanced</g:#DCDCDC>."
+  craftable: true
+  recipe:
+    - prismarine_shard
+    - ecoitems:skeletal_shard
+    - prismarine_shard
+    - ecoitems:skeletal_shard
+    - nether_star
+    - ecoitems:skeletal_shard
+    - prismarine_shard
+    - ecoitems:skeletal_shard
+    - prismarine_shard
+helmet:
+  item: netherite_helmet custom-model-data:10
+  name: "<g:#F8F8FF>Skeletal Helmet</g:#DCDCDC>"
+  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Helmet"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
+    - "&8» &fPermanent no hunger"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:skeletal_shard
+    - diamond
+    - air
+    - netherite_helmet
+    - air
+    - bone_block
+    - wither_skull
+    - bone_block
+chestplate:
+  item: netherite_chestplate custom-model-data:10
+  name: "<g:#F8F8FF>Skeletal Chestplate</g:#DCDCDC>"
+  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Chestplate"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
+    - "&8» &fPermanent no hunger"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:skeletal_shard
+    - diamond
+    - air
+    - netherite_chestplate
+    - air
+    - bone_block
+    - wither_skull
+    - bone_block
+elytra:
+  item: elytra custom-model-data:10
+  name: "<g:#F8F8FF>Skeletal Elytra</g:#DCDCDC>"
+  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Elytra"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
+    - "&8» &fPermanent no hunger"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:skeletal_shard
+    - diamond
+    - air
+    - elytra
+    - air
+    - bone_block
+    - wither_skull
+    - bone_block
+leggings:
+  item: netherite_leggings custom-model-data:10
+  name: "<g:#F8F8FF>Skeletal Leggings</g:#DCDCDC>"
+  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Leggings"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
+    - "&8» &fPermanent no hunger"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:skeletal_shard
+    - diamond
+    - air
+    - netherite_leggings
+    - air
+    - bone_block
+    - wither_skull
+    - bone_block
+boots:
+  item: netherite_boots custom-model-data:10
+  name: "<g:#F8F8FF>Skeletal Boots</g:#DCDCDC>"
+  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Boots"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
+    - "&8» &fPermanent no hunger"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:skeletal_shard
+    - diamond
+    - air
+    - netherite_boots
+    - air
+    - bone_block
+    - wither_skull
+    - bone_block

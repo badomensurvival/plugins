@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 170.246.202.210
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665105648298
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665213192078
+  login: 1665209779237
+money: '1368.296770000000044616'
+last-account-name: Amor2166
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 4443.5
+  y: 64.0
+  z: 1433.5
+  yaw: -180.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 4379.1123
+  y: 64.5625
+  z: 1435.1265
+  yaw: -89.4384994506836
+  pitch: 12.612045288085938

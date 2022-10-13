@@ -1,0 +1,40 @@
+item:
+  item: netherite_axe zap_artifact:1 cleave:4 custom-model-data:1
+  displayName: "<g:#FDC830>Angelic Battleaxe</g:#F37335>"
+  lore:
+    - ""
+    - "<g:#FDC830>&lANGELIC BATTLEAXE BONUS</g:#F37335>"
+    - "&8» &6Deal 20% more damage against"
+    - "&#FDC830zombies"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:angelic_shard
+    - ""
+    - ""
+    - netherite_axe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 10
+baseAttackSpeed: 1
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - zombie
+        - husk
+        - drowned
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: angelic
+
+fuels: [ ]

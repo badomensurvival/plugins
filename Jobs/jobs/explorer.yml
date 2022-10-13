@@ -1,0 +1,54 @@
+Explorer:
+  ChatColour: AQUA
+  Explore:
+    '1':
+      experience: 5.0
+      income: 1.25
+      points: 5
+    '2':
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    '3':
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    '4':
+      experience: 0.5
+      income: 0.12
+      points: 0.5
+    '5':
+      experience: 0.1
+      income: 0.03
+      points: 0.1
+  FullDescription:
+  - Earns money from exploring map.
+  Gui:
+    Item: leather_boots
+  Kill:
+    Player:
+      experience: 7.5
+      income: 7.5
+  Quests:
+    '1':
+      Name: Galileo
+      Objectives:
+      - Explore;1;30
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Go on a trip and get money
+      - Get 100 for this!
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Explorer
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: Ex

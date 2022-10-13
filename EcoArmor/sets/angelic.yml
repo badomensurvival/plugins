@@ -1,0 +1,204 @@
+conditions: []
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    triggers:
+      - take_damage
+  - id: permanent_potion_effect
+    args:
+      effect: regeneration
+      level: 1
+advancedEffects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    triggers:
+      - take_damage
+  - id: bonus_health
+    args:
+      health: 10
+  - id: permanent_potion_effect
+    args:
+      effect: regeneration
+      level: 1
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore:
+  - ''
+  - "<g:#FDC830>&lADVANCED BONUS</g:#F37335>"
+  - "&8» &eGet 10 more hearts"
+  - "&8» &ePermanent Regeneration I"
+  - "&8» &eTake 20% more damage"
+  - "&8&oRequires full set to be worn"
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<g:#FDC830>Advancement Shard:</g:#F37335> &6Angelic"
+  lore:
+    - "&8Drop this onto &6Angelic Armor"
+    - "&8to make it <g:#FDC830>Advanced</g:#F37335>."
+  craftable: true
+  recipe:
+    - prismarine_shard
+    - ecoitems:angelic_shard
+    - prismarine_shard
+    - ecoitems:angelic_shard
+    - nether_star
+    - ecoitems:angelic_shard
+    - prismarine_shard
+    - ecoitems:angelic_shard
+    - prismarine_shard
+helmet:
+  item: netherite_helmet custom-model-data:1
+  name: "<g:#FDC830>Angelic Helmet</g:#F37335>"
+  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Helmet"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
+    - "&8» &ePermanent Regeneration I"
+    
+    - "&8» &eTake 20% more damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:angelic_shard
+    - diamond
+    - air
+    - netherite_helmet
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+chestplate:
+  item: netherite_chestplate custom-model-data:1
+  name: "<g:#FDC830>Angelic Chestplate</g:#F37335>"
+  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Chestplate"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
+    - "&8» &ePermanent Regeneration I"
+    
+    - "&8» &eTake 20% more damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:angelic_shard
+    - diamond
+    - air
+    - netherite_chestplate
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+elytra:
+  item: elytra custom-model-data:1
+  name: "<g:#FDC830>Angelic Elytra</g:#F37335>"
+  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Elytra"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
+    - "&8» &ePermanent Regeneration I"
+    
+    - "&8» &eTake 20% more damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:angelic_shard
+    - diamond
+    - air
+    - elytra
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+leggings:
+  item: netherite_leggings custom-model-data:1
+  name: "<g:#FDC830>Angelic Leggings</g:#F37335>"
+  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Leggings"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
+    - "&8» &ePermanent Regeneration I"
+    
+    - "&8» &eTake 20% more damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:angelic_shard
+    - diamond
+    - air
+    - netherite_leggings
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+boots:
+  item: netherite_boots custom-model-data:1
+  name: "<g:#FDC830>Angelic Boots</g:#F37335>"
+  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Boots"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
+    - "&8» &ePermanent Regeneration I"
+    
+    - "&8» &eTake 20% more damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:angelic_shard
+    - diamond
+    - air
+    - netherite_boots
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block

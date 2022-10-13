@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.74.89.114
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665630042213
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665632422062
+  login: 1665630689749
+money: '2220.2499814636667516'
+last-account-name: HeyPeter557
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 89.54670909664301
+  y: 80.0
+  z: -52.4213532948121
+  yaw: -25.834625244140625
+  pitch: 32.25484848022461
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 90.2836463905809
+  y: 80.0
+  z: -53.173856406705774
+  yaw: -45.49517059326172
+  pitch: 12.365289688110352

@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 161.230.98.68
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665325137469
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665525368157
+  login: 1665525109433
+  kits:
+    noob: 1665525251611
+    pet: 1665525256009
+money: '135.9685000000000004'
+last-account-name: oVinni
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 175.24677644109974
+  y: 68.0
+  z: 61.82687124992672
+  yaw: -91.63504028320312
+  pitch: 23.099998474121094
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 119.6683669277234
+  y: 75.9375
+  z: 24.789230000025334
+  yaw: 157.4482421875
+  pitch: 5.5501227378845215

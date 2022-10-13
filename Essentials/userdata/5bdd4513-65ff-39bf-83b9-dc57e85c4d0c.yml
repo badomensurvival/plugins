@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.250.208.186
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665565197393
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665566004032
+  login: 1665561078341
+  kits:
+    noob: 1665445889797
+    pet: 1665445898667
+money: '438.1015310439541675'
+last-account-name: Giovanigb
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1462.2865485817438
+  y: 69.0
+  z: 301.23750001192093
+  yaw: -165.223876953125
+  pitch: 77.39990234375
+logoutlocation:
+  world: 273da244-265a-4346-b52e-f613b71d9b13
+  world-name: world_nether
+  x: -641.4744472392209
+  y: 67.0
+  z: 290.3596479875895
+  yaw: -176.61782836914062
+  pitch: 8.100008964538574

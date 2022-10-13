@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.37.144.183
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665355914613
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665367878751
+  login: 1665355789469
+money: '268.1000000000002514'
+last-account-name: JorgeAttem
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1583.6848957337172
+  y: 66.0
+  z: 1193.3247209957008
+  yaw: 134.41212463378906
+  pitch: 10.442590713500977
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -365.73870567818426
+  y: 64.0
+  z: 3202.300000011921
+  yaw: 59.181182861328125
+  pitch: 12.714067459106445

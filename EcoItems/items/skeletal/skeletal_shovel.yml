@@ -1,0 +1,29 @@
+item:
+  item: netherite_shovel ash_artifact:1 custom-model-data:10
+  displayName: "<g:#F8F8FF>Skeletal Shovel</g:#808080>"
+  lore:
+    - ""
+    - "<g:#F8F8FF>&lSKELETAL SHOVEL BONUS</g:#808080>"
+    - "&8» &fDeal 20% more damage against skeletons"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:skeletal_shard
+    - ""
+    - ""
+    - netherite_shovel
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6.5
+baseAttackSpeed: 1
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: skeletal
+
+fuels: [ ]

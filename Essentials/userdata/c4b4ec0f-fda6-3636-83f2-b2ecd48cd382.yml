@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.230.26.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665174277661
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665179736510
+  login: 1665171324571
+money: '227.86732000000000225'
+last-account-name: gabrielhuber123
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 71.67119900764777
+  y: 76.0
+  z: 5.832116915680364
+  yaw: -110.24667358398438
+  pitch: 10.7998628616333
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 330.5
+  y: 14.0
+  z: -1529.5
+  yaw: -42.43284225463867
+  pitch: 0.0

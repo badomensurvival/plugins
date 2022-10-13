@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 143.137.157.186
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664757076573
+  login: 1664756025829
+  kits:
+    noob: 1664755985864
+    pet: 1664755989899
+money: '120.3322600000000001'
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2171.5
+  y: 101.0
+  z: 1032.5
+  yaw: 0.0
+  pitch: 0.0
+last-account-name: Inosent_
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2330.3925735600137
+  y: 74.0
+  z: 839.3273026160797
+  yaw: -57.41750717163086
+  pitch: 30.146421432495117

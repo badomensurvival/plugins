@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.19.187.125
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664642558872
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664645543581
+  login: 1664641591657
+  kits:
+    noob: 1664642244231
+    pet: 1664642247520
+money: '418.04857999999999860'
+last-account-name: Netin123
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1853.6087114331954
+  y: 68.0
+  z: 599.78110436216
+  yaw: -90.07323455810547
+  pitch: 19.2963809967041
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2552.666654726523
+  y: 63.0
+  z: 1497.258442179807
+  yaw: -67.78397369384766
+  pitch: 1.5766868591308594

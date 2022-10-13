@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.108.201.153
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665334936519
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665335424060
+  login: 1665334727936
+money: '330.0'
+last-account-name: Thur73
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2173.2749365169702
+  y: 65.0
+  z: 1029.1348528947067
+  yaw: 128.6339111328125
+  pitch: 12.057162284851074
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 79.64478719846579
+  y: 76.0
+  z: 33.101725967175774
+  yaw: 171.6532440185547
+  pitch: 9.922529220581055

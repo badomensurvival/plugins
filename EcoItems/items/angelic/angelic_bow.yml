@@ -1,0 +1,30 @@
+item:
+  item: bow glow_artifact:1 custom-model-data:1
+  lore:
+    - ""
+    - "<g:#FDC830>&lANGELIC BOW BONUS</g:#F37335>"
+    - "&8» &6Deal 20% more damage against"
+    - "&#FDC830zombies"
+  displayName: "<g:#FDC830>Angelic Bow</g:#F37335>"
+  effectiveDurability: 384
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:angelic_shard
+    - ""
+    - ""
+    - bow
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 1
+baseAttackSpeed: 4
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: angelic
+
+fuels: [ ]

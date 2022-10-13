@@ -1,0 +1,31 @@
+# Основные сообщения
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Максимум
+    baby: Малыш
+    adult: Взрослый
+    spawn: '&7%type% &6яйцо'
+    lorecost: '&7Цена: &6$%cost%'
+    lorechance: '&7Шанс: &6%chance%%'
+  catcherinfo:
+    type: '&7Тип: &6%value%'
+    health: '&7Здоровье: &6%value%'
+    age: '&7Возраст: &6%value%'
+    tamed: '&6Приручено'
+    trusted: '&6Доверено'
+# Сообщения событий
+event:
+  general:
+    nopermission: '&cУ вас недостаточно разрешений.'
+  catch:
+    success: '&7Вы успешно захватили &6%type%&7.'
+    failed: '&cВы не смогли захватить &4%type%&c.'
+    notenabled: '&7Вы не можете захватить &6%type%&7.'
+    cantafford: '&7Вам нужно &6$%amount% &7чтобы поймать &6%type%&7.'
+    notyours: '&cВы не можете поймать сущности, прирученные другими.'
+    blockedcatchingworld: '&cЛовля сущностей в мире &4%world%&c выключена.'
+    blockedspawningworld: '&cЛовля сущностей из спавнера в мире &4%world%&c выключена.'
+
+# Translated by Yonter#9299 on 08.06.2020.

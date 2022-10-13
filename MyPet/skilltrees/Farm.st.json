@@ -1,0 +1,175 @@
+{
+  "Order": 4,
+  "Description": [
+    "- <red><bold>Melee<r> + <red><bold>Ranged Attack",
+    "- <yellow><bold>Inventory",
+    "- <red><bold>Thorns",
+    "- <red><bold>Poison",
+    "- <blue><bold>Control",
+    "- <yellow><bold>Beacon"
+  ],
+  "Skills": {
+    "Ranged": {
+      "Upgrades": {
+        "7": {
+          "Rate": "+35",
+          "Damage": "+2",
+          "Projectile": "Arrow"
+        },
+        "12": {
+          "Rate": "+10",
+          "Damage": "+2",
+          "Projectile": "Snowball"
+        }
+      }
+    },
+    "Backpack": {
+      "Upgrades": {
+        "1": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "5": {
+          "drop": false,
+          "rows": "+1"
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "8": {
+          "Active": true
+        }
+      }
+    },
+    "Pickup": {
+      "Upgrades": {
+        "2": {
+          "Range": "+3",
+          "Exp": false
+        },
+        "10": {
+          "Range": "+5",
+          "Exp": false
+        },
+        "20": {
+          "Range": "+5",
+          "Exp": true
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "6": {
+          "Reflection": "+10",
+          "Chance": "+20"
+        }
+      }
+    },
+    "Poison": {
+      "Upgrades": {
+        "9": {
+          "Duration": "+2",
+          "Chance": "+20"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "4": {
+          "Friend": true,
+          "Farm": true,
+          "Duel": true,
+          "Aggro": true,
+          "Raid": true
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1.6"
+        },
+        "3": {
+          "Damage": "+0.2"
+        },
+        "5": {
+          "Damage": "+0.2"
+        },
+        "7": {
+          "Damage": "+0.2"
+        },
+        "9": {
+          "Damage": "+0.2"
+        },
+        "11": {
+          "Damage": "+0.2"
+        },
+        "13": {
+          "Damage": "+0.2"
+        },
+        "15": {
+          "Damage": "+0.2"
+        },
+        "17": {
+          "Damage": "+0.2"
+        },
+        "19": {
+          "Damage": "+0.2"
+        },
+        "21": {
+          "Damage": "+0.2"
+        },
+        "23": {
+          "Damage": "+0.2"
+        },
+        "25": {
+          "Damage": "+0.2"
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "7": {
+          "Buffs": {
+            "Haste": "+1",
+            "FireResistance": "+1"
+          },
+          "Duration": "+8",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "14": {
+          "Buffs": {
+            "Speed": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        },
+        "21": {
+          "Buffs": {
+            "Luck": true
+          },
+          "Duration": "+2",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "28": {
+          "Buffs": {
+            "Haste": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        }
+      }
+    }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "Farm",
+  "Icon": {
+    "Material": "writable_book"
+  },
+  "Name": "Farm"
+}

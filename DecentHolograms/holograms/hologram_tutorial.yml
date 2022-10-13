@@ -1,0 +1,19 @@
+location: world:2166.601:67.000:1026.415
+enabled: true
+display-range: 20
+update-range: 10
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Digite &e/tutorial&r
+    height: 0.3
+  - content: para abrir o livro de tutorial
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/tutorial
+    RIGHT:
+    - COMMAND:/tutorial
+

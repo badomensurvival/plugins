@@ -1,0 +1,77 @@
+# Mysql Configuration
+#  
+# You can configure everything regarding the mysql backups here
+
+# You can change the save location of the sql backups here
+# Do not change is unless you know what you are doing
+#  
+# Placeholders:
+# {pluginname} - name of the plugin
+# {plugindir} - home directory of the plugin (Something like plugins/EasyBackup/)
+# {time} - time when the backup gets created
+# {database} - database name
+save-location: '{plugindir}/sqlbackups/{time}/{database}'
+# You can change the name of the sql backup here
+#  
+# Placeholders
+# {time} - will be replaced with the sql backup time
+# {database} - database which the backup has been created of
+file-name: backup_{database}_{time}
+# You can define how the {time} placeholder will be handled
+# For more information see:
+# https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+time-format: MM_dd_yyyy-hh_mm_ss_aa
+direct-access:
+  # Enables / Disables Mysql Dumping by accessing the database directly (Does not require ssh access or something)
+  enabled: false
+  # Specify your JDBC Url here.
+  # Only change it if you know what you are doing.
+  # Make sure it contains the {database} placeholder which will be replaced with the database later
+  command: jdbc:mysql://localhost:3306/{database}?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
+  # Specify which tables you want to be backed up here
+  # You must use the following format:
+  # DATABASE:USERNAME:PASSWORD[:TABLES]
+  # The Table argument is optional. If you don't specify it, all tables will be backed up
+  # For more details view the examples below
+  #  
+  # Example:
+  # thisismydb:testuser
+  # thisismydb:testuser:thisismypassword
+  # thisismydb2:testuser2:thisismypassword2[:iwantthistable:andthisonetoo]
+  databases: []
+dump-command:
+  # Enables / Disables Mysql Dumping using the mysqldump command
+  enabled: false
+  # Specify your MysqlDump command here.
+  # You must use the following placeholders:
+  # - {database} will be replaced with the database name
+  # - {tables} will be relpaced with the tables name
+  # - {password} will be replaced with the users password
+  # - {username} will be replaced with the users name
+  # - {output_file} will be replaced with the path + name of the backup
+  #  
+  # IMPORTANT:
+  # The command must start with the application you are using:
+  # For Windows, it's 'cmd.exe /c <command>'
+  # For Linux, it usually is 'sh -c <command>'
+  # The command below is made for linux users. if you use windows, make sure to set it to 'cmd.exe /c <the command>'
+  command: sh -c mysqldump -u {username} -p{password} {database} {tables} > {output_file}
+  # Enables / Disables using the mysql auth file
+  # You don't have to use the {password} and {user} placeholder in the dump command if you enable this
+  use-auth-file: false
+  # Specify which tables you want to be backed up here
+  # You must use the following format:
+  # DATABASE:USERNAME:PASSWORD[:TABLES]
+  # If you are using the auth file to authenticate
+  # set both, username and password to 'authfile'
+  # The Table argument is optional. For more details view the examples below
+  #  
+  # Example:
+  # thisismydb:testuser
+  # thisismydb:testuser:thisismypassword
+  # thisismydb2:testuser2:thisismypassword2[:iwantthistable:andthisonetoo]
+  #  
+  # If you are using the authentication with the auth file, make sure to use:
+  # thisismydb:authfile:authfile
+  # thisismydb2:authfile:authfile[:iwantthistable:andthisonetoo]
+  databases: []

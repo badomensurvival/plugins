@@ -1,0 +1,22 @@
+item:
+  item: amethyst_shard lime_artifact:1 unbreaking:1 hide_enchants hide_attributes
+  displayName: "<g:#4DCA39>Druid Shard</g:#2BA817>"
+  lore:
+    - "&8» &7Used to create <g:#4DCA39>Druid Armor and Tools</g:#2BA817>"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - poisonous_potato
+    - diamond 
+    - bow
+    - diamond
+    - amethyst_shard
+    - diamond
+    - crossbow
+    - diamond
+    - poisonous_potato
+
+effects: [ ]
+conditions: [ ]
+
+fuels: [ ]

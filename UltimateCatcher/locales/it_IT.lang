@@ -1,0 +1,26 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Massimo
+    baby: Bambino
+    adult: Adulto
+    spawn: '&6Uovo di &7%type%'
+    lorecost: '&7Costo: &6$%cost%'
+    lorechance: '&7Probabilità: &6%chance%%'
+  catcherinfo:
+    type: '&7Tipo: &6%value%'
+    health: '&7Vita: &6%value%'
+    age: '&7Età: &6%value%'
+    tamed: '&6Addomesticato'
+# Event Messages
+event:
+  general:
+    nopermission: '&cNon hai i permessi per fare questo.'
+  catch:
+    success: '&7Hai catturato con successo un &6%type%&7.'
+    failed: '&cHai fallito a catturare il &4%type%&c.'
+    notenabled: '&7Non puoi catturare un &6%type%&7.'
+    cantafford: '&7Hai bisogno di &6$%amount% &7per poter catturare un &6%type%&7.'

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.70.131.237
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665538136299
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665538809643
+  login: 1665538703193
+money: '105.5373913043478210'
+last-account-name: waldo
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 80.29641999605307
+  y: 76.0
+  z: 72.032097043738
+  yaw: 1.094451904296875
+  pitch: 24.89999008178711
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 80.2348943240127
+  y: 76.0
+  z: 79.17947465109799
+  yaw: 125.39958953857422
+  pitch: 10.650059700012207

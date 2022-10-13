@@ -1,0 +1,33 @@
+command: 'tutorial jobs'
+permission: tutorial.perm.jobs
+Title: Tutorial Jobs
+Author: Bad Omen RPG
+pages:
+  '1':
+  - '       &lJobs'
+  - ' '
+  - '&7* &rAutomaticamente será atribuído a você um job aleatório.'
+  - '&7* {jobs_leave}'
+  # - '&7* {jobs_leaveall}'
+  - '&7* {jobs_join}'
+  - '&7* {jobs_gui}'
+jobs_leave:
+  TEXT: '&8[&7/jobs leave <nome>&8]'
+  HOVER_TEXT: 'Saia de um job especificio.'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/jobs leave <nome>]'
+jobs_leaveall:
+  TEXT: '&8[&6/jobs leaveall&8]'
+  HOVER_TEXT: 'Saia de todos os jobs.'
+  CLICK_EVENT:
+    RUN_COMMAND: '/jobs leaveall'
+jobs_join:
+  TEXT: '&8[&7/jobs join <nome>&8]'
+  HOVER_TEXT: 'Entre em um job especifico.'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/jobs join <nome>]'
+jobs_join:
+  TEXT: '&8[&6/jobs browse&8]'
+  HOVER_TEXT: 'Abra um menu visual sobre os jobs'
+  CLICK_EVENT:
+    RUN_COMMAND: '/jobs'

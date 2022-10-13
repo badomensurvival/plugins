@@ -1,0 +1,53 @@
+Fisherman:
+  ChatColour: AQUA
+  Fish:
+    cod:
+      experience: 15.0
+      income: 3.75
+      points: 15.0
+    pufferfish:
+      experience: 25.0
+      income: 6.25
+      points: 25.0
+    salmon:
+      experience: 25.0
+      income: 5.0
+      points: 20.0
+    tropical_fish:
+      experience: 25.0
+      income: 6.25
+      points: 25.0
+  FullDescription:
+  - Earns money from fishing.
+  Gui:
+    Item: fishing_rod
+  Kill:
+    Player:
+      experience: 7.5
+      income: 7.5
+      points: 7.5
+  Quests:
+    '1':
+      Name: Catcher
+      Objectives:
+      - Fish;cod;2
+      - Fish;salmon;2
+      - Fish;tropical_fish;2
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Catch fish and get money
+      - Get 100 for this!
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Fisherman
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: Fi

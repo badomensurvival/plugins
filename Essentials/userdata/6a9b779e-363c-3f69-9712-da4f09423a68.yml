@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.182.154.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665185389011
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665185855106
+  login: 1665184313660
+  kits:
+    noob: 1665185293696
+money: '860.89007000000001634'
+last-account-name: solitariio157
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 326.35231466853537
+  y: 14.0
+  z: -1534.1047159570783
+  yaw: -152.92041015625
+  pitch: 15.58637523651123
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 46.10351037633754
+  y: 76.0
+  z: -10.628625593459534
+  yaw: 31.658447265625
+  pitch: 11.500414848327637

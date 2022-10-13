@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.106.14.157
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665230135488
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665231126711
+  login: 1665230540485
+  kits:
+    noob: 1665229834969
+money: '259.9146999999999981'
+last-account-name: douglas086
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2174.0
+  y: 65.0
+  z: 1026.0
+  yaw: -6.4500017166137695
+  pitch: 0.6000001430511475
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -0.6142976453186666
+  y: 78.0
+  z: 76.72771448739613
+  yaw: 31.34910011291504
+  pitch: 26.999906539916992

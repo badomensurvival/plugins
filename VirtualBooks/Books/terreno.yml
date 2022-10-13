@@ -1,0 +1,56 @@
+command: 'tutorial terreno'
+permission: tutorial.perm.terreno
+Title: Tutorial Terreno
+Author: Bad Omen RPG
+pages:
+  '1':
+  - '       &lTerreno'
+  - ' '
+  - '&7* {land_create}'
+  - '&7* {land_claim}'
+  - '&7* {land_view}'
+  - '&7* {land_spawn}'
+  - '&7* {land_trust}'
+  - '&7* {land_untrust}'
+  - '&7* {land_menu}'
+  - '&7* {land_help}'
+land_create:
+  TEXT: '&8[&7/land create <nome>&8]'
+  HOVER_TEXT: 'Cria um terreno com um nome'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/land create <nome>]'
+land_claim:
+  TEXT: '&8[&6/land claim&8]'
+  HOVER_TEXT: 'Adiciona mais uma chunk ao seu terreno'
+  CLICK_EVENT:
+    RUN_COMMAND: '/land claim'
+land_spawn:
+  TEXT: '&8[&6/land spawn&8]'
+  HOVER_TEXT: 'Teleporta você para seu terreno'
+  CLICK_EVENT:
+    RUN_COMMAND: '/land spawn'
+land_view:
+  TEXT: '&8[&6/land view&8]'
+  HOVER_TEXT: 'Visualiza a area protegida'
+  CLICK_EVENT:
+    RUN_COMMAND: '/land view'
+land_trust:
+  TEXT: '&8[&7/land trust <player>&8]'
+  HOVER_TEXT: 'Permite que outro jogador interaja com seu terreno'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/land trust <player>]'
+land_untrust:
+  TEXT: '&8[&7/land untrust <player>&8]'
+  HOVER_TEXT: 'Remove a permissão de interação de outro jogador com seu terreno'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/land untrust <player>]'
+land_menu:
+  TEXT: '&8[&6/land menu&8]'
+  HOVER_TEXT: 'Abre o menu de configuração do seu terreno'
+  CLICK_EVENT:
+    RUN_COMMAND: '/land menu'
+land_help:
+  TEXT: '&8[&6/land help&8]'
+  HOVER_TEXT: 'Lista todos os comandos relacionados ao terreno'
+  CLICK_EVENT:
+    RUN_COMMAND: '/land help'

@@ -1,0 +1,30 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Max
+    baby: Bäbis
+    adult: Vuxen
+    spawn: '&7%type% &6Spawn Egg'
+    lorecost: '&7Kostnad: &6$%cost%'
+    lorechance: '&7Chans: &6%chance%%'
+  catcherinfo:
+    type: '&7Typ: &6%value%'
+    health: '&7Liv: &6%value%'
+    age: '&7Ålder: &6%value%'
+    tamed: '&6Tämjd'
+    trusted: '&6Betrodd'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu har inte tillräckligt med rättigheter.'
+  catch:
+    success: '&7Du har lyckats fånga &6%type%&7.'
+    failed: '&cDu lyckades inte att fånga &4%type%&c.'
+    notenabled: '&7Du kan inte fånga &6%type%&7.'
+    cantafford: '&7Du behöver &6$%amount% &7för att fånga &6%type%&7.'
+    notyours: '&cDu kan inte fånga entities tämjda av andra.'
+    blockedcatchingworld: '&cFånga entities i värld &4%world%&c är avstängt.'
+    blockedspawningworld: '&cSpawna fångade entities i värld &4%world%&c är avstängt.'

@@ -1,0 +1,22 @@
+item:
+  item: amethyst_shard soul_fire_artifact:1 unbreaking:1 hide_enchants hide_attributes
+  displayName: "<g:#0052f5>Sculk Shard</g:#00297a>"
+  lore:
+    - "&8» &7Used to create <g:#0052f5>Sculk Armor and Tools</g:#00297a>"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - sculk_catalyst
+    - sculk_catalyst
+    - sculk_catalyst
+    - diamond
+    - amethyst_shard
+    - diamond
+    - sculk_catalyst
+    - sculk_catalyst
+    - sculk_catalyst
+
+effects: [ ]
+conditions: [ ]
+
+fuels: [ ]

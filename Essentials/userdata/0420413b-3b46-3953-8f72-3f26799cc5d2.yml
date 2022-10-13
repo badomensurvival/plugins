@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.181.252.35
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665421965821
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665422797743
+  login: 1665418718020
+money: '0E-49'
+last-account-name: KJdumonster
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 292.5
+  y: 67.0
+  z: -421.5
+  yaw: 158.7477569580078
+  pitch: 0.6000000834465027
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 299.30000001192093
+  y: -38.0
+  z: -418.30000001192093
+  yaw: 64.57501220703125
+  pitch: 65.84996795654297

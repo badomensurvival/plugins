@@ -1,0 +1,30 @@
+item:
+  item: netherite_pickaxe glow_artifact:1 custom-model-data:1
+  lore:
+    - ""
+    - "<g:#FDC830>&lANGELIC PICKAXE BONUS</g:#F37335>"
+    - "&8» &6Deal 20% more damage against"
+    - "&#FDC830zombies"
+  displayName: "<g:#FDC830>Angelic Pickaxe</g:#F37335>"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:angelic_shard
+    - ""
+    - ""
+    - netherite_pickaxe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6
+baseAttackSpeed: 1
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: angelic
+
+fuels: [ ]

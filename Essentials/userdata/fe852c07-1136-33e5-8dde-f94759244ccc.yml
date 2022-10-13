@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 186.230.117.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664043262175
+  login: 1664042232773
+money: '1198.04116999999999349'
+last-account-name: 0WD_Gaster0
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2.5
+  y: 70.0
+  z: 6.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1949.6721661834358
+  y: 72.0
+  z: 978.2399605719942
+  yaw: 84.87786865234375
+  pitch: 33.86281204223633

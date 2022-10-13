@@ -1,0 +1,238 @@
+{
+  "Order": 1,
+  "Description": [
+    "- <yellow><bold>Inventory",
+    "- <green><bold>More HP",
+    "- <yellow><bold>Pickup",
+    "- <red><bold>Poison",
+    "- <yellow><bold>Beacon"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "1": {
+          "drop": true,
+          "rows": "+1"
+        },
+        "10": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "15": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "20": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "40": {
+          "drop": false,
+          "rows": "+2"
+        }
+      }
+    },
+    "Pickup": {
+      "Upgrades": {
+        "6": {
+          "Range": "+3",
+          "Exp": false
+        },
+        "9": {
+          "Range": "+4",
+          "Exp": false
+        },
+        "20": {
+          "Range": "+5",
+          "Exp": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "2": {
+          "Health": "+1.5"
+        },
+        "5": {
+          "Health": "+3"
+        },
+        "8": {
+          "Health": "+5"
+        },
+        "18": {
+          "Health": "+7.5"
+        }
+      }
+    },
+    "Poison": {
+      "Upgrades": {
+        "4": {
+          "Duration": "+3",
+          "Chance": "+15"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "2": {
+          "Timer": "+30",
+          "Health": "+2"
+        },
+        "10": {
+          "Timer": "-5",
+          "Health": "+2"
+        },
+        "15": {
+          "Timer": "-5",
+          "Health": "+2"
+        },
+        "20": {
+          "Health": "+2"
+        },
+        "25": {
+          "Health": "+2"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "1": {
+          "Friend": false,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        },
+        "4": {
+          "Friend": false,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": true,
+          "Raid": false
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "9": {
+          "Buffs": {
+            "Regeneration": "+1",
+            "Haste": "+1"
+          },
+          "Duration": "+8",
+          "Count": "+1",
+          "Range": "+10"
+        },
+        "14": {
+          "Buffs": {
+            "Resistance": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+2"
+        },
+        "21": {
+          "Buffs": {
+            "Strength": "+1"
+          },
+          "Duration": "+2",
+          "Count": "+1",
+          "Range": "+2"
+        },
+        "30": {
+          "Buffs": {
+            "Haste": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+2"
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1"
+        },
+        "2": {
+          "Damage": "+0.1"
+        },
+        "3": {
+          "Damage": "+0.1"
+        },
+        "4": {
+          "Damage": "+0.1"
+        },
+        "5": {
+          "Damage": "+0.1"
+        },
+        "6": {
+          "Damage": "+0.1"
+        },
+        "7": {
+          "Damage": "+0.1"
+        },
+        "8": {
+          "Damage": "+0.1"
+        },
+        "9": {
+          "Damage": "+0.1"
+        },
+        "10": {
+          "Damage": "+0.1"
+        },
+        "11": {
+          "Damage": "+0.1"
+        },
+        "12": {
+          "Damage": "+0.1"
+        },
+        "13": {
+          "Damage": "+0.1"
+        },
+        "14": {
+          "Damage": "+0.1"
+        },
+        "15": {
+          "Damage": "+0.1"
+        },
+        "16": {
+          "Damage": "+0.1"
+        },
+        "17": {
+          "Damage": "+0.1"
+        },
+        "18": {
+          "Damage": "+0.1"
+        },
+        "19": {
+          "Damage": "+0.1"
+        },
+        "20": {
+          "Damage": "+0.1"
+        },
+        "21": {
+          "Damage": "+0.1"
+        },
+        "22": {
+          "Damage": "+0.1"
+        },
+        "23": {
+          "Damage": "+0.1"
+        },
+        "24": {
+          "Damage": "+0.1"
+        },
+        "25": {
+          "Damage": "+0.1"
+        }
+      }
+    }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "Utility",
+  "Icon": {
+    "Material": "trapped_chest"
+  },
+  "Name": "Utility"
+}

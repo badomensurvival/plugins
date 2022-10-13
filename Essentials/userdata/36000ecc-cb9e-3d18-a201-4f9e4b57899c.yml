@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.68.103.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664642193423
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664642350839
+  login: 1664641077327
+  kits:
+    pet: 1664641616790
+money: '160.2471699999999999'
+last-account-name: Manfredi0310
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2174.0
+  y: 65.0
+  z: 1026.0
+  yaw: -66.197998046875
+  pitch: 17.9910888671875
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1976.4103882809159
+  y: 72.0
+  z: 550.8397073389289
+  yaw: -152.7291717529297
+  pitch: 5.972367286682129

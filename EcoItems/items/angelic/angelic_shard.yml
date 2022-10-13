@@ -1,0 +1,22 @@
+item:
+  item: amethyst_shard glow_artifact:1 unbreaking:1 hide_enchants hide_attributes
+  displayName: "<g:#FDC830>Angelic Shard</g:#F37335>"
+  lore:
+    - "&8» &7Used to create <g:#FDC830>Angelic Armor and Tools</g:#F37335>"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - air
+    - golden_apple
+    - air
+    - golden_apple
+    - amethyst_shard
+    - golden_apple
+    - air
+    - golden_apple
+    - air
+
+effects: [ ]
+conditions: [ ]
+
+fuels: [ ]

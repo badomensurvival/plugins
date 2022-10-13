@@ -1,0 +1,22 @@
+Eggs:
+  Regular:
+    Name: '&7Regular Egg'
+    Recipe:
+    - 1:EGG
+    - 5:IRON_INGOT
+    Cost: 1500
+    Chance: 60%
+  Ultra:
+    Name: '&bDiamond Egg'
+    Recipe:
+    - 1:EGG
+    - 5:DIAMOND
+    Cost: 1500
+    Chance: 100%
+  Insane:
+    Name: '&aEmerald Egg'
+    Recipe:
+    - 1:EGG
+    - 5:EMERALD
+    Cost: 1500
+    Chance: 20%

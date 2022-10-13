@@ -1,0 +1,39 @@
+item:
+  item: netherite_sword glow_artifact:1 ascend:1 custom-model-data:1 
+  displayName: "<g:#FDC830>Angelic Sword</g:#F37335>"
+  lore:
+    - ""
+    - "<g:#FDC830>&lANGELIC SWORD BONUS</g:#F37335>"
+    - "&8» &6Deal 20% more damage against"
+    - "&#FDC830zombies"
+  effectiveDurability: 2031
+  craftable: true
+  recipe:
+    - ""
+    - ecoitems:angelic_shard
+    - ""
+    - ""
+    - netherite_sword
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 8
+baseAttackSpeed: 1.6
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - zombie
+        - husk
+        - drowned
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: angelic
+
+fuels: [ ]

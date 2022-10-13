@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.35.96.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665364929761
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665367614651
+  login: 1665357869125
+money: '148.7999999999998416'
+last-account-name: wasunee
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1482.300000011921
+  y: 89.0
+  z: 859.918227531293
+  yaw: 33.15269088745117
+  pitch: 17.95754623413086
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -260.3283445132902
+  y: -23.0
+  z: 3419.699999988079
+  yaw: -178.4092254638672
+  pitch: 28.036231994628906

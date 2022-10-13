@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.160.171.254
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665671892342
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665672115623
+  login: 1665672127341
+money: '4414.85218729645642281'
+last-account-name: Miss_Glitter
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -751.3063264142547
+  y: 65.5625
+  z: 1120.3783062478312
+  yaw: -174.10205078125
+  pitch: 45.95698165893555
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 68.40499195735327
+  y: 76.0
+  z: 69.42908165294047
+  yaw: 176.85101318359375
+  pitch: 11.814523696899414

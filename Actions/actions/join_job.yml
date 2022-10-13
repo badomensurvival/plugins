@@ -1,0 +1,27 @@
+# The ID of the action is the name of the .yml file,
+# for example coins_on_kill.yml has the ID of coins_on_kill
+# You can place actions anywhere in this folder,
+# including in subfolders if you want to organize your action configs
+# _example.yml is not loaded.
+
+# If the action should be enabled
+enabled: true
+
+# Read https://plugins.auxilor.io/effects/configuring-an-effect
+# The effects for the action
+effects:
+  - id: run_player_command
+    args:
+      command: "jobs join %rng_list:beekeeper,builder,farmer,fisherman,miner,slayer,toolsmith,smelter,enchanter,lumberjack%" # Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect)
+      as_op: true # If the command should be ran as op
+    triggers:
+      - join
+
+
+# Read https://plugins.auxilor.io/effects/configuring-a-condition
+# The conditions for the action to work
+conditions: 
+  - id: placeholder_equals
+    args:
+      placeholder: "%ecojobs_job%"
+      value: "" # The job ID

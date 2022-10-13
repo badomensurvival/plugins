@@ -1,0 +1,4 @@
+*.jar
+squaremap/web/tiles
+*.log
+*.zip

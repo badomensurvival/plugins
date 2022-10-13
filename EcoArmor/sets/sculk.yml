@@ -1,0 +1,189 @@
+conditions: []
+effects:
+  - id: permanent_potion_effect
+    args:
+      effect: night_vision
+      level: 1
+advancedEffects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.5
+    conditions:
+      - id: below_y
+        args:
+          y: 0
+    triggers:
+      - move
+  - id: permanent_potion_effect
+    args:
+      effect: night_vision
+      level: 1
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore:
+  - ''
+  - "<g:#0052f5>&lADVANCED BONUS</g:#00297a>"
+  - "&8» &#0052f5Get 50% more damage below 0"
+  - "&8» &#0052f5Permanent Night Vision"
+  - "&8&oRequires full set to be worn"
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<g:#0052f5>Advancement Shard:</g:#00297a> &#0052f5Sculk"
+  lore:
+    - "&8Drop this onto &#0052f5Sculk Armor"
+    - "&8to make it <g:#0052f5>Advanced</g:#00297a>."
+  craftable: true
+  recipe:
+    - prismarine_shard
+    - ecoitems:sculk_shard
+    - prismarine_shard
+    - ecoitems:sculk_shard
+    - nether_star
+    - ecoitems:sculk_shard
+    - prismarine_shard
+    - ecoitems:sculk_shard
+    - prismarine_shard
+helmet:
+  item: netherite_helmet custom-model-data:6
+  name: "<g:#0052f5>Sculk Helmet</g:#00297a>"
+  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Helmet"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
+    - "&8» &#0052f5Permanent Night Vision"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:sculk_shard
+    - diamond
+    - air
+    - netherite_helmet
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+chestplate:
+  item: netherite_chestplate custom-model-data:6
+  name: "<g:#0052f5>Sculk Chestplate</g:#00297a>"
+  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Chestplate"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
+    - "&8» &#0052f5Permanent Night Vision"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:sculk_shard
+    - diamond
+    - air
+    - netherite_chestplate
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+elytra:
+  item: elytra custom-model-data:6
+  name: "<g:#0052f5>Sculk Elytra</g:#00297a>"
+  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Elytra"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
+    - "&8» &#0052f5Permanent Night Vision"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:sculk_shard
+    - diamond
+    - air
+    - elytra
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+leggings:
+  item: netherite_leggings custom-model-data:6
+  name: "<g:#0052f5>Sculk Leggings</g:#00297a>"
+  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Leggings"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
+    - "&8» &#0052f5Permanent Night Vision"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:sculk_shard
+    - diamond
+    - air
+    - netherite_leggings
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block
+boots:
+  item: netherite_boots custom-model-data:6
+  name: "<g:#0052f5>Sculk Boots</g:#00297a>"
+  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Boots"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
+    - "&8» &#0052f5Permanent Night Vision"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:sculk_shard
+    - diamond
+    - air
+    - netherite_boots
+    - air
+    - gold_block
+    - enchanted_golden_apple
+    - gold_block

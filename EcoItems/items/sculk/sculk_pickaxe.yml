@@ -1,0 +1,29 @@
+item:
+  item: netherite_pickaxe soul_fire_artifact:1 custom-model-data:6
+  lore:
+    - ""
+    - "<g:#0052f5>&lSCULK PICKAXE BONUS</g:#00297a>"
+    - "&8» &#0052f5Gives blindness to enemies"
+  displayName: "<g:#0052f5>Sculk Pickaxe</g:#00297a>"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:sculk_shard
+    - ""
+    - ""
+    - netherite_pickaxe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6
+baseAttackSpeed: 1
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: sculk
+
+fuels: [ ]

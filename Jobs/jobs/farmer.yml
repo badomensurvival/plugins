@@ -1,0 +1,330 @@
+Farmer:
+  Break:
+    acacia_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    allium:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    azure_bluet:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    beetroots-3:
+      experience: 3.0
+      income: 0.38
+      points: 1.5
+    birch_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    blue_orchid:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    brown_mushroom:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    cactus:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    carrots-7:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    chorus_flower:
+      experience: 3.0
+      income: 0.38
+      points: 1.5
+    chorus_plant:
+      experience: 3.0
+      income: 0.38
+      points: 1.5
+    cocoa-2:
+      experience: 4.0
+      income: 1.0
+      points: 4
+    dandelion:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    dark_oak_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    jungle_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    lily_pad:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    nether_wart:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    oak_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    orange_tulip:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    oxeye_daisy:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    pink_tulip:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    poppy:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    potatoes-7:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    pumpkin-7:
+      experience: 1.0
+      income: 0.12
+      points: 0.5
+    red_mushroom:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    red_tulip:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    spruce_sapling:
+      experience: 2.0
+      income: 0.5
+      points: 2
+    sugar_cane:
+      experience: 0.2
+      income: 0.05
+      points: 0.2
+    vine:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    wheat-7:
+      experience: 3.0
+      income: 0.38
+      points: 1.5
+    white_tulip:
+      experience: 2.0
+      income: 0.5
+      points: 2
+  Breed:
+    Chicken:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Cow:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Horse:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Llama:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Ocelot:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Pig:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Rabbit:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Sheep:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Turtle:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Wolf:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    mushroom_cow:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+  ChatColour: BLUE
+  FullDescription:
+  - Earns money farming crops.
+  Gui:
+    Item: wooden_hoe
+  Kill:
+    Player:
+      experience: 7.5
+      income: 7.5
+      points: 7.5
+  Milk:
+    Cow:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+  Place:
+    beetroots:
+      experience: 1
+      income: 0.25
+      points: 1
+    carrots:
+      experience: 1
+      income: 0.25
+      points: 1
+    cocoa:
+      experience: 1
+      income: 0.25
+      points: 1
+    melon_stem:
+      experience: 1
+      income: 0.25
+      points: 1
+    potatoes:
+      experience: 1
+      income: 0.25
+      points: 1
+    pumpkin_stem:
+      experience: 1
+      income: 0.25
+      points: 1
+    sugar_cane:
+      experience: -1
+      income: -0.25
+      points: -1
+    wheat:
+      experience: 1
+      income: 0.25
+      points: 1
+  Quests:
+    '1':
+      Name: Regular Joe
+      Objectives:
+      - Breed;Sheep;10
+      - Shear;White;10
+      - Milk;Cow;3
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Be a farmer and get money
+      - Get 100 for this!
+  Shear:
+    Black:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Blue:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Brown:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Cyan:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Gray:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Green:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Light_Blue:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Light_Gray:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Lime:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Magenta:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Orange:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Pink:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Purple:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Red:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    White:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+    Yellow:
+      experience: 5.0
+      income: 1.0
+      points: 4.0
+  Tame:
+    Horse:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+    Llama:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+    Ocelot:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+    Parrot:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+    Wolf:
+      experience: 5.0
+      income: 1.25
+      points: 5.0
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Farmer
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: Fa

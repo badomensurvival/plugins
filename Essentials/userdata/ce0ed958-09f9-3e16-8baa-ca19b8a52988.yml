@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.6.251.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665447946472
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665622806884
+  login: 1665622556706
+  kits:
+    noob: 1665595862958
+money: '123.41074999999995528'
+last-account-name: JaderAdams
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2174.1923672737935
+  y: 65.0
+  z: 1026.977997604285
+  yaw: -4.9500017166137695
+  pitch: 5.850002288818359
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 45.32840314181661
+  y: 77.0625
+  z: 104.21129832916942
+  yaw: -102.59920501708984
+  pitch: 24.750072479248047

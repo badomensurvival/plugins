@@ -1,0 +1,201 @@
+conditions: []
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.25
+    triggers:
+      - bow_attack
+  - id: damage_multiplier
+    args:
+      multiplier: 0.9
+    triggers:
+      - melee_attack
+advancedEffects:
+  - id: damage_multiplier
+    args:
+      multiplier: 0.9
+    triggers:
+      - melee_attack
+  - id: movement_speed_multiplier
+    args:
+      multiplier: 1.2
+  - id: damage_multiplier
+    args:
+      multiplier: 1.5
+    triggers:
+      - bow_attack
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore:
+  - ''
+  - "<g:#4DCA39>&lADVANCED BONUS</g:#2BA817>"
+  - "&8» &aMove 20% faster"
+  - "&8» &aDeal 50% more damage with bows and crossbows"
+  - "&8» &aDeal 10% less melee damage"
+  - "&8&oRequires full set to be worn"
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<g:#4DCA39>Advancement Shard:</g:#2BA817> &aDruid"
+  lore:
+    - "&8Drop this onto &aDruid Armor"
+    - "&8to make it <g:#4DCA39>Advanced</g:#2BA817>."
+  craftable: true
+  recipe:
+    - prismarine_shard
+    - ecoitems:druid_shard
+    - prismarine_shard
+    - ecoitems:druid_shard
+    - nether_star
+    - ecoitems:druid_shard
+    - prismarine_shard
+    - ecoitems:druid_shard
+    - prismarine_shard
+helmet:
+  item: netherite_helmet custom-model-data:2
+  name: "<g:#4DCA39>Druid Helmet</g:#2BA817>"
+  advancedName: "<g:#4DCA39>Advanced</g:#2BA817> &aDruid Helmet"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#4DCA39>&lDRUID SET BONUS</g:#2BA817>"
+    - "&8» &aDeal 25% more damage with bows and crossbows"
+    - "&8» &aDeal 10% less melee damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:druid_shard
+    - diamond
+    - air
+    - netherite_helmet
+    - air
+    - crossbow
+    - spectral_arrow
+    - bow
+chestplate:
+  item: netherite_chestplate custom-model-data:2
+  name: "<g:#4DCA39>Druid Chestplate</g:#2BA817>"
+  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Chestplate"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#4DCA39>&lDRUID SET BONUS</g:#2BA817>"
+    - "&8» &aDeal 25% more damage with bows and crossbows"
+    - "&8» &aDeal 10% less melee damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:druid_shard
+    - diamond
+    - air
+    - netherite_chestplate
+    - air
+    - crossbow
+    - spectral_arrow
+    - bow
+elytra:
+  item: elytra custom-model-data:2
+  name: "<g:#4DCA39>Druid Elytra</g:#2BA817>"
+  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Elytra"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#4DCA39>&lDRUID SET BONUS</g:#2BA817>"
+    - "&8» &aDeal 25% more damage with bows and crossbows"
+    - "&8» &aDeal 10% less melee damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:druid_shard
+    - diamond
+    - air
+    - elytra
+    - air
+    - crossbow
+    - spectral_arrow
+    - bow
+leggings:
+  item: netherite_leggings custom-model-data:2
+  name: "<g:#4DCA39>Druid Leggings</g:#2BA817>"
+  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Leggings"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#4DCA39>&lDRUID SET BONUS</g:#2BA817>"
+    - "&8» &aDeal 25% more damage with bows and crossbows"
+    - "&8» &aDeal 10% less melee damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:druid_shard
+    - diamond
+    - air
+    - netherite_leggings
+    - air
+    - crossbow
+    - spectral_arrow
+    - bow
+boots:
+  item: netherite_boots custom-model-data:2
+  name: "<g:#4DCA39>Druid Boots</g:#2BA817>"
+  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Boots"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#4DCA39>&lDRUID SET BONUS</g:#2BA817>"
+    - "&8» &aDeal 25% more damage with bows and crossbows"
+    - "&8» &aDeal 10% less melee damage"
+    - "&8&oRequires full set to be worn"
+    - ''
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:druid_shard
+    - diamond
+    - air
+    - netherite_boots
+    - air
+    - crossbow
+    - spectral_arrow
+    - bow

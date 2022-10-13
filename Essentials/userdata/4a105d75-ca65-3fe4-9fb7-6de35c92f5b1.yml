@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.183.212.65
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664052505030
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664557024984
+  login: 1664557011849
+  kits:
+    noob: 1664052467468
+money: '131.5482400000000000'
+last-account-name: TororiTV
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2225.866908519729
+  y: 71.0
+  z: 924.9235731227188
+  yaw: -35.09965133666992
+  pitch: 21.899951934814453
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2178.337060067234
+  y: 65.0
+  z: 1031.9319325454856
+  yaw: 87.8992919921875
+  pitch: 28.350004196166992

@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 107.150.30.175
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1662772729104
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1662871056242
+  login: 1662871052197
+  kits:
+    noob: 1662577773511
+money: '784.77130999999999667'
+last-account-name: GusBabiski
+lastlocation:
+  world: 643b8ef2-b42a-43e6-85c8-5fcfbe56b308
+  world-name: world_nether
+  x: 172.44584930564358
+  y: 64.0
+  z: 169.29933413459415
+  yaw: 67.980224609375
+  pitch: 49.80000686645508
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -416.0481643491856
+  y: 53.0
+  z: -486.67270116715525
+  yaw: -178.70323181152344
+  pitch: 22.50037956237793

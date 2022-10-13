@@ -1,0 +1,37 @@
+item:
+  item: netherite_axe soul_fire_artifact:1 custom-model-data:6
+  displayName: "<g:#0052f5>Sculk Axe</g:#00297a>"
+  lore:
+    - ""
+    - "<g:#0052f5>&lSCULK AXE BONUS</g:#00297a>"
+    - "&8» &#0052f5Gives blindness to enemies"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:sculk_shard
+    - ""
+    - ""
+    - netherite_axe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 10
+baseAttackSpeed: 1
+effects:
+  - id: potion_effect
+    args:
+      effect: blindness # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 1 # The level to give
+      duration: 60 # The duration of the effect (in ticks)
+      apply_to_player: false # True to apply to the player, false to apply to the victim
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: sculk
+
+fuels: [ ]

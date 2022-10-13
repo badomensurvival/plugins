@@ -1,0 +1,37 @@
+command: 'tutorial chat'
+permission: tutorial.perm.chat
+Title: Tutorial Chat
+Author: Bad Omen RPG
+pages:
+  '1':
+  - '         &lChat'
+  - ' '
+  - '&7* {chat_command}'
+  - '&7* {chat_item}'
+  - '&7* {chat_inv}'
+  - '&7* {chat_end}'
+  - '&7* {chat_money}'
+  - '&7* {chat_ping}'
+  - '&7* {chat_pos}'
+
+chat_command:
+  TEXT: '&8[&7comando&8]'
+  HOVER_TEXT: 'Envie sugestão de comandos a outros jogadores.'
+chat_item:
+  TEXT: '&8[&7item&8]'
+  HOVER_TEXT: 'Segure um item na mão e mostre aos jogadores.'
+chat_inv:
+  TEXT: '&8[&7inv&8]'
+  HOVER_TEXT: 'Envie inventário no chat.'
+chat_end:
+  TEXT: '&8[&7ender&8]'
+  HOVER_TEXT: 'Envie seu ender chest no chat.'
+chat_money:
+  TEXT: '&8[&7money&8]'
+  HOVER_TEXT: 'Envie seu dinheiro no chat.'
+chat_ping:
+  TEXT: '&8[&7ping&8]'
+  HOVER_TEXT: 'Envie seu ping no chat.'
+chat_pos:
+  TEXT: '&8[&7pos&8]'
+  HOVER_TEXT: 'Envie sua posição no chat.'

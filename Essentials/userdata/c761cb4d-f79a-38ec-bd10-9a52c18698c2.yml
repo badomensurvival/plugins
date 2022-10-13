@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.5.217.35
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665431940471
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665432272066
+  login: 1665431713307
+money: '100'
+last-account-name: luizpb89
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2179.869792636686
+  y: 65.5
+  z: 1028.0017160486575
+  yaw: -143.57200622558594
+  pitch: 12.291337966918945
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 117.69999998807907
+  y: -57.0
+  z: 101.24370957190492
+  yaw: -138.98431396484375
+  pitch: -72.05687713623047

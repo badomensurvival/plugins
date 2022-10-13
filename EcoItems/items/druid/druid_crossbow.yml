@@ -1,0 +1,37 @@
+item:
+  item: crossbow lime_artifact:1 custom-model-data:2
+  displayName: "<g:#4DCA39>Druid Crossbow</g:#2BA817>"
+  lore:
+    - ""
+    - "<g:#4DCA39>&lDRUID CROSSBOW BONUS</g:#2BA817>"
+    - "&8» &2Apply poison to enemies"
+  effectiveDurability: 465‌
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:druid_shard
+    - ""
+    - ""
+    - crossbow
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 1
+baseAttackSpeed: 4
+effects:
+  - id: potion_effect
+    args:
+      effect: poison # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 2 # The level to give
+      duration: 60 # The duration of the effect (in ticks)
+      apply_to_player: false # True to apply to the player, false to apply to the victim
+    triggers:
+      - bow_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: druid
+
+fuels: [ ]

@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 131.100.15.234
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664056349730
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665542532821
+  login: 1665533763748
+  kits:
+    tools: 1661818418530
+    pet: 1664837818193
+    noob: 1665542227417
+money: '15725.874413416819750000'
+last-account-name: oLemonBr
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 567.8688
+  y: 70.0
+  z: 222.53886
+  yaw: -97.58238220214844
+  pitch: 15.915557861328125
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 274.41718
+  y: -22.0
+  z: -1410.3573
+  yaw: -0.6580810546875
+  pitch: 28.98583984375

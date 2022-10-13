@@ -1,0 +1,175 @@
+Miner:
+  Break:
+    andesite:
+      experience: 1
+      income: 0.25
+      points: 1
+    chiseled_sandstone:
+      experience: 0.2
+      income: 0.04
+      points: 0.15
+    coal_ore:
+      experience: 2
+      income: 0.75
+      points: 2
+    cobblestone_wall:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    cut_sandstone:
+      experience: 0.2
+      income: 0.04
+      points: 0.15
+    dark_prismarine:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    diamond_ore:
+      experience: 10
+      income: 2.5
+      points: 10
+    diorite:
+      experience: 1
+      income: 0.25
+      points: 1
+    emerald_ore:
+      experience: 30
+      income: 3.75
+      points: 15
+    gold_ore:
+      experience: 2
+      income: 1.25
+      points: 4
+    granite:
+      experience: 1
+      income: 0.25
+      points: 1
+    iron_ore:
+      experience: 2
+      income: 0.88
+      points: 3
+    lapis_ore:
+      experience: 2
+      income: 1.88
+      points: 6
+    mossy_cobblestone_wall:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    nether_brick_fence:
+      experience: 1
+      income: 0.25
+      points: 1
+    nether_brick_stairs:
+      experience: 3
+      income: 0.75
+      points: 3
+    nether_bricks:
+      experience: 1.0
+      income: 0.25
+      points: 1
+    nether_quartz_ore:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    netherrack:
+      experience: 0.1
+      income: 0.03
+      points: 0.1
+    obsidian:
+      experience: 5
+      income: 1.25
+      points: 5
+    prismarine:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    prismarine_bricks:
+      experience: 2.5
+      income: 0.62
+      points: 2.5
+    redstone_ore:
+      experience: 2
+      income: 0.62
+      points: 2
+    sandstone:
+      experience: 0.2
+      income: 0.04
+      points: 0.15
+    stone:
+      experience: 1
+      income: 0.25
+      points: 1
+  ChatColour: DARK_GRAY
+  FullDescription:
+  - Earns money mining minerals and ores.
+  Gui:
+    Item: wooden_pickaxe
+  Kill:
+    Player:
+      experience: 7.5
+      income: 7.5
+      points: 7.5
+  Place:
+    diamond_ore:
+      experience: -10.0
+      income: -2.5
+      points: -10
+    emerald_ore:
+      experience: -30
+      income: -3.75
+      points: -15
+    gold_ore:
+      experience: -6.0
+      income: -1.5
+      points: -6
+    iron_ore:
+      experience: -5.0
+      income: -1.25
+      points: -5
+    rail:
+      experience: 2.0
+      income: 0.5
+      points: 2.0
+  Quests:
+    '1':
+      Name: DarkOne
+      Objectives:
+      - Break;stone;50
+      - Break;granite;50
+      - Break;sandstone;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Break blocks and get money
+      - Get 100 for this!
+  TNTBreak:
+    andesite:
+      experience: 0.5
+      income: 0.06
+      points: 0.25
+    diorite:
+      experience: 0.5
+      income: 0.06
+      points: 0.25
+    granite:
+      experience: 0.5
+      income: 0.06
+      points: 0.25
+    stone:
+      experience: 0.5
+      income: 0.06
+      points: 0.25
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Miner
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: M

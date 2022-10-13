@@ -1,0 +1,95 @@
+# ATR_CostToUseType value can be : HUNGER / EXP / LIFE 
+# REDSTONE CAN USE LARGE CPU RESSOURCES
+# ATR_ChestRuneSize is multiple of 9 (max 54)
+# ATR_RuneMaterial cannot be set to a block item,change main material can break vanilla craft, be sure to check everything before change this configuration in a production server !
+
+Configuration_version: 1.0
+ATR_RuneMaterial: EMERALD
+ATR_TeleportDelay_PLAYER: 200
+ATR_TeleportDelay_ENTITY: 200
+ATR_TeleportDelay_REDSTONE: 80
+ATR_TeleportMobs: true
+ATR_Teleport_Radius: 2
+ATR_Teleport_ProtectedArea: true
+ATR_SafeTeleport: true
+ATR_SafeTeleport_MaxBlockCheck: 100
+ATR_AllowRuneCoordChange: true
+ATR_EnableRuneOnBlock: true
+ATR_EnableDeathRune: false
+ATR_EnableVoodooRune: false
+ATR_EnableBedRune: false
+ATR_EnableChestRune: false
+ATR_ChestRune_AllowCustomInventory: false
+ATR_ChestRuneSize: 54
+ATR_SplashPotion_Radius: 1
+ATR_Arrow_Radius: 0
+ATR_Arrow_Damages: false
+ATR_SplashPotion_ProtectedArea: true
+ATR_CostToUse: true
+ATR_CostToUseType: HUNGER
+ATR_CostToUseAmount: 3
+ATR_StrangeBlocDropAmount: 8
+ATR_StrangeBlocRedstone: false
+ATR_StrangeBlocRedstoneCost: false
+ATR_StrangeBlocRedstoneReverseThreshold: true
+ATR_DisableStBlocksound: false
+ATR_StSoundVolume: 1.0
+ATR_DisableStStrikeFX: false
+ATR_EnablePotions: true
+ATR_EnablePotionReturnCloud_LINGERING: true
+ATR_EnablePotionReturnCloud_SPLASH: false
+ATR_EnablePotionReturnCloud_STRANGEBLOCK: false
+ATR_EnablePotionReturnCloud_STRANGERUNE: false
+ATR_PotionCloud_DURATION: 6000
+ATR_TpOnlyUser: false
+ATR_PreventProtectedMobTP: false
+ATR_RuneBreakOnUse: false
+ATR_StrangeRuneCustomRecipe: false
+ATR_StrangeRuneRecipeShape:
+- E
+- Y
+ATR_StrangeRuneRecipeIngredients:
+  E: EMERALD
+  Y: ENDER_EYE
+ATR_allowedWorld: []
+ATR_forbiddenWorld: []
+ATR_EnableCustomModel: false
+ATR_CustomModelID: 0
+ATR_CheckUpdate: true
+NAME_StrangeRune: Strange Rune
+NAME_Runememorylord: Memory ignited
+NAME_SpawnRune: Spawn Rune
+NAME_PieceOfRune: Piece of Rune
+NAME_StrangeBloc: Strange Block
+NAME_BedRune: Sleep Rune
+NAME_DeathRune: Death Rune
+NAME_PotionRune: Rune Potion
+NAME_SplashPotionRune: Splash Rune Potion
+NAME_LingeringPotionRune: Lingering Rune Potion
+NAME_StrangeArrow: Strange Arrow
+NAME_ChestRune: Chest Rune
+NAME_VoodooRune: Voodoo Doll
+MSG_CostToUse: '&8I can''t teleport in this state...'
+MSG_RuneSetMemory: '&AThe soul of the rune becomes bound to this place.'
+MSG_RunehasMemory: '&6This runes soul is already bound, if only I could make it forget...'
+MSG_RuneInHandTeleport: '&AThe soul of the rune in your hand has activated !'
+MSG_VoodooInHandTeleport: '&AThe soul of the Voodoo Doll has activated !'
+MSG_DeathruneInHandTeleport: '&AThe rune searches your last death''s location...'
+MSG_BedRuneInHandTeleport: '&AThe rune searches your respawn location...'
+MSG_CannotTeleport: '&6I better wait before teleporting again...'
+MSG_CancelTeleport: '&5The rune cannot feel a soul nearby and grows quiet'
+MSG_EmptyRune: '&6This rune soul is unbound.'
+MSG_ChestRuneFull: '&5The rune cannot hold any more !'
+MSG_ChestRuneAmountStored: '&D stacks are placed inside the rune.'
+MSG_ChestRuneAmountFilled: '&D stacks are removed fom the rune.'
+MSG_DeathLocationNotFound: '&5The rune appears confused, it doesn''t seem to know
+  where I died.'
+MSG_NoPerms: '&5Nothing happens...'
+MSG_NoPermsTPRune: '&5Nothing happens, maybe I need to use it another way...'
+MSG_ProtectedArea: '&5Nothing happens, the area seems protected...'
+MSG_Removedrunes: Corrupted runes deleted.
+MSG_EntityNotFound: '&5A bond with this soul is not possible.'
+MSG_VoodooRuneLinked: '&AThe doll becomes bound to the entity''s soul'
+MSG_VoodooRuneLinked_info: '&A%PLAYER% use a voodoo doll on you...'
+MSG_ForbiddenWorld_use: '&5it''s not working in this world...'
+MSG_ForbiddenWorld_tp: '&5it''s not working seem to be a magical barrier to go there...'

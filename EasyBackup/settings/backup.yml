@@ -1,0 +1,163 @@
+# Backup Configuration
+#  
+# You can configure everything regarding the backup creation here
+
+# You can change the backups master folder here
+# Do not change is unless you know what you are doing
+master-folder: .
+# Enables / Disables incremental backup mode
+# You can read more about incremental backups here:
+# https://prodigysupport.team/wiki/x/JgDBAg
+#  
+# NOTE:
+# 1) YOU'LL HAVE TO DELETE ALL BACKUPS IN THE BACKUP
+#    DIRECTORY IF YOU ENABLE OR DISABLED THIS!!!
+#  
+# 2) YOU MUST SET 'max-backups-before-erase'
+#    TO 2 OR ABOVE (OR -1)
+is-incremental: false
+# You can change the save location of the backups here
+# Do not change is unless you know what you are doing
+#  
+# Placeholders:
+# {pluginname} - name of the plugin
+# {plugindir} - home directory of the plugin (Something like plugins/EasyBackup/)
+save-location: '{plugindir}/backups'
+# You can change the name of the backup here
+#  
+# Placeholders
+# {time} - will be replaced with the backup time
+file-name: backup_{time}
+# Compression Level of the backup. Available are:
+# HIGHEST
+# HIGH
+# NORMAL
+# LOW
+# LOWEST
+# NONE
+# A higher level means that the backup will be smaller,
+# however it'll take longer to create the backup
+compression-level: NORMAL
+password:
+  # Enables / Disables password and file encryption
+  enabled: false
+  # Set your backup password.
+  # NOTE IT SOMEWHERE. THERE IS NOT WAY TO RESTORE IT
+  password: 3RLkAp25k8lx53rs
+# You can define how the {time} placeholder will be handled
+# For more information see:
+# https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+time-format: MM_dd_yyyy-hh_mm_ss_aa
+# You can set the max amount of backups you want on your local server here
+# Set it to '-1' to disable it
+max-backups-before-erase: 20
+anti-lag:
+  # Enables / Disables Anti Lag Feature which will slow down the backup to prevent lags
+  enabled: false
+  # Set the threshold for the anti lag feature. Default is 1.5 which means if the tps drops about 1.5 after the backup started the backup will slow down
+  threshold: 1.5
+schedule:
+  # Controls when backups are automatically made
+  #  
+  # Normal Schedule: 
+  # For daily backups, just enter the time.
+  # If you do not include AM or PM, it will be in military time.
+  # To backup on specific days, write the day before the time on the same line
+  # To be safe, put single quotes around your backup schedule: '17:30'
+  # Example: 
+  # DAY HOUR:MINUTE PM
+  # HOUR:MINUTE AM (Exclude day for daily)
+  # HOUR:MINUTE (24 hour time)
+  # Mon Wed Fri 7:00
+  # 4:00 AM
+  #  
+  # Cron Schedule: 
+  # If you want to use cron expressions instead of the normal schedule, clear the list below and enter
+  # your expressions. Do NOT forget to enable cron expressions support below
+  # Example: '0 0 0 ? * * *' to create a backup every day at 00:00:00
+  # If you need help with creating your own cron expressions, check out https://www.freeformatter.com/cron-expression-generator-quartz.html
+  list:
+  - 0 0 0 ? * * *
+  # Enables / Disables Cron Expressions support for the backup schedule
+  cron-enabled: false
+# Enables / Disables the usage of the exempt patterns below
+use-exempt: true
+# Enables / Disables the usage of the regex expressions
+use-pattern: false
+# You can specify which files you don't want to be backed up
+# HOW IT WORKS:
+# A new File instance will be created for each string below
+# This means: If you set it to 'logs' for example, 
+# the plugin will search for a directory named 'logs' in the main server directory
+# The Directory and all sub files and directory will be excluded. 
+# If you only want to exlude a single file, you have to set it to the full file name
+# Like: 'logs/latest.log'
+#  
+# IF YOU ENABLED EXEMPT_REGEX YOU HAVE TO SPECIFY REGEX EXPRESSIONS HERE
+# THE BACKUP DIRECTORY IS EXCLUDED BY DEFAULT
+exempt-files:
+- logs
+- cache
+- libraries
+- versions
+- docs
+- nginx/static
+- html
+# Automatically ignore all files which aren't readable. Might have a slight performance impact
+skip-non-readable-files: true
+# Enables / Disables the whitelist
+whitelist: false
+# Automatically checks if zip file is valid
+#  
+# NOTE:
+# This runs just a few tests on the zip file and using this can not guarantee that the zip file is completely fine
+#  
+# THIS MAY CAUSE THE BACKUP TO TAKE MUCH MORE TIME, YOU SHOULD CONSIDER DISABLING THIS ON A BIGGER SERVER
+validate-file: true
+disk-protection:
+  # Enables / Disables Disk protection
+  enabled: false
+  # Sets the disk protection threshold (in mb)
+  threshold: 500
+  # Enables / Disables Async Disc Protection Execution
+  async: true
+# Commands which will be executed once a backup starts
+#  
+# Prefixes:
+# system - executes the command on the system
+# server - executes the command on the server the plugin is running on
+#  
+# Example:
+# system:sh -c this is my test command
+# server:say I just found out how the command feature works
+start-commands:
+- server:kickall Backup is starting!
+- server:maintenance on
+- server:save-all
+- 'server:dbcast backup :floppy_disk: Backup started!'
+# Commands which will be executed once a backup starts
+#  
+# Prefixes:
+# system - executes the command on the finish
+# server - executes the command on the server the plugin is running on
+#  
+# Example:
+# system:sh -c this is my test command
+# server:say I just found out how the command feature works
+finish-commands:
+- server:maintenance off
+- 'server:dbcast backup :floppy_disk: Backup finished!'
+- server:stop
+# Commands which will be executed once a backup fails
+#  
+# Prefixes:
+# system - executes the command on the system
+# server - executes the command on the server the plugin is running on
+#  
+# Example:
+# system:sh -c this is my test command
+# server:say I just found out how the command feature works
+fail-commands:
+- server:maintenance off
+- 'server:dbcast backup :skull_and_crossbones: Backup failed!'
+- server:stop

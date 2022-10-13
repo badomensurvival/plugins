@@ -1,0 +1,54 @@
+# Notifications Configuration
+#  
+# You can configure backup notifications here
+
+mail:
+  # Enables / Disables Mail Notifications
+  enabled: false
+  # Enables / Disables Mail Debugger (requires normal debug to be activated too)
+  debug: false
+  # SMTP Host
+  smtp-host: smtp.gmail.com
+  # SMTP Host
+  smtp-port: 587
+  # SMTP From Email Address
+  smtp-from: example@gmail.com
+  # SMTP From Name
+  smtp-from-custom-name: EasyBackup Notifications
+  # Enables / Disables Start TLS
+  tls-required: true
+  # SMTP Username (Usually your full email address)
+  smtp-username: example@gmail.com
+  # SMTP Password
+  #  
+  # Gmail Note:
+  # IF YOU HAVE 2FA ENABLED YOU MUST CREATE AN APP AND SET THE PASSWORD TO IT'S TOKEN
+  # To create an app token, follow the instructions here:
+  # https://support.google.com/mail/answer/185833?hl=en
+  password: your-gmail-account-password
+  # Set the email address(es) the email will be sent to
+  recipients:
+  - example@example.com
+  content:
+    # Set the emails content type here
+    type: text/plain; charset=utf-8
+    # Emails Subject
+    #  
+    # Placeholders:
+    # {event-type} - Event Type
+    # {event-message} - Custom Event Message
+    # {time} - Current time
+    subject: '[EasyBackup] {event-type}'
+    # Set the email body part here
+    #  
+    # Placeholders:
+    # {event-type} - Event Type
+    # {event-message} - Custom Event Message
+    # {time} - Current time
+    text: 'Type: {event-type}\nMessage: {event-message}\nTime: {time}'
+  # Enables / Disables sending of the OnCreate Event
+  on-create: false
+  # Enables / Disables sending of the OnFail Event
+  on-fail: false
+  # Enables / Disables sending of the OnSuccess Event
+  on-success: false

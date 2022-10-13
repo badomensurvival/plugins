@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 161.230.209.209
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1662573974911
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665594682269
+  login: 1665594295350
+  kits:
+    noob: 1665509217101
+money: '130.17437999999999459'
+last-account-name: marteinmax2
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1919.6822598933734
+  y: 88.0
+  z: 1695.6309970780198
+  yaw: -46.9521484375
+  pitch: 30.749897003173828
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1919.699999988079
+  y: 78.0
+  z: 1710.5471647310037
+  yaw: 23.42724609375
+  pitch: -67.04983520507812

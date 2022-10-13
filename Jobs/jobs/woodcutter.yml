@@ -1,0 +1,90 @@
+Woodcutter:
+  Break:
+    acacia_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    birch_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    dark_oak_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    jungle_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    oak_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    spruce_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_acacia_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_birch_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_dark_oak_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_jungle_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_oak_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+    stripped_spruce_log:
+      experience: 1.0
+      income: 0.25
+      points: 1.0
+  ChatColour: GREEN
+  FullDescription:
+  - Earns money felling and planting trees
+  Gui:
+    Item: birch_log
+  Kill:
+    Player:
+      experience: 7.5
+      income: 1.88
+      points: 7.5
+  Quests:
+    '1':
+      Name: Woodpecker
+      Objectives:
+      - Break;oak_log;50
+      - Break;birch_log;50
+      - Break;jungle_log;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Break logs and get money
+      - Get 100 for this!
+  chat-display: full
+  custom-kill:
+    Woodcutter:
+      experience: 10.0
+      income: 10.0
+      points: 10.0
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Woodcutter
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: W

@@ -1,0 +1,28 @@
+# #######################################################################
+#                This is the hook configuration of MyPet                #
+#                  You can find more info on the wiki:                  #
+#   https://wiki.mypet-plugin.de/setup/configurations/hooks-config.yml  #
+# #######################################################################
+
+Lands:
+  Enabled: true
+PlaceholderAPI:
+  Enabled: true
+ProtocolLib:
+  Enabled: true
+Vault:
+  Enabled: true
+  Economy: true
+WorldGuard:
+  Enabled: true
+PvPManager:
+  Enabled: true
+  Respect-PvP-Rules: true
+  Despawn-Pets-In-Combat: false
+  Prevent-Damage-In-Combat: false
+CombatLogX:
+  Enabled: true
+  MyPet:
+    Hooks:
+      CombatLogX:
+        Ignore-Plugin-Settings: false

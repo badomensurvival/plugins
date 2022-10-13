@@ -1,0 +1,28 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Maks
+    baby: Bebek
+    adult: Yetişkin
+    spawn: '&7%type% &6Spawn Yumurtası'
+    lorecost: '&7Fiyat: &6$%cost%'
+    lorechance: '&7Şans: &6%chance%'
+  catcherinfo:
+    type: '&7Tür: &6%value%'
+    health: '&7Can: &6%value%'
+    age: '&7Yaş: &6%value%'
+    tamed: '&6Evcil'
+    trusted: '&6Güvenilir'
+# Event Messages
+event:
+  general:
+    nopermission: '&cBunu yapmak için yetkin yok.'
+  catch:
+    success: '&7Başarılı bir şekilde &6%type%&7 yakaladın.'
+    failed: '&4%type%&c yakalamakta başarısız oldun.'
+    notenabled: '&6%type%&7 yakalayamazsın.'
+    cantafford: '&6%type%&7 yakalamak için &6$%amount% paraya ihtiyacın var.'
+    notyours: '&cBaşkasının evcilleştirdiği hayvanı yakalayamazsın.'

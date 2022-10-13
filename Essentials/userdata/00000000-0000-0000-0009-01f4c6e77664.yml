@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.47.79.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665438976871
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665439300651
+  login: 1665438650161
+money: '100'
+last-account-name: Luigisigma
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2168.216
+  y: 65.5
+  z: 1029.5619
+  yaw: 69.81240844726562
+  pitch: 9.511749267578125
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2177.058
+  y: 65.0
+  z: 1054.69999
+  yaw: -25.37835693359375
+  pitch: 16.41082763671875

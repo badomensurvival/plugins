@@ -1,0 +1,21 @@
+<h1 id="custom-crafting-recipes">Custom crafting recipes</h1>
+<p>You can define custom crafting recipes for the special composter item. Here are a few examples:</p>
+<h3 id="composter-with-redstone-on-top">Composter with redstone on top</h3>
+<pre><code class="lang-yaml">recipe-shape:
+  -<span class="ruby"> <span class="hljs-string">"R"</span>
+</span>  -<span class="ruby"> <span class="hljs-string">"C"</span>
+</span>
+recipe-ingredients:
+  -<span class="ruby"> <span class="hljs-string">"R=REDSTONE"</span>
+</span>  -<span class="ruby"> <span class="hljs-string">"C=COMPOSTER"</span></span>
+</code></pre>
+<h3 id="composter-surrounded-with-diamonds">Composter surrounded with diamonds</h3>
+<pre><code class="lang-yaml">recipe-shape:
+  -<span class="ruby"> <span class="hljs-string">"DDD"</span>
+</span>  -<span class="ruby"> <span class="hljs-string">"DCD"</span>
+</span>  -<span class="ruby"> <span class="hljs-string">"DDD"</span>
+</span>
+recipe-ingredients:
+  -<span class="ruby"> <span class="hljs-string">"D=DIAMOND"</span>
+</span>  -<span class="ruby"> <span class="hljs-string">"C=COMPOSTER"</span></span>
+</code></pre>

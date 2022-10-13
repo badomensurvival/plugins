@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.71.236.19
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665177245884
+  login: 1665177082502
+money: '100'
+last-account-name: IGMERCHAN
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2166.5
+  y: 100.0
+  z: 1020.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2197.699999988079
+  y: 65.0
+  z: 998.3000000119209
+  yaw: -103.74300384521484
+  pitch: 4.529716491699219

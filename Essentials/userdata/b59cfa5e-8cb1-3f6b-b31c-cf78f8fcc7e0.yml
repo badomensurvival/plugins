@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.243.124.17
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664017049085
+  login: 1664016883078
+money: '897.54088999999998902'
+last-account-name: PPANQ_YT
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2170.5
+  y: 99.0
+  z: 1018.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2687.372461424922
+  y: 95.93664774242114
+  z: 549.0740231581605
+  yaw: 168.3045654296875
+  pitch: 29.100004196166992

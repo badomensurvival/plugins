@@ -1,0 +1,132 @@
+Enchanter:
+  ChatColour: DARK_BLUE
+  Enchant:
+    diamond_axe:
+      experience: 30.0
+      income: 2.5
+      points: 10.0
+    diamond_boots:
+      experience: 30.0
+      income: 1.5
+      points: 6.0
+    diamond_chestplate:
+      experience: 50.0
+      income: 3.0
+      points: 12.0
+    diamond_helmet:
+      experience: 30.0
+      income: 1.5
+      points: 6.0
+    diamond_leggings:
+      experience: 50.0
+      income: 3.0
+      points: 12.0
+    diamond_pickaxe:
+      experience: 30.0
+      income: 2.5
+      points: 10.0
+    diamond_spade:
+      experience: 30.0
+      income: 1.25
+      points: 5.0
+    diamond_sword:
+      experience: 30.0
+      income: 2.25
+      points: 9.0
+    durability-1:
+      experience: 10.0
+      income: 2.5
+      points: 10.0
+    fire_aspect-2:
+      experience: 20.0
+      income: 5.0
+      points: 20.0
+    gold_boots:
+      experience: 15.0
+      income: 0.62
+      points: 2.5
+    gold_chestplate:
+      experience: 15.0
+      income: 1.38
+      points: 5.5
+    gold_helmet:
+      experience: 15.0
+      income: 0.62
+      points: 2.5
+    gold_leggings:
+      experience: 15.0
+      income: 1.38
+      points: 5.5
+    gold_sword:
+      experience: 15.0
+      income: 1.12
+      points: 4.5
+    iron_boots:
+      experience: 9.0
+      income: 0.62
+      points: 2.5
+    iron_chestplate:
+      experience: 9.0
+      income: 1.12
+      points: 4.5
+    iron_helmet:
+      experience: 9.0
+      income: 0.62
+      points: 2.5
+    iron_leggings:
+      experience: 9.0
+      income: 1.12
+      points: 4.5
+    iron_sword:
+      experience: 6.0
+      income: 0.75
+      points: 3.0
+    leather_boots:
+      experience: 6.0
+      income: 0.25
+      points: 1.0
+    leather_chestplate:
+      experience: 6.0
+      income: 0.5
+      points: 2.0
+    leather_helmet:
+      experience: 6.0
+      income: 0.25
+      points: 1.0
+    leather_leggings:
+      experience: 6.0
+      income: 0.5
+      points: 2.0
+    wood_sword:
+      experience: 3.0
+      income: 0.38
+      points: 1.5
+  FullDescription:
+  - Earns money enchanting weapons.
+  Gui:
+    Item: enchanting_table
+  Quests:
+    '1':
+      Name: Harry the wizard
+      Objectives:
+      - Enchant;wood_sword;1
+      - Enchant;diamond_sword;1
+      - Enchant;ARROW_DAMAGE;1
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Be a wizard and get money
+      - Get 100 for this!
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Enchanter
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: E

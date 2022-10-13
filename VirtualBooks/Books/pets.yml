@@ -1,0 +1,64 @@
+command: 'tutorial pets'
+permission: tutorial.perm.pets
+Title: Tutorial Pets
+Author: Bad Omen RPG
+pages:
+  '1':
+  - '       &lPets'
+  - '&r '
+  - '&7* &rMate um mob com um laço para pega-lo como pet.'
+  - '&7* {pet_store}'
+  - '&7* {pet_Switch}'
+  - '&7* {pet_call}'
+  - '&7* {pet_info}'
+  - '&7* {pet_release}'
+  - '&7* {pet_tree}'
+  - '&7* {pet_away}'
+  - '&7* {pet_trade}'
+  - '&7* {pet_menu}'
+
+pet_store:
+  TEXT: '&8[&6/petstore&8]'
+  HOVER_TEXT: 'Guarde seu pet'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petstore'
+pet_switch:
+  TEXT: '&8[&6/petswitch&8]'
+  HOVER_TEXT: 'Retorne um pet guardado'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petswitch'
+pet_call:
+  TEXT: '&8[&6/petcall&8]'
+  HOVER_TEXT: 'Chame seu pet para perto de você'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petcall'
+pet_info:
+  TEXT: '&8[&6/petinfo&8]'
+  HOVER_TEXT: 'Veja informações sobre seu pet'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petinfo'
+pet_release:
+  TEXT: '&8[&6/petrelease&8]'
+  HOVER_TEXT: 'Devolva seu pet à natureza'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petrelease'
+pet_tree:
+  TEXT: '&8[&6/petchooseskilltree&8]'
+  HOVER_TEXT: 'Escolha a arvore de talentos de seu pet.'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petchooseskilltree'
+pet_away:
+  TEXT: '&8[&6/petaway&8]'
+  HOVER_TEXT: 'Mande seu pet para longe'
+  CLICK_EVENT:
+    RUN_COMMAND: '/petaway'
+pet_trade:
+  TEXT: '&8[&7/petrade <player>&8]'
+  HOVER_TEXT: 'Troque seu pet com um jogador'
+  CLICK_EVENT:
+    SEND_MSG_TO_PLAYER: '[/pettrade <player>]'
+pet_menu:
+  TEXT: '&8[&6/pet&8]'
+  HOVER_TEXT: 'Abra um menu visual sobre os pets'
+  CLICK_EVENT:
+    RUN_COMMAND: '/pet'

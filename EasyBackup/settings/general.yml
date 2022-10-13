@@ -1,0 +1,48 @@
+#                                                                                                        
+#     _/_/_/_/                                _/_/_/                        _/                           
+#    _/          _/_/_/    _/_/_/  _/    _/  _/    _/    _/_/_/    _/_/_/  _/  _/    _/    _/  _/_/_/    
+#   _/_/_/    _/    _/  _/_/      _/    _/  _/_/_/    _/    _/  _/        _/_/      _/    _/  _/    _/   
+#  _/        _/    _/      _/_/  _/    _/  _/    _/  _/    _/  _/        _/  _/    _/    _/  _/    _/    
+# _/_/_/_/    _/_/_/  _/_/_/      _/_/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/       
+#                                    _/                                                    _/            
+#                               _/_/                                                      _/             
+# Main Configuration
+#  
+# Thank you very much for purchasing my plugin <3
+# If you have any questions / problems, please use my online service desk:
+# https://prodigysupport.team/tickets/servicedesk/customer/portal/1
+# ~ JarFiles
+
+# Enables / Disables Debug mode
+debug: false
+# Enables / Disables Passwords config encryption
+password-encryption: false
+# Enables / Disables Ingame Commands
+ingame-commands: true
+# Enables / Disables the Update Checker
+update-checker: true
+# Enables / Disables the automatic Error Reporting
+# This automatically sends errors which occur to the developer of the plugin
+# Information collected:
+# - Server Version
+# - A unique random id to identify the server
+# - All installed plugins including the versions
+#  
+# PLEASE NOTE THAT ZERO PRIVATE INFORMATION
+# AND NO FILES WILL BE SENT. ONLY THE PLUGIN NAMES
+# NOT THE ACTUAL JAR FILE
+#  
+# You may turn this off at any time if you wish to, but
+# please note that this helps me, the developer, a lot to fix
+# bugs and improve the plugin
+error-reporting: true
+developer:
+  events:
+    # Enables / Disables Event sending
+    enabled: false
+    # Enables / Disables sending of the OnCreate Event
+    on-create: false
+    # Enables / Disables sending of the OnFail Event
+    on-fail: false
+    # Enables / Disables sending of the OnSuccess Event
+    on-success: false

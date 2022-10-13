@@ -1,0 +1,29 @@
+item:
+  item: netherite_pickaxe ash_artifact:1 custom-model-data:10
+  displayName: "<g:#F8F8FF>Skeletal Pickaxe</g:#808080>"
+  lore:
+    - ""
+    - "<g:#F8F8FF>&lSKELETAL PICKAXE BONUS</g:#808080>"
+    - "&8» &fDeal 20% more damage against skeletons"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:skeletal_shard
+    - ""
+    - ""
+    - netherite_pickaxe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6
+baseAttackSpeed: 1
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: skeletal
+
+fuels: [ ]

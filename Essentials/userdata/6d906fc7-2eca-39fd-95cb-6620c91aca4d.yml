@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 138.117.73.122
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663874249572
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664139319482
+  login: 1664136679823
+  kits:
+    tools: 1661919836781
+    pet: 1662264523904
+    noob: 1662265439134
+money: '88.22585000000065263'
+last-account-name: Sidao22
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1008.5033699325214
+  y: 83.0
+  z: -243.12582821400522
+  yaw: -176.00518798828125
+  pitch: 78.15076446533203
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1003.5203668892872
+  y: 83.0
+  z: -241.6042328593908
+  yaw: -167.23355102539062
+  pitch: 15.448518753051758

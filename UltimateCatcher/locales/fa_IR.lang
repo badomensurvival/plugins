@@ -1,0 +1,30 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateCatcher&8]'
+  catcher:
+    max: Max
+    baby: Baby
+    adult: Adult
+    spawn: '&7%type% &6Spawn Egg'
+    lorecost: '&7Cost: &6$%cost%'
+    lorechance: '&7Chance: &6%chance%%'
+  catcherinfo:
+    type: '&7Type: &6%value%'
+    health: '&7Joon: &6%value%'
+    age: '&7Age: &6%value%'
+    tamed: '&6Ahli shode'
+    trusted: '&6Trusted'
+# Event Messages
+event:
+  general:
+    nopermission: '&cShoma permission ejraye in dastor ra nadarid.'
+  catch:
+    success: '&7Shoma ba movafaghiat &6%type%&7 type ro gereftid.'
+    failed: '&cShoma movafagh be gereftan &4%type%&c nashodid.'
+    notenabled: '&7Shoma nemitavanid &6%type%&7 ra begirid.'
+    cantafford: '&7Shoma be &6$%amount% &7niaz darid baraye gereftane &6%type%&7.'
+    notyours: '&cShoma entity haye ahli shode tavasot digaran ra nemitavanid begirid.'
+
+# Translated By Dead_Light

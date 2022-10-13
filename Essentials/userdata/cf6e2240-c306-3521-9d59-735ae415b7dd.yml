@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.101.73.43
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663129528578
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663129731204
+  login: 1663125184860
+  kits:
+    noob: 1663127235411
+    pet: 1663127247316
+money: '76.64140999999999678'
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1898.300000011921
+  y: -43.0
+  z: 832.8681610201743
+  yaw: -161.197265625
+  pitch: 17.573963165283203
+last-account-name: vitindograr
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2365.7474443647516
+  y: 73.0
+  z: 847.5763350134498
+  yaw: 91.53836059570312
+  pitch: 21.561847686767578

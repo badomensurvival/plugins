@@ -1,0 +1,72 @@
+kits:
+  tools:
+    delay: -1
+    items:
+    - lead 1
+    - woodensword 1 knockback:1 lore:&7&lBASIC_SWORD|&8»_&7Being_poor_is_an_awful_thing
+    - woodenshovel 1 lore:&7&lBASIC_SHOVEL|&8»_&7Being_poor_is_an_awful_thing
+    - woodenpickaxe 1 lore:&7&lBASIC_PICKAXE|&8»_&7Being_poor_is_an_awful_thing
+    - woodenaxe 1 lore:&7&lBASIC_AXE|&8»_&7Being_poor_is_an_awful_thing
+    - bread 15 lore:&7&lBASIC_BREAD|&8»_&7Being_poor_is_an_awful_thing
+    - lhelm 1 itemflags:HIDE_ATTRIBUTES durability:165 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lchestplate 1 itemflags:HIDE_ATTRIBUTES durability:240 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lleggings 1 itemflags:HIDE_ATTRIBUTES durability:225 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lboots 1 itemflags:HIDE_ATTRIBUTES durability:195 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - white_bed 1
+    - /backpacks give {player}
+    - /lp user {player} parent add rank_rookie
+  noob:
+    delay: 600
+    items:
+    - woodensword 1 knockback:1 lore:&7&lBASIC_SWORD|&8»_&7Being_poor_is_an_awful_thing
+    - woodenshovel 1 lore:&7&lBASIC_SHOVEL|&8»_&7Being_poor_is_an_awful_thing
+    - woodenpickaxe 1 lore:&7&lBASIC_PICKAXE|&8»_&7Being_poor_is_an_awful_thing
+    - woodenaxe 1 lore:&7&lBASIC_AXE|&8»_&7Being_poor_is_an_awful_thing
+    - bread 15 lore:&7&lBASIC_BREAD|&8»_&7Being_poor_is_an_awful_thing
+    - lhelm 1 itemflags:HIDE_ATTRIBUTES durability:165 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lchestplate 1 itemflags:HIDE_ATTRIBUTES durability:240 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lleggings 1 itemflags:HIDE_ATTRIBUTES durability:225 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lboots 1 itemflags:HIDE_ATTRIBUTES durability:195 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - white_bed 1
+  pet:
+    delay: 86400
+    items:
+    - lead 1
+  test:
+    delay: 1
+    items:
+    - woodensword 1 knockback:1 lore:&7&lBASIC_SWORD|&8»_&7Being_poor_is_an_awful_thing
+    - woodenshovel 1 lore:&7&lBASIC_SHOVEL|&8»_&7Being_poor_is_an_awful_thing
+    - woodenpickaxe 1 lore:&7&lBASIC_PICKAXE|&8»_&7Being_poor_is_an_awful_thing
+    - woodenaxe 1 lore:&7&lBASIC_AXE|&8»_&7Being_poor_is_an_awful_thing
+    - bread 15 lore:&7&lBASIC_BREAD|&8»_&7Being_poor_is_an_awful_thing
+    - lhelm 1 itemflags:HIDE_ATTRIBUTES durability:165 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lchestplate 1 itemflags:HIDE_ATTRIBUTES durability:240 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lleggings 1 itemflags:HIDE_ATTRIBUTES durability:225 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+    - lboots 1 itemflags:HIDE_ATTRIBUTES durability:195 color:48,48,48 lore:&7&lBASIC_SET|&8»_&7Being_poor_is_an_awful_thing
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&7Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1

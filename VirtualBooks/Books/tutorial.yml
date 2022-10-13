@@ -1,0 +1,71 @@
+command: tutorial
+permission: tutorial.perm
+Title: "&6Tutorial Básico"
+Author: Bad Omen RPG
+pages:
+  '1':
+  - '       &6&lBAD OMEN'
+  - ' '
+  - '&7* {chat}'
+  - '&7* {terreno_book}'
+  - '&7* {skills}'
+  - '&7* {stats}'
+  - '&7* {pets_book}'
+  - '&7* {jobs_book}'
+  - '&7* {server_doc}'
+  - '&7* {server_discord}'
+  - '&7* {server_mod}'
+  - '&7* {server_map}'
+  - ' '
+  - ' '
+  - '&8&l/tutorial'
+terreno_book:
+  TEXT: '&8[&6TERRENO&8]'
+  HOVER_TEXT: 'Como proteger seu terreno?'
+  CLICK_EVENT:
+    RUN_COMMAND: '/tutorial terreno'
+chat:
+  TEXT: '&8[&6CHAT&8]'
+  HOVER_TEXT: 'Envie informações no chat.'
+  CLICK_EVENT:
+    RUN_COMMAND: '/tutorial chat'
+skills:
+  TEXT: '&8[&6SKILLS&8]'
+  HOVER_TEXT: 'O que cada skill faz?'
+  CLICK_EVENT:
+    RUN_COMMAND: '/skills'
+stats:
+  TEXT: '&8[&6STATS&8]'
+  HOVER_TEXT: 'Como saber minhas estatísticas?'
+  CLICK_EVENT:
+    RUN_COMMAND: '/stats %player_name%'
+pets_book:
+  TEXT: '&8[&6PETS&8]'
+  HOVER_TEXT: 'Como ter capturar um pet?'
+  CLICK_EVENT:
+    RUN_COMMAND: '/tutorial pets'
+jobs_book:
+  TEXT: '&8[&6JOBS&8]'
+  HOVER_TEXT: 'Como entrar e sair de um job?'
+  CLICK_EVENT:
+    RUN_COMMAND: '/tutorial jobs'
+server_doc:
+  TEXT: '&8[&6DOCUMENTACAO&8]'
+  HOVER_TEXT: 'Site de documentação'
+  CLICK_EVENT:
+    OPEN_URL: https://mine.devbaraus.ddns.net/
+server_discord:
+  TEXT: '&8[&6DISCORD&8]'
+  HOVER_TEXT: 'Convite do discord'
+  CLICK_EVENT:
+    OPEN_URL: https://discord.gg/hRpGQHaXfW
+server_mod:
+  TEXT: '&8[&6VOICE CHAT&8]'
+  HOVER_TEXT: 'Plasmo Voice'
+  CLICK_EVENT:
+    OPEN_URL: https://modrinth.com/mod/plasmo-voice
+server_map:
+  TEXT: '&8[&6MAPA DINAMICO&8]'
+  HOVER_TEXT: 'Mapa dinâmico'
+  CLICK_EVENT:
+    OPEN_URL: https://mine.devbaraus.ddns.net/map/

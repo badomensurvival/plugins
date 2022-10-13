@@ -1,0 +1,168 @@
+{
+  "Order": 3,
+  "Description": [
+    "- <yellow><bold>Ride",
+    "- <red><bold>Ranged Attacks",
+    "- Small <yellow><bold>Inventory <r>+ <yellow><bold>Pickup",
+    "- <blue><bold>Sprint",
+    "- <red><bold>Thorns",
+    "- <yellow><bold>Beacon<r> (Speed)"
+  ],
+  "Skills": {
+    "Ranged": {
+      "Upgrades": {
+        "2": {
+          "Rate": "+35",
+          "Damage": "+2",
+          "Projectile": "Snowball"
+        },
+        "8": {
+          "Rate": "+10",
+          "Damage": "+2",
+          "Projectile": "Snowball"
+        }
+      }
+    },
+    "Backpack": {
+      "Upgrades": {
+        "3": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "5": {
+          "drop": false,
+          "rows": "+1"
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "6": {
+          "Active": true
+        }
+      }
+    },
+    "Pickup": {
+      "Upgrades": {
+        "4": {
+          "Range": "+3",
+          "Exp": false
+        },
+        "12": {
+          "Range": "+2",
+          "Exp": false
+        },
+        "20": {
+          "Range": "+2",
+          "Exp": true
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "10": {
+          "Buffs": {
+            "Regeneration": "+1",
+            "WaterBreathing": true
+          },
+          "Duration": "+8",
+          "Count": "+1",
+          "Range": "+10"
+        },
+        "15": {
+          "Buffs": {
+            "JumpBoost": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+2"
+        },
+        "20": {
+          "Buffs": {
+            "Regeneration": "+1"
+          },
+          "Duration": "+2",
+          "Count": "+1",
+          "Range": "+2"
+        },
+        "25": {
+          "Buffs": {
+            "NightVision": true
+          },
+          "Duration": "+2",
+          "Range": "+2"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "9": {
+          "Reflection": "+20",
+          "Chance": "+50"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "2": {
+          "Friend": false,
+          "Farm": true,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        },
+        "7": {
+          "Friend": true,
+          "Farm": true,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        }
+      }
+    },
+    "Sprint": {
+      "Upgrades": {
+        "8": {
+          "Active": true
+        }
+      }
+    },
+    "Ride": {
+      "Upgrades": {
+        "1": {
+          "Active": true,
+          "JumpHeight": "+1.25"
+        },
+        "10": {
+          "Speed": "+1",
+          "Active": true,
+          "JumpHeight": "+0.75"
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "2": {
+          "Health": "+1.5"
+        },
+        "5": {
+          "Health": "+1.5"
+        },
+        "8": {
+          "Health": "+2.5"
+        },
+        "18": {
+          "Health": "+2.5"
+        }
+      }
+    }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "Ride",
+  "Icon": {
+    "Material": "saddle",
+    "Glowing": true
+  },
+  "Name": "Ride"
+}

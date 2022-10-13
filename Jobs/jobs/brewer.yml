@@ -1,0 +1,100 @@
+Brewer:
+  Brew:
+    blaze_powder:
+      experience: 12.0
+      income: 3.0
+      points: 12.0
+    dragon_breath:
+      experience: 25.0
+      income: 6.25
+      points: 25.0
+    fermented_spider_eye:
+      experience: 12.0
+      income: 3.0
+      points: 12.0
+    ghast_tear:
+      experience: 22.0
+      income: 5.5
+      points: 22.0
+    glistering_melon_slice:
+      experience: 10.0
+      income: 2.5
+      points: 10.0
+    glowstone_dust:
+      experience: 8.0
+      income: 2.0
+      points: 8.0
+    golden_carrot:
+      experience: 14.0
+      income: 3.5
+      points: 14.0
+    gunpowder:
+      experience: 6.0
+      income: 1.5
+      points: 6.0
+    magma_cream:
+      experience: 12.0
+      income: 3.0
+      points: 12.0
+    nether_wart:
+      experience: 6.0
+      income: 1.5
+      points: 6.0
+    phantom_membrane:
+      experience: 12.0
+      income: 3.0
+      points: 12.0
+    pufferfish:
+      experience: 14.0
+      income: 3.5
+      points: 14.0
+    rabbit_foot:
+      experience: 18.0
+      income: 4.5
+      points: 18.0
+    redstone:
+      experience: 6.0
+      income: 1.5
+      points: 6.0
+    spider_eye:
+      experience: 9.0
+      income: 2.25
+      points: 9.0
+    sugar:
+      experience: 7.0
+      income: 1.75
+      points: 7.0
+    turtle_helmet:
+      experience: 12.0
+      income: 3.0
+      points: 12.0
+  ChatColour: LIGHT_PURPLE
+  FullDescription:
+  - Earns money brewing potions.
+  Gui:
+    Item: brewing_stand
+  Quests:
+    '1':
+      Name: Heavy drinker
+      Objectives:
+      - Brew;glowstone_dust;2
+      - Brew;redstone;2
+      - Brew;sugar;2
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Brew some stuff and get money
+      - Get 100 for this!
+  chat-display: full
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  fullname: Brewer
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  max-level: 200
+  maxDailyQuests: 1
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  rejoinCooldown: 10
+  shortname: Br

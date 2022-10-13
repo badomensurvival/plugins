@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 179.113.114.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665637671661
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665641646855
+  login: 1665639828964
+money: '23514.56302878891074604'
+last-account-name: MichellZao
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 309.99064481567115
+  y: -49.0
+  z: -408.14765896574636
+  yaw: 122.2933349609375
+  pitch: 18.012142181396484
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 107.11497173194981
+  y: 86.0
+  z: 92.43981992560894
+  yaw: -77.387939453125
+  pitch: 23.50279426574707
+confirm-pay: true

@@ -1,0 +1,39 @@
+item:
+  item: netherite_axe ash_artifact:1 cleave:4 custom-model-data:10
+  displayName: "<g:#F8F8FF>Skeletal Battleaxe</g:#808080>"
+  lore:
+    - ""
+    - "<g:#F8F8FF>&lSKELETAL BATTLEAXE BONUS</g:#808080>"
+    - "&8» &fDeal 20% more damage against skeletons"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:skeletal_shard
+    - ""
+    - ""
+    - netherite_axe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 10
+baseAttackSpeed: 1
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - skeleton
+        - stray
+        - wither_skeleton
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: skeletal
+
+fuels: [ ]

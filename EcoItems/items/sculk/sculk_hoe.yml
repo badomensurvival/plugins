@@ -1,0 +1,30 @@
+item:
+  item: netherite_hoe soul_fire_artifact:1 custom-model-data:6
+  lore:
+    - ""
+    - "<g:#0052f5>&lSCULK HOE BONUS</g:#00297a>"
+    - "&8» &#0052f5Gives blindness to enemies"
+  displayName: "<g:#0052f5>Sculk Hoe</g:#00297a>"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:sculk_shard
+    - ""
+    - ""
+    - netherite_hoe
+    - ""
+    - ""
+    - ""
+    - ""
+
+baseDamage: 1
+baseAttackSpeed: 4
+effects: [ ]
+conditions:
+  - id: is_wearing_set
+    args:
+      set: sculk
+
+fuels: [ ]

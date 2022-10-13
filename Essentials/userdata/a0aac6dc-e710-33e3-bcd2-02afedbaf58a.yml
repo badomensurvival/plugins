@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.22.40.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664854714136
+  login: 1664854192050
+money: '100'
+last-account-name: laorv
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2183.5
+  y: 99.0
+  z: 1021.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2182.0304926225895
+  y: 65.0
+  z: 1025.7692916790668
+  yaw: 47.6441650390625
+  pitch: 13.349946975708008

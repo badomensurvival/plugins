@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.84.56.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665612758261
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665614597323
+  login: 1665611019333
+  kits:
+    noob: 1665417268954
+money: '1124.30981568567678375'
+last-account-name: FinishedMango93
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -387.63773
+  y: 77.0
+  z: 261.4942
+  yaw: -25.282318115234375
+  pitch: 21.4722900390625
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: -382.74854
+  y: 76.0
+  z: 267.7239
+  yaw: 86.1920166015625
+  pitch: -8.322357177734375

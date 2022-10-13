@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.220.60.100
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1665619340561
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665620444891
+  login: 1665618413433
+  kits:
+    pet: 1665536854232
+    noob: 1665619025360
+money: '343.78807944670729918'
+last-account-name: D4vimf
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 4056.350181291832
+  y: 230.0
+  z: 3572.777334199643
+  yaw: -24.662689208984375
+  pitch: 5.55012845993042
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 4055.3835865033366
+  y: 232.875
+  z: 3578.8351807880113
+  yaw: 96.22415161132812
+  pitch: 41.8499755859375

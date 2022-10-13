@@ -1,0 +1,221 @@
+{
+  "Order": 0,
+  "Description": [
+    "- <red><bold>Damage",
+    "- <green><bold>Hp Regeneration",
+    "- <red><bold>Thorns",
+    "- <blue><bold>Knockback",
+    "- <yellow><bold>Beacon"
+  ],
+  "Skills": {
+    "Backpack": {
+      "Upgrades": {
+        "6": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "20": {
+          "drop": false,
+          "rows": "+1"
+        },
+        "40": {
+          "drop": false,
+          "rows": "+1"
+        }
+      }
+    },
+    "Control": {
+      "Upgrades": {
+        "7": {
+          "Active": true
+        }
+      }
+    },
+    "Life": {
+      "Upgrades": {
+        "4": {
+          "Health": "+2"
+        },
+        "12": {
+          "Health": "+2"
+        },
+        "24": {
+          "Health": "+2"
+        },
+        "32": {
+          "Health": "+2"
+        }
+      }
+    },
+    "Knockback": {
+      "Upgrades": {
+        "10": {
+          "Chance": "+15"
+        },
+        "15": {
+          "Chance": "+5"
+        },
+        "20": {
+          "Chance": "+5"
+        }
+      }
+    },
+    "Thorns": {
+      "Upgrades": {
+        "5": {
+          "Reflection": "+15",
+          "Chance": "+10"
+        },
+        "9": {
+          "Chance": "+8"
+        }
+      }
+    },
+    "Heal": {
+      "Upgrades": {
+        "2": {
+          "Health": "+1"
+        }
+      }
+    },
+    "Behavior": {
+      "Upgrades": {
+        "1": {
+          "Friend": false,
+          "Farm": false,
+          "Duel": true,
+          "Aggro": false,
+          "Raid": false
+        },
+        "3": {
+          "Friend": true,
+          "Farm": true,
+          "Duel": true,
+          "Aggro": true,
+          "Raid": false
+        }
+      }
+    },
+    "Damage": {
+      "Upgrades": {
+        "1": {
+          "Damage": "+1.2"
+        },
+        "2": {
+          "Damage": "+0.2"
+        },
+        "3": {
+          "Damage": "+0.2"
+        },
+        "4": {
+          "Damage": "+0.2"
+        },
+        "5": {
+          "Damage": "+0.2"
+        },
+        "6": {
+          "Damage": "+0.2"
+        },
+        "7": {
+          "Damage": "+0.2"
+        },
+        "8": {
+          "Damage": "+0.2"
+        },
+        "9": {
+          "Damage": "+0.2"
+        },
+        "10": {
+          "Damage": "+0.2"
+        },
+        "11": {
+          "Damage": "+0.2"
+        },
+        "12": {
+          "Damage": "+0.2"
+        },
+        "13": {
+          "Damage": "+0.2"
+        },
+        "14": {
+          "Damage": "+0.2"
+        },
+        "15": {
+          "Damage": "+0.2"
+        },
+        "16": {
+          "Damage": "+0.2"
+        },
+        "17": {
+          "Damage": "+0.2"
+        },
+        "18": {
+          "Damage": "+0.2"
+        },
+        "19": {
+          "Damage": "+0.2"
+        },
+        "20": {
+          "Damage": "+0.2"
+        },
+        "21": {
+          "Damage": "+0.2"
+        },
+        "22": {
+          "Damage": "+0.2"
+        },
+        "23": {
+          "Damage": "+0.2"
+        },
+        "24": {
+          "Damage": "+0.2"
+        },
+        "25": {
+          "Damage": "+0.2"
+        }
+      }
+    },
+    "Beacon": {
+      "Upgrades": {
+        "7": {
+          "Buffs": {
+            "Resistance": "+2"
+          },
+          "Duration": "+8",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "14": {
+          "Buffs": {
+            "Strength": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        },
+        "21": {
+          "Buffs": {
+            "FireResistance": true
+          },
+          "Duration": "+2",
+          "Count": "+1",
+          "Range": "+5"
+        },
+        "28": {
+          "Buffs": {
+            "Regeneration": "+1"
+          },
+          "Duration": "+2",
+          "Range": "+5"
+        }
+      }
+    }
+  },
+  "MobTypes": [
+    "*"
+  ],
+  "ID": "Combat",
+  "Icon": {
+    "Material": "stone_axe"
+  },
+  "Name": "Combat"
+}

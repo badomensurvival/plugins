@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 177.84.56.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665619800467
+  login: 1665619694626
+money: '106.65000000000006268'
+last-account-name: GuilhermeR
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2172.5
+  y: 102.0
+  z: 1025.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2302.027517246386
+  y: 75.0
+  z: 1071.8165843567417
+  yaw: 161.85096740722656
+  pitch: 21.0

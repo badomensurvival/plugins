@@ -1,0 +1,1 @@
+- Fixed: Selection tool does stay after auto when used drop key (Q) to selection corner
