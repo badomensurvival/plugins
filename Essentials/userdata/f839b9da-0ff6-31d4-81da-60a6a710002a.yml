@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665623117038
+  logout: 1665675709241
   login: 1665674322118
   kits:
     noob: 1665539686696
@@ -31,10 +31,10 @@ lastlocation:
   yaw: -78.1492919921875
   pitch: 23.400014877319336
 logoutlocation:
-  world: 273da244-265a-4346-b52e-f613b71d9b13
-  world-name: world_nether
-  x: 12.680386760540445
-  y: 15.0
-  z: 2.6828718096366786
-  yaw: 123.00076293945312
-  pitch: 11.049229621887207
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 1026.265132947009
+  y: 91.0
+  z: 391.97052418230265
+  yaw: 4.81756591796875
+  pitch: 25.776235580444336

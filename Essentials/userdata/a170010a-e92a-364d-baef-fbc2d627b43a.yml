@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665591510581
-  login: 1665590929487
+  logout: 1665676986625
+  login: 1665675456785
   kits:
     noob: 1665585506740
     pet: 1665585525089
@@ -34,8 +34,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 522.142915450968
+  x: 520.8081891972834
   y: 63.0
-  z: -18.47289872543485
-  yaw: 103.16048431396484
-  pitch: 16.77840805053711
+  z: -12.383127640486158
+  yaw: 0.1190185546875
+  pitch: -0.3611904978752136
