@@ -42,29 +42,29 @@ level-xp-requirements:
   - 24000
   - 29000
   - 34000
-  - 39000
-  - 45000
+  - 41000
   - 50000
-  - 55000
   - 60000
-  - 65000
   - 70000
-  - 75000
-  - 80000
   - 85000
-  - 90000
-  - 95000
   - 100000
-  - 105000
-  - 110000
   - 120000
+  - 150000
+  - 180000
+  - 210000
+  - 250000
+  - 300000
+  - 360000
+  - 440000
+  - 580000
+  - 750000
 
 xp-gain-methods:
   - trigger: breed
     multiplier: 20.0
     filters:
-      entities: 
-       - bee
+      entities:
+        - bee
     conditions: [ ]
 
 level-placeholders:
@@ -93,18 +93,18 @@ effects:
       - breed
     filters:
       entites:
-       - bee
+        - bee
 
   - id: take_money
-    args: 
+    args:
       amount: "%v% * max(1,log(%level%)/log(2)) * 5.0"
     triggers:
-      - consume 
+      - consume
     filters:
-      imems: 
+      imems:
         - honey_bottle
 
-      
+
 
 conditions: [ ]
 
