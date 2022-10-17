@@ -552,7 +552,7 @@ mob-heads:
 # Permission:
   # tweakin.bettergrindstone: allows to use the grindstone functionality
 better-grindstone:
-  enabled: true
+  enabled: false
   check-permissions: false
   # if set to true, items enchanted from enchanting table will be ignored
   ignore-items-from-enchanting-table: false

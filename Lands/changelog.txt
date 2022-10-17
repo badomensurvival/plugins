@@ -1,1 +1,7 @@
-- Fixed: Selection tool does stay after auto when used drop key (Q) to selection corner
++ Changed: Enabled first join items for new installations
+- Fixed: [#2143] Player not removed correctly from captureflag region on logout, in specific environments
+
+
+--> Language file (en-US.yml): 
++ Message: wars.command.declare.success.mutual.accepted
++ Message: wars.command.declare.success.mutual.sent

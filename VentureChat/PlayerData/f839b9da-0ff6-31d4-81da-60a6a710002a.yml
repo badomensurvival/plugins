@@ -1,5 +1,5 @@
 name: Jhoseff
-current: Local
+current: Help
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/13 12:41:49
+date: 2022/Oct/15 15:59:29

@@ -1,9 +1,9 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
-ip-address: 179.176.115.222
+ip-address: 179.176.121.231
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1663103283438
+  lastteleport: 1665858831279
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665343401696
-  login: 1665343379655
+  logout: 1665860249818
+  login: 1665857859584
   kits:
     noob: 1663156117744
 money: '124.09478000000000144'
@@ -25,16 +25,17 @@ last-account-name: biribiri
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2183.6761204796458
-  y: 65.0
-  z: 1025.0918824458179
-  yaw: -137.40383911132812
-  pitch: 18.900035858154297
+  x: 314.23788641406856
+  y: 18.11986827282558
+  z: -1536.691948394372
+  yaw: -60.895782470703125
+  pitch: 64.5000228881836
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2161.2766807668986
-  y: 64.0
-  z: 1017.4390794685262
-  yaw: 108.89349365234375
-  pitch: 5.4001145362854
+  x: -93.84000738063168
+  y: 86.12470816511548
+  z: -147.32242220129848
+  yaw: 7.2005615234375
+  pitch: 16.500043869018555
+nickname: BaguLele

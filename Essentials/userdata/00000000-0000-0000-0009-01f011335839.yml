@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.212.204.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1665886389494
+  login: 1665886167943
+money: '38.50000000000004262'
+last-account-name: Patitaflanejant
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 108.28673
+  y: 81.5625
+  z: -0.0723568
+  yaw: 123.87384033203125
+  pitch: -14.64129638671875
+logoutlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 85.045105
+  y: 75.0
+  z: 119.40745
+  yaw: 7.684906005859375
+  pitch: 16.853485107421875

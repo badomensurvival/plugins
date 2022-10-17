@@ -8,9 +8,9 @@ host: false
 party: ''
 filter: true
 notifications: true
-spy: false
+spy: true
 commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/12 15:57:45
+date: 2022/Oct/17 08:18:53

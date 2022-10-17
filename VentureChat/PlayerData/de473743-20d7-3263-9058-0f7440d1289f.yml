@@ -1,5 +1,5 @@
 name: MichellZao
-current: Global
+current: Local
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/13 03:14:06
+date: 2022/Oct/15 14:58:58

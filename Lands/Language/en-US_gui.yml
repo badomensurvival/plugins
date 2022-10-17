@@ -1699,11 +1699,6 @@ gui:
           - '   &7will need to pay more.'
           material: GOLD_INGOT
           slots: 23
-        child_failure_maxValue:
-          name: '&4&lMax Value reached'
-          lore:
-          - '&cYou can''t set the tax value'
-          - '&chigher than&4 {max}&c.'
         child_failure_cooldown:
           name: '&4&lYou need to wait'
           lore:
@@ -1713,6 +1708,16 @@ gui:
           - ' &8• &7You need to wait another'
           - '   &5{time} &7before you can'
           - '   &7change the it again.'
+        child_failure_value_max:
+          name: '&4&lMaximum Value reached'
+          lore:
+          - '&cYou can''t set taxes'
+          - '&chigher than&4 {max}&c.'
+        child_failure_value_min:
+          name: '&4&lMinimum Value reached'
+          lore:
+          - '&cYou can''t set taxes'
+          - '&clower than&4 {min}&c.'
   
   action-confirm:
     title: '&8Confirm this Action'

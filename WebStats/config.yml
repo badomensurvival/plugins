@@ -15,7 +15,7 @@ tables:
     # Only these columns will appear, in the order specified.
     # When commented out, all columns will be displayed, in alphabetical order (default).
     # The 'Player' column will always be displayed, as the first column.
-    columns: ['Groups','Money', 'Health', 'Max Health', 'Play Time', 'Skills Power', 'Mobs', 'Job']
+    columns: ['Groups','Name','Money', 'Health', 'Max Health', 'Play Time', 'Skills Power', 'Mobs', 'Job']
 
     # Which column to sort by
     sort-column: Player
@@ -60,6 +60,7 @@ objectives:
 
 # Configuration for the PlaceholderAPI connectivity (uncomment to use)
 placeholders:
+ '%player_name%': Name
  '%ecoskills_total_skill_level%': Skills Power
  '%player_max_health%': Max Health
  '%player_health%': Health

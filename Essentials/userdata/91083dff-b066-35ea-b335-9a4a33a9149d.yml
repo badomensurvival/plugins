@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 179.106.57.72
+ip-address: 179.106.57.64
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665637596311
+  lastteleport: 1665894910728
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665641948299
-  login: 1665673830481
-money: '846.75969512253984586'
+  logout: 1665897393631
+  login: 1665887616980
+money: '829.38240023959335771'
 last-account-name: itachi
 lastlocation:
-  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
-  world-name: world
-  x: 105.55480071866066
-  y: 76.0
-  z: 69.44525315939468
-  yaw: 107.76449584960938
-  pitch: 12.600846290588379
+  world: 273da244-265a-4346-b52e-f613b71d9b13
+  world-name: world_nether
+  x: -164.67847753176406
+  y: 11.0
+  z: 598.9404678690828
+  yaw: 84.3779296875
+  pitch: 27.45075798034668
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 103.12356403163521
+  x: 103.1497810622328
   y: 89.0
-  z: 105.63278465201498
-  yaw: -90.74970245361328
-  pitch: -16.199970245361328
+  z: 101.35345936130922
+  yaw: 167.8193359375
+  pitch: 20.099153518676758

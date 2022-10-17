@@ -11,28 +11,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665592510428
+  lastteleport: 1665946109119
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665592896706
-  login: 1665592464397
+  logout: 1665950209556
+  login: 1665950118068
+  kits:
+    noob: 1665945757711
 money: '100'
 last-account-name: Travesso01
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2193.9067
-  y: 91.0
-  z: 1229.69999
-  yaw: -25.138229370117188
-  pitch: 13.25640869140625
+  x: 2012.8428
+  y: 83.0
+  z: 1293.7854
+  yaw: 52.83720397949219
+  pitch: 6.7433319091796875
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 60.19264
-  y: 76.0
-  z: 56.55414
-  yaw: -43.71516418457031
-  pitch: 31.804534912109375
+  x: -2.4365358
+  y: 87.0
+  z: 27.352648
+  yaw: -93.74553680419922
+  pitch: 44.9339599609375

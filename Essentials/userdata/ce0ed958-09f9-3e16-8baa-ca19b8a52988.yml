@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 189.6.251.46
+ip-address: 189.6.248.238
 afk: false
 socialspy: false
 npc: false
@@ -16,11 +16,11 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665622806884
-  login: 1665622556706
+  logout: 1665802979575
+  login: 1665802352150
   kits:
     noob: 1665595862958
-money: '123.41074999999995528'
+money: '124.41074999999995532'
 last-account-name: JaderAdams
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
@@ -33,8 +33,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 45.32840314181661
+  x: 46.478136615974705
   y: 77.0625
-  z: 104.21129832916942
-  yaw: -102.59920501708984
-  pitch: 24.750072479248047
+  z: 103.91351680310692
+  yaw: -164.10791015625
+  pitch: 61.79997253417969

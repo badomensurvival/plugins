@@ -3,7 +3,7 @@ teleportauto: false
 godmode: true
 muted: false
 jailed: false
-ip-address: 192.168.15.3
+ip-address: 192.168.15.5
 afk: false
 socialspy: false
 npc: false
@@ -11,36 +11,36 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665600926991
+  lastteleport: 1666002290020
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665601065491
-  login: 1665595790059
+  logout: 1666005533927
+  login: 1666002267146
   kits:
     tools: 1661819697278
     pet: 1665003622440
     noob: 1665531748189
     test: 1665324792087
-money: '8.8479999999999992'
+money: '18.8479999999999992'
 last-account-name: nolsup
 lastlocation:
+  world: 2858a46a-7685-4506-8c98-38eaef5a8693
+  world-name: world_the_end
+  x: 296.58153732407254
+  y: 55.731527034309515
+  z: -4.480687208208178
+  yaw: 61.0748176574707
+  pitch: 9.149980545043945
+logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 81.90713074554564
-  y: 60.41717926251958
-  z: 124.8286675282025
-  yaw: -116.70223999023438
-  pitch: 22.65007972717285
-logoutlocation:
-  world: 273da244-265a-4346-b52e-f613b71d9b13
-  world-name: world_nether
-  x: 122.827748128833
-  y: 73.61727372199296
-  z: -112.85671125763481
-  yaw: 36.543636322021484
-  pitch: 84.03850555419922
+  x: -422.23502489470053
+  y: 71.0625
+  z: 291.7901067248455
+  yaw: -174.18792724609375
+  pitch: 18.67706298828125
 homes:
   spawn:
     world: cd6e2a96-ee51-41a5-89dd-dd058e3be410

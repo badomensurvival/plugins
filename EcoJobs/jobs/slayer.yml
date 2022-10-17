@@ -66,7 +66,7 @@ xp-gain-methods:
 
 level-placeholders:
   - id: "money"
-    value: "max(1,log(%level%)/log(2)) / 10"
+    value: "max(1,log(%level%)/log(2)) / 20"
 
 effects-description:
   1:
@@ -88,7 +88,7 @@ level-commands: [ ]
 effects:
   - id: give_money
     args:
-      amount: "%v% * max(1,log(%level%)/log(2)) * 0.1"
+      amount: "%v% * max(1,log(%level%)/log(2)) * 0.05"
     triggers:
       - kill
     filters:

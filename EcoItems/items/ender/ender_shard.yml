@@ -1,0 +1,22 @@
+item:
+  item: amethyst_shard glow_artifact:1 unbreaking:1 hide_enchants hide_attributes
+  displayName: "<g:#c4bc8c>Ender Shard</g:#142c34>"
+  lore:
+    - "&8» &7Used to create <g:#c4bc8c>Ender Armor and Tools</g:#142c34>"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - obsidian
+    - diamond
+    - obsidian
+    - chorus_flower
+    - amethyst_shard
+    - chorus_flower
+    - obsidian
+    - diamond
+    - obsidian
+
+effects: [ ]
+conditions: [ ]
+
+fuels: [ ]

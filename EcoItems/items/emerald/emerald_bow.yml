@@ -1,0 +1,39 @@
+item:
+  item: bow glow_artifact:1 custom-model-data:5
+  lore:
+    - ""
+    - "<g:#55ff55>&lEMERALD BOW BONUS</g:#3c663c>"
+    - "&8» &aDeal 50% more damage against"
+    - "&#55ff55pillagers"
+  displayName: "<g:#55ff55>Emerald Bow</g:#3c663c>"
+  effectiveDurability: 384
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:emerald_shard
+    - ""
+    - ""
+    - bow
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 1
+baseAttackSpeed: 4
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.5
+    filters:
+      entities:
+        - pillager
+        - ravager
+    triggers:
+      - bow_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: emerald
+
+fuels: [ ]

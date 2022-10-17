@@ -11,30 +11,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665622075111
+  lastteleport: 1665856673149
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665675709241
-  login: 1665674322118
+  logout: 1665860369465
+  login: 1665855265676
   kits:
     noob: 1665539686696
-money: '49.53961865674038043'
+money: '35.07712821515158321'
 last-account-name: Jhoseff
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: -104.9356242238422
+  x: -110.5
   y: 79.0
-  z: -106.66754365463821
-  yaw: -78.1492919921875
-  pitch: 23.400014877319336
+  z: -100.5
+  yaw: -61.79860305786133
+  pitch: 0.0
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 1026.265132947009
-  y: 91.0
-  z: 391.97052418230265
-  yaw: 4.81756591796875
-  pitch: 25.776235580444336
+  x: -108.37676260919257
+  y: 79.0
+  z: -102.05847708779226
+  yaw: 71.12619018554688
+  pitch: 27.513181686401367

@@ -36,6 +36,7 @@ world-settings:
     minecraft:limbo:
         map:
             display-name: Limbo
+            enabled: false
     minecraft:overworld:
         map:
             display-name: Overworld
@@ -45,6 +46,7 @@ world-settings:
     minecraft:the_end:
         map:
             display-name: The End
+            enabled: true
     default:
         map:
             enabled: true

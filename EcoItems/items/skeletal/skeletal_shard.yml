@@ -6,15 +6,15 @@ item:
   craftable: true
   craftingPermission:
   recipe:
+    - iron_ingot
     - bone_block
-    - bone_block
-    - bone_block
+    - iron_ingot
     - diamond
     - amethyst_shard
     - golden_apple
+    - iron_ingot
     - bone_block
-    - bone_block
-    - bone_block
+    - iron_ingot
 
 effects: [ ]
 conditions: [ ]

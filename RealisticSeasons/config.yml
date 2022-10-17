@@ -2,7 +2,7 @@ remove-ice-in-unloaded-chunks: true
 test-mode: false
 check-unloaded-chunks-for-ice: true
 unloaded-chunks-check-delay: 80
-version: 10.1.6
+version: 10.1.7
 modify-blocks: true
 modify-daynight-length: true
 modify-weather-cycle: true
