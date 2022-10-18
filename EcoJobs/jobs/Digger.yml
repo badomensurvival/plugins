@@ -1,5 +1,5 @@
-name: "&6Miner"
-description: "&8&oLevel up by mining blocks"
+name: "&6Digger"
+description: "&8&oLevel up by excavating blocks"
 
 unlocked-by-default: true
 
@@ -90,15 +90,15 @@ level-placeholders:
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 ore excavated"
+    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 blocks excavated"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 ore excavated"
+    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 blocks excavated"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 ore excavated"
+    - "&8» &8Earn &a$%moneyo%&8 for each &a%blocks%&8 blocks excavated"
 
 level-commands: [ ]
 
