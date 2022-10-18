@@ -1,13 +1,13 @@
 uuid,Skills Power,Health,Max Health,Play Time,Money,Job,Groups,Mobs,Name
-088872a4-2664-3bde-bc57-b72dfc839a11,72,28.799999237060547,28.799999237060547,5d 4h 15m 28s,$20k," - ","default, rank_adventurer",48,suricatode
-91083dff-b066-35ea-b335-9a4a33a9149d,59,19.63301658630371,22.0,2d 9h 54m 43s,$829.38," - ","default, rank_pioneer",32,itachi
+088872a4-2664-3bde-bc57-b72dfc839a11,74,28.84735107421875,28.799999237060547,5d 7h 53m 46s,$20.61k," - ","default, rank_adventurer",51,suricatode
+91083dff-b066-35ea-b335-9a4a33a9149d,64,22.0,22.0,2d 15h 45m 45s,$1.03k," - ","default, rank_pioneer",38,itachi
 6c02cac8-e840-3cb5-8773-bb016299b0e4,13,14.466547012329102,20.0,24m 55s,$1.41k," - ","god, rank_rookie",7,devbaraus
-cb100c18-b4a1-353a-949b-745f4dc85f4e,1,20.399999618530273,20.399999618530273,2d 12h 1m 25s,$18.84," - ","god, rank_rookie",1,nolsup
-93b40e2c-96ac-333c-ba71-2e400e9baa24,63,22.399999618530273,22.399999618530273,4d 17h 4m 53s,$6.88k," - ","default, rank_adventurer, streamer",37,Joker282
+cb100c18-b4a1-353a-949b-745f4dc85f4e,6,20.399999618530273,20.399999618530273,2d 13h 34m 26s,$135.94,4 - §x§8§a§0§3§0§3Slayer,"god, rank_rookie",3,nolsup
+93b40e2c-96ac-333c-ba71-2e400e9baa24,63,22.399999618530273,22.399999618530273,4d 17h 53m,$6.89k," - ","default, rank_adventurer, streamer",37,Joker282
 9e8a6626-8678-3bde-ae5c-b29398d7a32a,16,20.0,20.0,,$258.09," - ",,,DreamWithGolden
 f839b9da-0ff6-31d4-81da-60a6a710002a,50,15.537839889526367,22.399999618530273,3d 1h 19m 12s,$35.07," - ","default, rank_rookie",25,Jhoseff
 00000000-0000-0000-0009-01ff394f33e1,66,20.45840072631836,23.200000762939453,3d 1h 9m 38s,$1.21k," - ",,,Amor2166
-00000000-0000-0000-0009-01fc5bcc5522,56,24.399999618530273,24.399999618530273,2d 14h 28m 56s,$19.68k," - ","bedrock, default, rank_pioneer, streamer",29,oLemonBr
+00000000-0000-0000-0009-01fc5bcc5522,56,24.399999618530273,24.399999618530273,2d 16h 26s,$19.74k," - ","bedrock, default, rank_pioneer, streamer",29,oLemonBr
 218c44be-9c83-3090-be8a-bb01f1e6177c,18,20.0,20.0,,$173.23," - ",,,Carioca_totoso
 00000000-0000-0000-0009-01fa4ce7e281,0,18.0,20.0,,$109.69," - ",,,Guilhermekst
 04c0d69d-784d-3842-b981-345122e3ff4e,20,20.0,20.0,,$156.07," - ",,,Bninja
@@ -35,7 +35,7 @@ dd6de6d6-e7db-397d-a94d-39b61286a5c4,15,14.0,20.0,,$105.14," - ",,,KingDias
 ce0ed958-09f9-3e16-8baa-ca19b8a52988,25,18.17625617980957,20.0,17h 24m 2s,$124.41," - ",default,13,JaderAdams
 00000000-0000-0000-0009-01fafbf6c040,0,20.0,20.0,9m 57s,$100," - ",,,RafaelaVzi
 293ec222-792d-3ce3-8a0e-49ffc6197c54,5,20.399999618530273,20.399999618530273,34m 36s,$107.63," - ",,,gaspar
-de473743-20d7-3263-9058-0f7440d1289f,84,24.799999237060547,22.799999237060547,2d 22h 44m 42s,$43.59k," - ","default, rank_adventurer",65,MichellZao
+de473743-20d7-3263-9058-0f7440d1289f,84,24.799999237060547,22.799999237060547,2d 22h 44m 42s,$0," - ","default, rank_adventurer",65,MichellZao
 8bb831e9-3dca-3cec-b3a8-e3199d70bcc2,32,20.065406799316406,20.399999618530273,13h 13m 52s,$231.47," - ","default, rank_rookie",16,miguelterrin
 963f3b22-755b-3a31-a6a7-445e2403b399,46,20.399999618530273,20.399999618530273,20h 48m 34s,$480.68," - ","default, rank_rookie",23,JhonikGames
 00000000-0000-0000-0009-01f0a1400650,13,20.0,20.0,1h 40m 23s,$100," - ",default,7,Travesso01
@@ -65,7 +65,7 @@ dfd505fe-bc7b-3610-937a-43b95bf6fe26,,0.26293474435806274,20.0,33m 4s,$108," - "
 3d7f8f63-a9ba-3842-945e-3f0b1acdfd2f,,20.0,20.0,28s,$100," - ",,,servercheck9719
 528a392d-1b1d-3b9a-85b0-130bc5d7ac2d,,20.0,20.0,35m 3s,$100," - ",,,Bradock
 e219a956-0fd7-37dd-880c-61745b50c185,,19.0,20.0,16m 8s,$110.03," - ",,,caualelek32
-a8521454-024e-31fd-a614-2278a03b9e86,39,20.0,20.0,15h 16m 18s,$124.64," - ","default, rank_rookie",20,HeyPeter557
+a8521454-024e-31fd-a614-2278a03b9e86,35,20.0,20.0,15h 22m 41s,$133.14," - ","default, rank_rookie",18,HeyPeter557
 8dcfbec1-8bae-3f22-832c-d3b434684491,10,21.200000762939453,21.200000762939453,5h 41m 6s,$30.17," - ",default,5,marteinmax2
 7d1fbb6b-c111-32d7-ab39-2bb96e10b4b6,9,0.0,20.0,44m 41s,$100," - ",,,pedrinh0br1231
 ab9bdf2e-cb0c-35b2-8e0b-f0bf95fb58a1,,,,,$100," - ",,,Hereges
@@ -128,19 +128,19 @@ cf6e2240-c306-3521-9d59-735ae415b7dd,,,,,$26.64," - ",,,vitindograr
 c761cb4d-f79a-38ec-bd10-9a52c18698c2,0,20.0,20.0,9m 19s,$100," - ",,,luizpb89
 00000000-0000-0000-0009-01f2d9530873,2,12.333332061767578,20.0,18m 11s,$100," - ","default, rank_rookie",1,TaperQuill64723
 00000000-0000-0000-0009-01f4c6e77664,5,20.0,20.0,13m 12s,$100," - ",,,Luigisigma
-6f78117b-5abf-34f2-96b8-ad329a2fa636,72,20.0,20.0,2d 3h 50m 42s,$1.88k," - ","default, rank_pioneer",48,ImRayh
+6f78117b-5abf-34f2-96b8-ad329a2fa636,76,20.0,20.0,2d 8h 11m 19s,$4.18k," - ","default, rank_pioneer",53,ImRayh
 d4c8d51d-26ff-35f2-be1e-31901538fb92,13,20.0,20.0,1h 4m 7s,$0," - ",,,lex232345
 5bdd4513-65ff-39bf-83b9-dc57e85c4d0c,36,0.0,20.0,10h 53m 19s,$652.57," - ","default, rank_castaway",18,Giovanigb
 3b398562-5aa6-3193-b4ca-48d96bd974b7,9,20.0,20.0,1h 47m 54s,$105.53," - ","default, rank_rookie",5,waldo
 a15d73dd-5219-3728-b0e8-d4c4eab18d41,5,20.0,20.0,32m 5s,$100," - ","default, rank_rookie",3,vjcrlx
 00000000-0000-0000-0009-01fe0206c2cb,5,14.792016983032227,20.0,1h 24m 28s,$100," - ","default, rank_rookie",3,DragonBlack7810
 4ab8ad99-3fd0-3ac5-876c-6ec7df01698a,15,9.645906448364258,20.0,1h 55m 34s,$184.89," - ","default, rank_rookie",8,Dubl1n
-a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3,30,10.323810577392578,20.0,9h 16m 39s,$2.10k," - ","default, rank_castaway",15,pedrofff
+a2e6b810-2bea-32da-a5f6-f07b1ed4c1e3,30,1.6853318214416504,20.0,11h 30m 55s,$1.35k," - ","default, rank_castaway",15,pedrofff
 00000000-0000-0000-0009-01f9f06f9135,5,20.0,20.0,20m 58s,$100," - ","default, rank_rookie",3,DreamMobile1313
 81bec214-e5af-30fb-9b68-83a7aa2d2eb9,0,20.0,20.0,2m,$100," - ","default, rank_rookie",1,lirs
 8c542a19-5b33-33f1-b7fb-1204f26ea42c,0,20.0,20.0,4m 38s,$100," - ","default, rank_rookie",1,ishawking
-d394a618-a92c-3f80-9eac-b407e3dbfeb8,51,20.0,20.0,1d 2h 4m 52s,$3.31k," - ","default, rank_traveller",26,Zander404
-550e203f-1f19-36a2-9b51-3ba1f5816041,27,20.0,20.0,6h 56m 30s,$747.54," - ","default, rank_rookie",14,D4vimf
+d394a618-a92c-3f80-9eac-b407e3dbfeb8,51,16.862972259521484,20.0,1d 4h 24m 38s,$1.34k," - ","default, rank_traveller",26,Zander404
+550e203f-1f19-36a2-9b51-3ba1f5816041,45,20.0,20.0,9h 36m 37s,$31.58," - ","default, rank_castaway",23,D4vimf
 5aa30431-6daf-3b8a-a1dd-eaa92f01eb21,27,20.0,20.0,5h 3m 31s,$105.39," - ","default, rank_rookie",14,NaitPlayerGamer
 a170010a-e92a-364d-baef-fbc2d627b43a,13,19.619117736816406,20.0,1h 41m 58s,$175.35," - ","default, rank_rookie",7,mariorei1234
 ff62b985-91e6-3024-a74f-db3c07672c6e,0,1.6994519233703613,20.0,3m 25s,$100," - ","default, rank_rookie",1,LauBianchi
@@ -152,7 +152,7 @@ ff62b985-91e6-3024-a74f-db3c07672c6e,0,1.6994519233703613,20.0,3m 25s,$100," - "
 75388467-95f9-3ab0-8234-3352c5564f3e,,,,,$104," - ",,,Scott233
 9e6bfddb-5224-3687-ba7b-7d588b8469af,,,,,$100," - ",,,Scott2332
 00000000-0000-0000-0009-01f011335839,13,19.024391174316406,20.0,6h 20m 28s,$38.50," - ","default, rank_rookie",7,Patitaflanejant
-6f4ff3b3-13e7-3b58-82ad-3ebe64228c7d,25,20.0,20.0,5h 40m 41s,$347.27," - ","default, rank_rookie",13,Theuxzoficial
+6f4ff3b3-13e7-3b58-82ad-3ebe64228c7d,28,8.80929946899414,20.0,7h 47m 1s,$370.96," - ","default, rank_rookie",14,Theuxzoficial
 00000000-0000-0000-0009-01fb33578408,1,20.0,20.0,11m 2s,$100," - ","default, rank_rookie",1,potato8627
 ac83f17e-d09f-3186-be46-2d0d4d954280,16,20.0,20.0,2h 1m 45s,$182.93," - ","default, rank_rookie",8,ManoBraxys
 9ba9a646-74b4-3a42-87bc-fa79406f66af,23,20.0,20.0,16h 10m 46s,$103.59," - ","default, rank_rookie",12,kenrstt

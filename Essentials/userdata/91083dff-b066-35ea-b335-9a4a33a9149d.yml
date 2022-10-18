@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665894910728
+  lastteleport: 1666116982763
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665897393631
-  login: 1665887616980
-money: '829.38240023959335771'
+  logout: 1666114659272
+  login: 1666114813762
+money: '1051.48633967562918751'
 last-account-name: itachi
 lastlocation:
-  world: 273da244-265a-4346-b52e-f613b71d9b13
-  world-name: world_nether
-  x: -164.67847753176406
-  y: 11.0
-  z: 598.9404678690828
-  yaw: 84.3779296875
-  pitch: 27.45075798034668
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 101.46635763617797
+  y: 89.0
+  z: 99.48493949363704
+  yaw: -76.80517578125
+  pitch: -0.8996390700340271
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 103.1497810622328
-  y: 89.0
-  z: 101.35345936130922
-  yaw: 167.8193359375
-  pitch: 20.099153518676758
+  x: 71.36353422433068
+  y: 80.0
+  z: -19.00762622587595
+  yaw: 54.907440185546875
+  pitch: 37.950050354003906

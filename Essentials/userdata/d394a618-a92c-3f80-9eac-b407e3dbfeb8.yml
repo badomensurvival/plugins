@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 177.75.59.157
+ip-address: 177.75.60.175
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665966252605
+  lastteleport: 1666052331602
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665968243029
-  login: 1665963656134
+  logout: 1666058928807
+  login: 1666055029295
   kits:
-    noob: 1665870095702
-    pet: 1665951980530
-money: '3316.26437075698093227'
+    noob: 1666052134390
+    pet: 1666057413403
+money: '1347.14987173155098235'
 last-account-name: Zander404
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 5071.788119556946
-  y: 62.523264312744146
-  z: 3472.5298610884893
-  yaw: -64.40003204345703
-  pitch: 23.550006866455078
+  x: 4054.0654404503334
+  y: 230.0
+  z: 3574.8186475877546
+  yaw: 25.285797119140625
+  pitch: 37.50004577636719
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4051.2664479044947
-  y: 230.0
-  z: 3569.6495810444494
-  yaw: 110.48663330078125
-  pitch: 46.19989013671875
+  x: 4800.399058751735
+  y: 63.0
+  z: 3197.5110662974425
+  yaw: 117.28593444824219
+  pitch: 42.75020980834961

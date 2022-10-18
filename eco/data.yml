@@ -193,7 +193,7 @@ player:
     ecoskills:serrated_strikes: 5
     ecojobs:slayer_level: 5
     ecoskills:second_chance: 0
-    ecojobs:slayer_xp: 43.86971594202899
+    ecojobs:slayer_xp: 55.159315942029
     ecoskills:infernal_resistance: 3
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 0
@@ -205,7 +205,7 @@ player:
     ecoskills:mining: 7
     ecoskills:farming: 1
     ecoskills:dynamic_mining: 7
-    ecoskills:mining_xp: 670.0
+    ecoskills:mining_xp: 1153.5
     ecoskills:farming_xp: 58.5
     ecoskills:speed: 21
     ecoskills:mystic_resilience: 0
@@ -214,11 +214,11 @@ player:
     ecoskills:eye_of_the_depths: 0
     ecojobs:miner_level: 2
     ecoskills:dodging: 9
-    ecoskills:combat_xp: 553.1937391304342
+    ecoskills:combat_xp: 590.4494191304343
     ecoskills:woodcutting: 5
     ecojobs:smelter_xp: 50.0
     ecoskills:reimbursement: 0
-    ecoskills:armory_xp: 28.152315715471193
+    ecoskills:armory_xp: 93.30948380367569
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 5
     ecoskills:wisdom: 1
@@ -231,7 +231,7 @@ player:
     ecoskills:crit_damage: 7
     ecoskills:seamless_movement: 9
     ecoskills:master_lumberjack: 5
-    ecoskills:exploration_xp: 169.24166810886427
+    ecoskills:exploration_xp: 1108.6432179392443
     ecojobs:active_job: slayer
     ecoskills:exploration: 9
     ecoskills:satiation: 1
@@ -1108,7 +1108,7 @@ player:
     ecoskills:crit_damage: 5
     ecoskills:seamless_movement: 10
     ecoskills:master_lumberjack: 5
-    ecoskills:exploration_xp: 211.29273041668864
+    ecoskills:exploration_xp: 222.53901955707516
     ecojobs:active_job: explorer
     ecoskills:exploration: 10
     ecoskills:satiation: 0
@@ -1116,7 +1116,7 @@ player:
     ecoskills:combat: 5
     ecoskills:bountiful_harvest: 0
     ecoskills:ferocity: 0
-    ecojobs:explorer_xp: 1661.2509014129519
+    ecojobs:explorer_xp: 1800.9711179598323
     ecoskills:magnetic_rod: 0
     ecoskills:defense: 26
     ecoskills:strength: 20
@@ -1227,59 +1227,61 @@ player:
     ecoskills:shamanism: 2
     ecoskills:strong_impact: 0
   550e203f-1f19-36a2-9b51-3ba1f5816041:
-    ecoskills:serrated_strikes: 4
-    ecojobs:slayer_level: 2
-    ecoskills:second_chance: 0
-    ecojobs:slayer_xp: 19.006353623188403
-    ecoskills:infernal_resistance: 4
+    ecoskills:serrated_strikes: 10
+    ecojobs:slayer_level: 12
+    ecoskills:second_chance: 5
+    ecojobs:slayer_xp: 235.58955362318832
+    ecoskills:infernal_resistance: 5
     ecoskills:golden_yield: 0
-    ecoskills:accelerated_escape: 0
+    ecoskills:accelerated_escape: 1
     ecoskills:bravery: 0
-    ecoskills:dazzle: 4
-    ecoskills:versatile_tools: 6
+    ecoskills:dazzle: 10
+    ecoskills:versatile_tools: 11
+    ecoskills:enchanting: 5
     ecoskills:woodcutting_xp: 287.0
-    ecoskills:mining: 6
+    ecoskills:mining: 11
     ecoskills:farming: 1
-    ecoskills:dynamic_mining: 6
-    ecoskills:mining_xp: 973.0
+    ecoskills:dynamic_mining: 11
+    ecoskills:mining_xp: 1337.0
     ecoskills:farming_xp: 10.0
-    ecoskills:speed: 22
+    ecoskills:speed: 25
     ecoskills:mystic_resilience: 0
     eco:player_name: §8[§rPEASANT§8]§r §8[§7ROOKIE§8]§r D4vimf§r
     ecoskills:efficient_brewing: 0
     ecoskills:eye_of_the_depths: 0
-    ecoskills:dodging: 9
-    ecoskills:combat_xp: 65.80648411732972
+    ecoskills:dodging: 10
+    ecoskills:combat_xp: 1891.1582441173414
     ecoskills:woodcutting: 3
-    ecoskills:reimbursement: 0
+    ecoskills:reimbursement: 5
     ecojobs:builder_xp: 14.399999999999997
-    ecoskills:armory_xp: 371.9466616159207
+    ecoskills:armory_xp: 749.7060786259942
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 3
-    ecoskills:wisdom: 1
-    ecoskills:spelunking: 0
-    ecoskills:crit_chance: 9
+    ecoskills:wisdom: 11
+    ecoskills:spelunking: 2
+    ecoskills:crit_chance: 15
     ecoskills:overcompensation: 0
     ecojobs:miner_xp: 84.50000000000021
-    ecoskills:armory: 4
+    ecoskills:armory: 5
     ecojobs:explorer_level: 14
     ecoskills:crit_damage: 5
-    ecoskills:seamless_movement: 9
+    ecoskills:seamless_movement: 10
     ecoskills:master_lumberjack: 3
-    ecoskills:exploration_xp: 1467.7034496246417
+    ecoskills:exploration_xp: 469.97874280789836
     ecojobs:active_job: slayer
-    ecoskills:exploration: 9
+    ecoskills:exploration: 10
     ecoskills:satiation: 1
     ecoskills:endangering: 0
-    ecoskills:combat: 4
+    ecoskills:combat: 10
     ecoskills:bountiful_harvest: 1
     ecoskills:ferocity: 0
     ecojobs:explorer_xp: 135.26258513385778
     ecoskills:magnetic_rod: 0
-    ecoskills:defense: 20
-    ecoskills:strength: 14
-    ecoskills:shamanism: 4
-    ecoskills:strong_impact: 0
+    ecoskills:defense: 32
+    ecoskills:strength: 26
+    ecoskills:shamanism: 5
+    ecoskills:strong_impact: 1
+    ecoskills:enchanting_xp: 529.0
   dd6de6d6-e7db-397d-a94d-39b61286a5c4:
     eco:player_name: §8[§rPEASANT§8] §rKingDias§r
   423a8470-15f9-3a29-af12-781d43ca3066:
@@ -1365,16 +1367,17 @@ player:
   501c2f3c-4317-3677-a3a4-7ccd4592d42b:
     eco:player_name: §8[§rPEASANT§8] §rCarioca§r
   cb100c18-b4a1-353a-949b-745f4dc85f4e:
-    ecoskills:serrated_strikes: 1
+    ecoskills:serrated_strikes: 5
+    ecojobs:slayer_level: 4
     ecoskills:second_chance: 0
-    ecojobs:slayer_xp: 24.224
+    ecojobs:slayer_xp: 74.83199999999991
     ecoskills:infernal_resistance: 0
     ecojobs:beekeeper_xp: 0.0
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 0
     ecoskills:bravery: 0
     ecojobs:lumberjack_xp: 13.0
-    ecoskills:dazzle: 1
+    ecoskills:dazzle: 5
     ecoskills:alchemy_xp: 0.0
     ecoskills:versatile_tools: 0
     ecoskills:enchanting: 0
@@ -1385,7 +1388,7 @@ player:
     ecoskills:dynamic_mining: 0
     ecoskills:mining_xp: 0.0
     ecoskills:farming_xp: 0.0
-    ecoskills:speed: 0
+    ecoskills:speed: 2
     eco:player_name: §8[§6GOD§8]§r §8[§7ROOKIE§8]§r §8nolsup§r
     ecoskills:mystic_resilience: 0
     ecoskills:efficient_brewing: 0
@@ -1395,9 +1398,9 @@ player:
     ecoskills:saturation: 0
     ecojobs:farmer_xp: 7.5
     ecoskills:health: 0
-    ecoskills:dodging: 0
+    ecoskills:dodging: 1
     talismans:talisman_bag: []
-    ecoskills:combat_xp: 2.8000000000000043
+    ecoskills:combat_xp: 265.8064000000004
     ecojobs:beekeeper_level: 1
     ecoskills:woodcutting: 0
     ecoskills:reimbursement: 0
@@ -1408,27 +1411,27 @@ player:
     ecoskills:wisdom: 0
     ecoskills:fishing_xp: 0.0
     ecoskills:spelunking: 0
-    ecoskills:crit_chance: 0
+    ecoskills:crit_chance: 1
     ecoskills:overcompensation: 0
     ecojobs:miner_xp: 23.30000000000002
     ecoskills:armory: 0
     ecojobs:explorer_level: 2
     ecoskills:crit_damage: 0
     ecoskills:master_lumberjack: 0
-    ecoskills:seamless_movement: 0
-    ecoskills:exploration_xp: 40.49921069869973
+    ecoskills:seamless_movement: 1
+    ecoskills:exploration_xp: 10.346478703894334
     ecojobs:active_job: slayer
-    ecoskills:exploration: 0
+    ecoskills:exploration: 1
     ecoskills:satiation: 0
     ecoskills:endangering: 0
-    ecoskills:combat: 1
+    ecoskills:combat: 5
     ecoskills:bountiful_harvest: 0
     ecoskills:ferocity: 0
     ecojobs:explorer_xp: 1.2825415242938267
     ecoskills:gold_touch: 0
     ecoskills:magnetic_rod: 0
     ecoskills:defense: 0
-    ecoskills:strength: 2
+    ecoskills:strength: 10
     ecoskills:shamanism: 0
     ecoskills:strong_impact: 0
     ecoskills:enchanting_xp: 0.0
@@ -1602,46 +1605,48 @@ player:
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 0
     ecoskills:bravery: 0
-    ecojobs:lumberjack_xp: 170.0
+    ecojobs:lumberjack_xp: 85.0
     ecoskills:dazzle: 3
-    ecoskills:versatile_tools: 5
-    ecoskills:woodcutting_xp: 1891.0
-    ecoskills:mining: 5
-    ecoskills:dynamic_mining: 5
-    ecoskills:mining_xp: 21.0
-    ecoskills:speed: 13
+    ecoskills:versatile_tools: 7
+    ecoskills:woodcutting_xp: 3247.0
+    ecoskills:mining: 7
+    ecoskills:dynamic_mining: 7
+    ecoskills:mining_xp: 93.0
+    ecoskills:speed: 15
     ecoskills:mystic_resilience: 0
     eco:player_name: §8[§rPEASANT§8]§r §8[§7ROOKIE§8]§r Theuxzoficial§r
     ecoskills:efficient_brewing: 0
     ecoskills:eye_of_the_depths: 0
-    ecoskills:dodging: 5
-    ecoskills:combat_xp: 1.1207999999999743
+    ecoskills:dodging: 6
+    ecoskills:combat_xp: 98.90639999999998
     ecoskills:woodcutting: 9
     ecoskills:reimbursement: 0
-    ecoskills:armory_xp: 80.88816329090132
+    ecojobs:builder_xp: 101.6000000000003
+    ecoskills:armory_xp: 241.2687989544661
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 9
     ecoskills:spelunking: 0
-    ecoskills:crit_chance: 5
+    ecoskills:crit_chance: 6
     ecoskills:overcompensation: 0
-    ecojobs:miner_xp: 23.40000000000008
+    ecojobs:miner_xp: 86.09999999999926
     ecoskills:armory: 3
     ecojobs:explorer_level: 13
     ecoskills:crit_damage: 9
-    ecoskills:seamless_movement: 5
+    ecoskills:seamless_movement: 6
     ecoskills:master_lumberjack: 9
-    ecoskills:exploration_xp: 726.1887104687723
-    ecojobs:active_job: lumberjack
-    ecoskills:exploration: 5
+    ecoskills:exploration_xp: 582.7286602152145
+    ecojobs:active_job: miner
+    ecoskills:exploration: 6
     ecoskills:satiation: 0
     ecoskills:endangering: 0
     ecoskills:combat: 3
     ecoskills:bountiful_harvest: 0
     ecoskills:ferocity: 0
-    ecojobs:lumberjack_level: 4
+    ecojobs:lumberjack_level: 5
     ecojobs:explorer_xp: 819.8129881860893
+    ecojobs:builder_level: 2
     ecoskills:magnetic_rod: 0
-    ecoskills:defense: 16
+    ecoskills:defense: 20
     ecoskills:strength: 24
     ecoskills:shamanism: 3
     ecoskills:strong_impact: 0
@@ -1950,61 +1955,61 @@ player:
   44c7c860-301d-35fd-895d-80fbfe5f67f1:
     eco:player_name: §8[§rPEASANT§8] §rEduLauncherbr§r
   088872a4-2664-3bde-bc57-b72dfc839a11:
-    ecoskills:serrated_strikes: 12
-    ecojobs:slayer_level: 14
+    ecoskills:serrated_strikes: 13
+    ecojobs:slayer_level: 15
     ecoskills:second_chance: 11
-    ecojobs:slayer_xp: 887.5619412089692
+    ecojobs:slayer_xp: 1259.5524280170343
     ecoskills:infernal_resistance: 12
     ecoskills:golden_yield: 0
-    ecoskills:accelerated_escape: 1
+    ecoskills:accelerated_escape: 2
     ecoskills:bravery: 3
     ecojobs:lumberjack_xp: 51.5
-    ecoskills:dazzle: 12
+    ecoskills:dazzle: 13
     ecoskills:versatile_tools: 14
     ecoskills:enchanting: 11
-    ecoskills:woodcutting_xp: 1049.0800000000038
+    ecoskills:woodcutting_xp: 1125.880000000004
     ecoskills:mining: 14
     ecoskills:farming: 5
     ecoskills:dynamic_mining: 14
-    ecoskills:mining_xp: 3803.5
-    ecoskills:farming_xp: 10.0
-    ecoskills:speed: 32
+    ecoskills:mining_xp: 7238.0
+    ecoskills:farming_xp: 82.0
+    ecoskills:speed: 34
     eco:player_name: §8[§rPEASANT§8]§r §8[§AADVENTURER]§r suricatode§r
     ecoskills:mystic_resilience: 0
     ecoskills:efficient_brewing: 0
     ecoskills:eye_of_the_depths: 0
     ecojobs:miner_level: 17
-    ecoskills:dodging: 10
+    ecoskills:dodging: 11
     talismans:talisman_bag: []
-    ecoskills:combat_xp: 6211.078013252824
+    ecoskills:combat_xp: 42.64757971942006
     ecoskills:woodcutting: 8
     ecoskills:reimbursement: 11
-    ecoskills:armory_xp: 2868.487914093126
+    ecoskills:armory_xp: .NaN
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 8
     ecoskills:wisdom: 27
     ecoskills:spelunking: 5
-    ecoskills:crit_chance: 21
+    ecoskills:crit_chance: 22
     ecoskills:overcompensation: 2
     ecojobs:miner_xp: 173.8999999996591
     ecoskills:armory: 12
     ecoskills:crit_damage: 18
     ecoskills:master_lumberjack: 8
-    ecoskills:seamless_movement: 10
-    ecoskills:exploration_xp: 4086.256020359164
+    ecoskills:seamless_movement: 11
+    ecoskills:exploration_xp: .NaN
     ecojobs:active_job: slayer
-    ecoskills:exploration: 10
+    ecoskills:exploration: 11
     ecoskills:satiation: 5
     ecoskills:endangering: 0
-    ecoskills:combat: 12
+    ecoskills:combat: 13
     ecoskills:bountiful_harvest: 5
     ecoskills:ferocity: 0
     ecoskills:magnetic_rod: 0
     ecoskills:defense: 52
-    ecoskills:strength: 40
+    ecoskills:strength: 42
     ecoskills:shamanism: 12
-    ecoskills:strong_impact: 3
-    ecoskills:enchanting_xp: 1935.0
+    ecoskills:strong_impact: 4
+    ecoskills:enchanting_xp: 3855.0
   926856b3-e2b8-3209-b08f-2bd757fa065d:
     eco:player_name: §8[§rPEASANT§8] §rdanielapolo11§r
   0420413b-3b46-3953-8f72-3f26799cc5d2:
@@ -2123,7 +2128,7 @@ player:
     ecojobs:miner_level: 18
     ecojobs:farmer_xp: 58.5
     ecoskills:dodging: 13
-    ecoskills:combat_xp: 219.73635430216538
+    ecoskills:combat_xp: 710.5181063955781
     ecoskills:woodcutting: 6
     ecoskills:reimbursement: 6
     ecoskills:armory_xp: .NaN
@@ -2133,7 +2138,7 @@ player:
     ecoskills:spelunking: 8
     ecoskills:crit_chance: 19
     ecoskills:overcompensation: 0
-    ecojobs:miner_xp: 932.9499999996962
+    ecojobs:miner_xp: 934.8499999996966
     ecoskills:armory: 7
     ecoskills:crit_damage: 16
     ecoskills:master_lumberjack: 6
@@ -2893,9 +2898,9 @@ player:
     eco:player_name: §8[§rPEASANT§8] §rWarForPlay§r
   00000000-0000-0000-0009-01fc5bcc5522:
     ecoskills:serrated_strikes: 10
-    ecojobs:slayer_level: 14
+    ecojobs:slayer_level: 15
     ecoskills:second_chance: 6
-    ecojobs:slayer_xp: 465.17297788600604
+    ecojobs:slayer_xp: 514.5917214954089
     ecoskills:infernal_resistance: 6
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 0
@@ -2910,7 +2915,7 @@ player:
     ecojobs:fisherman_level: 8
     ecoskills:dynamic_mining: 13
     ecoskills:mining_xp: 12978.5
-    ecoskills:farming_xp: 83.0
+    ecoskills:farming_xp: 118.0
     ecoskills:speed: 20
     eco:player_name: §8[§dSTREAMER§8]§r §8[§aPIONEER§8]§r oLemonBr§r
     ecoskills:mystic_resilience: 0
@@ -2920,11 +2925,11 @@ player:
     ecoskills:eye_of_the_depths: 4
     ecojobs:miner_level: 9
     ecoskills:dodging: 7
-    ecoskills:combat_xp: 1159.6674009956114
+    ecoskills:combat_xp: 1694.3474653812427
     ecoskills:woodcutting: 6
     ecoskills:reimbursement: 6
     ecojobs:builder_xp: 77.19999999999723
-    ecoskills:armory_xp: 265.92554228616086
+    ecoskills:armory_xp: 328.08963219395673
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 6
     ecoskills:wisdom: 20
@@ -2938,7 +2943,7 @@ player:
     ecoskills:crit_damage: 14
     ecoskills:master_lumberjack: 6
     ecoskills:seamless_movement: 7
-    ecoskills:exploration_xp: 497.99052684269924
+    ecoskills:exploration_xp: 622.9734314956407
     ecojobs:active_job: slayer
     ecoskills:exploration: 7
     ecoskills:satiation: 4
@@ -3237,7 +3242,7 @@ player:
     ecoskills:serrated_strikes: 10
     ecojobs:slayer_level: 10
     ecoskills:second_chance: 5
-    ecojobs:slayer_xp: 263.37200539904484
+    ecojobs:slayer_xp: 356.3466276435991
     ecoskills:infernal_resistance: 6
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 3
@@ -3251,8 +3256,8 @@ player:
     ecoskills:farming: 3
     ecojobs:fisherman_level: 9
     ecoskills:dynamic_mining: 8
-    ecoskills:mining_xp: 538.8899999999958
-    ecoskills:farming_xp: 231.0
+    ecoskills:mining_xp: 611.3899999999958
+    ecoskills:farming_xp: 269.0
     ecoskills:speed: 30
     ecoskills:mystic_resilience: 0
     eco:player_name: §8[§rPEASANT§8]§r §8[§bTRAVELLER§8]§r Zander404§r
@@ -3263,11 +3268,11 @@ player:
     ecojobs:miner_level: 3
     ecojobs:farmer_xp: 56.0
     ecoskills:dodging: 12
-    ecoskills:combat_xp: 2359.291683903803
+    ecoskills:combat_xp: 2666.1079373108323
     ecoskills:woodcutting: 2
     ecoskills:reimbursement: 5
     ecojobs:builder_xp: 125.60000000000642
-    ecoskills:armory_xp: 765.2468176165053
+    ecoskills:armory_xp: 991.0274205443535
     ecoskills:potionmaster: 0
     ecoskills:craftsmanship: 2
     ecoskills:wisdom: 18
@@ -3281,7 +3286,7 @@ player:
     ecoskills:crit_damage: 8
     ecoskills:seamless_movement: 12
     ecoskills:master_lumberjack: 2
-    ecoskills:exploration_xp: 1414.692934712957
+    ecoskills:exploration_xp: 3500.70083759364
     ecojobs:active_job: slayer
     ecoskills:exploration: 12
     ecoskills:satiation: 3
@@ -3298,57 +3303,57 @@ player:
     ecoskills:strong_impact: 1
     ecoskills:enchanting_xp: 557.0
   91083dff-b066-35ea-b335-9a4a33a9149d:
-    ecoskills:serrated_strikes: 8
-    ecoskills:second_chance: 9
+    ecoskills:serrated_strikes: 9
+    ecoskills:second_chance: 11
     ecoskills:infernal_resistance: 7
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 1
     ecoskills:bravery: 0
-    ecoskills:dazzle: 8
-    ecoskills:versatile_tools: 14
-    ecoskills:enchanting: 9
-    ecoskills:woodcutting_xp: 885.0
-    ecoskills:mining: 14
+    ecoskills:dazzle: 9
+    ecoskills:versatile_tools: 15
+    ecoskills:enchanting: 11
+    ecoskills:woodcutting_xp: 33.0
+    ecoskills:mining: 15
     ecoskills:farming: 4
-    ecoskills:dynamic_mining: 14
-    ecoskills:mining_xp: 12244.81500000069
+    ecoskills:dynamic_mining: 15
+    ecoskills:mining_xp: 11710.975000002829
     ecoskills:farming_xp: 141.0
     ecoskills:speed: 27
     eco:player_name: §8[§rPEASANT§8]§r §8[§aPIONEER§8]§r itachi§r
     ecoskills:mystic_resilience: 0
     ecoskills:efficient_brewing: 0
     ecoskills:eye_of_the_depths: 0
-    ecojobs:miner_level: 12
+    ecojobs:miner_level: 13
     ecoskills:dodging: 10
-    ecoskills:combat_xp: 1112.5097845200758
-    ecoskills:woodcutting: 7
-    ecoskills:reimbursement: 9
+    ecoskills:combat_xp: 1616.3114239694128
+    ecoskills:woodcutting: 8
+    ecoskills:reimbursement: 11
     ecoskills:armory_xp: .NaN
     ecoskills:potionmaster: 0
-    ecoskills:craftsmanship: 7
-    ecoskills:wisdom: 22
-    ecoskills:spelunking: 5
-    ecoskills:crit_chance: 19
-    ecoskills:overcompensation: 0
-    ecojobs:miner_xp: 286.7500000000068
+    ecoskills:craftsmanship: 8
+    ecoskills:wisdom: 26
+    ecoskills:spelunking: 6
+    ecoskills:crit_chance: 21
+    ecoskills:overcompensation: 2
+    ecojobs:miner_xp: 46.55000000003081
     ecoskills:armory: 7
-    ecoskills:crit_damage: 15
-    ecoskills:master_lumberjack: 7
+    ecoskills:crit_damage: 16
+    ecoskills:master_lumberjack: 8
     ecoskills:seamless_movement: 10
     ecoskills:exploration_xp: .NaN
     ecojobs:active_job: miner
     ecoskills:exploration: 10
     ecoskills:satiation: 4
     ecoskills:endangering: 0
-    ecoskills:combat: 8
+    ecoskills:combat: 9
     ecoskills:bountiful_harvest: 4
-    ecoskills:ferocity: 0
+    ecoskills:ferocity: 1
     ecoskills:magnetic_rod: 0
-    ecoskills:defense: 42
-    ecoskills:strength: 30
+    ecoskills:defense: 44
+    ecoskills:strength: 34
     ecoskills:shamanism: 7
     ecoskills:strong_impact: 0
-    ecoskills:enchanting_xp: 1939.0
+    ecoskills:enchanting_xp: 139.0
   ff62b985-91e6-3024-a74f-db3c07672c6e:
     ecoskills:serrated_strikes: 0
     ecoskills:second_chance: 0
@@ -3559,26 +3564,27 @@ player:
   3bb66c52-4533-3241-83ef-2c04bb300982:
     eco:player_name: §8[§dSTREAMER§8] §rHikachi§r
   6f78117b-5abf-34f2-96b8-ad329a2fa636:
-    ecoskills:serrated_strikes: 11
-    ecojobs:slayer_level: 14
+    ecoskills:serrated_strikes: 13
+    ecojobs:slayer_level: 16
     ecoskills:second_chance: 3
-    ecojobs:slayer_xp: 351.6460113271155
+    ecojobs:slayer_xp: 788.7980113271145
     ecoskills:infernal_resistance: 7
     ecoskills:golden_yield: 0
     ecoskills:accelerated_escape: 4
+    ecojobs:farmer_level: 2
     ecoskills:bravery: 0
-    ecojobs:lumberjack_xp: 28.620000000000545
-    ecoskills:dazzle: 11
-    ecoskills:alchemy_xp: 29.0
+    ecojobs:lumberjack_xp: 4.120000000000545
+    ecoskills:dazzle: 13
+    ecoskills:alchemy_xp: 65.0
     ecoskills:versatile_tools: 13
     ecoskills:enchanting: 3
-    ecoskills:woodcutting_xp: 2891.0
+    ecoskills:woodcutting_xp: 4953.0
     ecoskills:mining: 13
-    ecoskills:farming: 5
+    ecoskills:farming: 6
     ecojobs:fisherman_level: 16
     ecoskills:dynamic_mining: 13
-    ecoskills:mining_xp: 5310.0
-    ecoskills:farming_xp: 452.0
+    ecoskills:mining_xp: 5843.5
+    ecoskills:farming_xp: 991.5
     ecoskills:speed: 33
     ecoskills:mystic_resilience: 2
     eco:player_name: §8[§rPEASANT§8]§r §8[§aPIONEER§8]§r ImRayh§r
@@ -3587,17 +3593,17 @@ player:
     ecojobs:fisherman_xp: 130.0
     ecoskills:eye_of_the_depths: 8
     ecojobs:miner_level: 5
-    ecojobs:farmer_xp: 91.5
+    ecojobs:farmer_xp: 101.0
     ecoskills:dodging: 13
-    ecoskills:combat_xp: 7292.735690044861
-    ecoskills:woodcutting: 10
+    ecoskills:combat_xp: 367.7887504904918
+    ecoskills:woodcutting: 11
     ecoskills:reimbursement: 3
-    ecojobs:builder_xp: 1195.3440000000592
-    ecoskills:armory_xp: 501.30798516685223
+    ecojobs:builder_xp: 1407.7440000000672
+    ecoskills:armory_xp: 777.9415061341955
     ecoskills:alchemy: 2
     ecoskills:potionmaster: 2
-    ecoskills:craftsmanship: 10
-    ecoskills:wisdom: 21
+    ecoskills:craftsmanship: 11
+    ecoskills:wisdom: 22
     ecoskills:fishing_xp: 149.5
     ecoskills:spelunking: 4
     ecoskills:crit_chance: 20
@@ -3605,26 +3611,26 @@ player:
     ecojobs:miner_xp: 60.96000000000059
     ecoskills:armory: 7
     ecojobs:explorer_level: 17
-    ecoskills:crit_damage: 20
+    ecoskills:crit_damage: 23
     ecoskills:seamless_movement: 13
-    ecoskills:master_lumberjack: 10
-    ecoskills:exploration_xp: 8046.062469400506
+    ecoskills:master_lumberjack: 11
+    ecoskills:exploration_xp: 10398.693178076124
     ecojobs:active_job: slayer
     ecoskills:exploration: 13
-    ecoskills:satiation: 5
+    ecoskills:satiation: 6
     ecoskills:endangering: 0
-    ecoskills:combat: 11
-    ecoskills:bountiful_harvest: 5
+    ecoskills:combat: 13
+    ecoskills:bountiful_harvest: 6
     ecoskills:ferocity: 0
-    ecojobs:lumberjack_level: 5
+    ecojobs:lumberjack_level: 7
     ecojobs:explorer_xp: 355.46119362211186
     ecojobs:builder_level: 16
     ecoskills:magnetic_rod: 8
     ecoskills:defense: 56
-    ecoskills:strength: 42
+    ecoskills:strength: 48
     ecoskills:shamanism: 7
-    ecoskills:strong_impact: 2
-    ecoskills:enchanting_xp: 105.0
+    ecoskills:strong_impact: 4
+    ecoskills:enchanting_xp: 201.0
   3d7f8f63-a9ba-3842-945e-3f0b1acdfd2f:
     ecoskills:serrated_strikes: 0
     ecoskills:second_chance: 0

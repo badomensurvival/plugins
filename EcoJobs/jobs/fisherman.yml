@@ -61,12 +61,12 @@ level-xp-requirements:
 
 xp-gain-methods:
   - trigger: catch_fish
-    multiplier: 20.0
+    multiplier: 5.0
     conditions: [ ]
 
 level-placeholders:
   - id: "money"
-    value: "max(1,log(%level%)/log(2)) * 5"
+    value: "max(1,log(%level%)/log(2)) * 2"
 
 effects-description:
   1:
@@ -85,7 +85,7 @@ level-commands: [ ]
 effects:
   - id: give_money
     args:
-      amount: "%v% * max(1,log(%level%)/log(2)) * 2.0"
+      amount: "%v% * max(1,log(%level%)/log(2)) * 2"
     triggers:
       - catch_fish
 

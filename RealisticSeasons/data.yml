@@ -2,8 +2,8 @@ worlds:
   world: WINTER
 dates:
   world:
-    day: 5
-    month: 1
+    day: 26
+    month: 2
     year: 5
 players:
   colorsdisabled: []
@@ -4130,6 +4130,20 @@ placedblocks:
   - 219,74,127,world
   - 4024,233,3559,world
   - 130,78,81,world
+  - 165,65,154,world
+  - 192,70,141,world
+  - 192,70,139,world
+  - 191,70,137,world
+  - 187,69,144,world
+  - 190,69,147,world
+  - 193,70,141,world
+  - 195,71,137,world
+  - 196,71,142,world
+  - 4025,233,3566,world
+  - 26,76,36,world
+  - 92,68,209,world
+  - 94,68,209,world
+  - 92,68,204,world
   world_nether:
   - 121,67,370,world_nether
   - 121,67,371,world_nether

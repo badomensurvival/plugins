@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 187.74.89.114
+ip-address: 187.74.90.65
 afk: false
 socialspy: false
 npc: false
@@ -16,9 +16,9 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665690296291
-  login: 1665683692462
-money: '124.64712783673808782'
+  logout: 1666043202432
+  login: 1666118121635
+money: '166.044445309907084274'
 last-account-name: HeyPeter557
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 96.63297247846147
-  y: 75.0
-  z: -44.627923238265474
-  yaw: -107.40789794921875
-  pitch: 27.15276527404785
+  x: 84.0385071247365
+  y: 80.5
+  z: -37.722707692218684
+  yaw: 127.88232421875
+  pitch: 33.03891372680664

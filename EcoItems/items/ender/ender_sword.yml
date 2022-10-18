@@ -1,5 +1,5 @@
 item:
-  item: netherite_sword glow_artifact:1 ascend:1 custom-model-data:11 
+  item: netherite_sword glow_artifact:1 ascend:1 custom-model-data:11
   displayName: "<g:#c4bc8c>Ender Sword</g:#142c34>"
   lore:
     - ""
@@ -34,8 +34,9 @@ effects:
     args:
       chance: 20
       effect: levitation # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 1
       duration: 40 # The duration of the effect (in ticks)
-      apply_to_player: false 
+      apply_to_player: false
     triggers:
       - melee_attack
 conditions:
@@ -43,4 +44,4 @@ conditions:
     args:
       set: ender
 
-fuels: [ ]
+fuels: []
