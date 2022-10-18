@@ -15,6 +15,7 @@ kits:
     - white_bed 1
     - /backpacks give {player}
     - /lp user {player} parent add rank_rookie
+    - /petadmin create {player} Chicken
   noob:
     delay: 600
     items:

@@ -22,6 +22,8 @@ rename:
 # so the nation needs to pay upkeep to the server depending on their size.
 # NOTE: This option is bound to the upkeep option from config.yml. Upkeep needs to be enabled in config.yml.
 taxes:
+  # Set the minimum tax value per chunk.
+  min: 0
   # Set the maximum tax value the nation should be able to set PER CHUNK of their lands?
   # NOTE: Final payment would be for each land: land size (chunks) * cost
   max: 5.0

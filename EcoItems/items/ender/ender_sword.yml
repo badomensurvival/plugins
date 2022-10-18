@@ -1,0 +1,47 @@
+item:
+  item: netherite_sword glow_artifact:1 ascend:1 custom-model-data:11
+  displayName: "<g:#c4bc8c>Ender Sword</g:#142c34>"
+  lore:
+    - ""
+    - "<g:#c4bc8c>&lENDER SWORD BONUS</g:#142c34>"
+    - "&8» &#c4bc8cDeal 20% more damage against"
+    - "&#c4bc8cenderman"
+    - "&8» &#c4bc8c20% chance to deal levitation"
+  effectiveDurability: 2031
+  craftable: true
+  recipe:
+    - ""
+    - ecoitems:ender_shard
+    - ""
+    - ""
+    - netherite_sword
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 8
+baseAttackSpeed: 1.6
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - enderman
+    triggers:
+      - melee_attack
+  - id: potion_effect
+    args:
+      chance: 20
+      effect: levitation # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 1
+      duration: 40 # The duration of the effect (in ticks)
+      apply_to_player: false
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: ender
+
+fuels: []

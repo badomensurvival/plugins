@@ -1,0 +1,22 @@
+item:
+  item: amethyst_shard glow_artifact:1 unbreaking:1 hide_enchants hide_attributes
+  displayName: "<g:#55ff55>Emerald Shard</g:#3c663c>"
+  lore:
+    - "&8» &7Used to create <g:#55ff55>Emerald Armor and Tools</g:#3c663c>"
+  craftable: true
+  craftingPermission:
+  recipe:
+    - coal
+    - emerald_block
+    - iron_ingot
+    - emerald_block
+    - amethyst_shard
+    - emerald_block
+    - gold_ingot
+    - emerald_block
+    - diamond
+
+effects: [ ]
+conditions: [ ]
+
+fuels: [ ]

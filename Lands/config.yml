@@ -44,7 +44,7 @@ general:
     # Example: America/Los_Angeles or GMT-8:00
     # List of time zones: https://timezonedb.com/time-zones
     # If empty, it uses the time zone of the machine your server is running on.
-    time-zone: ''
+    time-zone: 'America/Sao_Paulo'
 
   # Worlds where players should be able to claim.
   # This list also supports setting a optional player claims height per world.
@@ -53,10 +53,12 @@ general:
   # NOTE: This setting requires server reload / restart.
   claim-worlds_list:
     - 'world'
+    - 'world_nether'
+    - 'world_the_end'
 
   # Edit the land you're standing in instead of the land from /lands edit?
   # For /lands claim you will still need to set the claim land with /lands edit.
-  edit-by-loc: false
+  edit-by-loc: true
 
   # Give players items at first join.
   # Setting the slot or the amount of an item to a value lower than 1, will not give the item on first join.
@@ -208,7 +210,7 @@ land:
     # If disabled the transaction will be sent to the owners personal account.
     bank: false
     # Use holograms instead of signs? If enabled, after setting up the rent or sell sign, the sign will disappear and a clickable hologram will appear.
-    holograms: false
+    holograms: true
     # Teleportation through the /lands rentlist command.
     teleport:
       # Cost for teleportation to a rentable area.
@@ -345,7 +347,7 @@ land:
     # NOTE: This setting requires server reload / restart.
     enabled_13: false
     # Should players pay with their personal account instead if their land bank does not have enough balance to pay the cost.
-    # This does only involve actions where the player is physically involved, like claiming or setting a land spawn. This does not include upkeep.
+    # This does only involve actions where the player is physically involved, like claiming or setting a land spawn or upkeep.
     # If true and the player has enough balance on his personal account, this will also send a notice to the player that the balance has been taken from his personal account.
     fallback: true
 
@@ -379,7 +381,7 @@ chunk:
     # Add: For example adding 10 dollars to the claim cost every time the land claims a chunk.
     # Default: Disables this option
     mode: 'Percentage'
-    value: 20
+    value: 25
     # Set the maximum claim cost.
     # NOTE: Set this to 0 in order to disable that option.
     max_2: 0.0
@@ -480,8 +482,10 @@ economic:
 taxes:
   # The interval can be configured in the "economic" section.
   enabled_3: true
+  # Set the minimum tax value.
+  min_2: 0
   # Set max tax value for a single area (if a land has no sub areas then this will be the default area)
-  max_3: 10.0
+  max_3: 10000.0
   # Untrust a land member from the area if he couldn't pay the taxes?
   untrust-member: true
   # Announce upcoming tax payments to players.
@@ -498,16 +502,16 @@ upkeep:
   enabled_19: true
   # How much should a land pay per chunk?
   # NOTE: Final payment would be land size (chunks) * cost
-  per-chunk: 30.0
+  per-chunk: 50.0
   # Should the last claimed chunks, which the land could not pay for, be deleted?
   # Example: The land has 10 claimed chunks, but it can pay the upkeep only for 6. So the 4 last claimed chunks will be deleted.
   # This continues each upkeep cicle until no claims are left.
-  unclaim: false
+  unclaim: true
   # Exclude land from upkeep, if it was recently created?
   # This will prevent recently created lands getting a chunk deleted, if the land owner / land bank doesn't have enough money (and if delete-chunk enabled).
   # So only lands, which are older than x seconds, will need to pay this.
   # Timeunit is seconds.
-  nopay_time: 2d
+  nopay_time: 5d
   # Remind land members, which can deposit money into their lands, about upcoming upkeep payments until they have enough money to pay it.
   # This helps your players lands keeping track of it and not loosing claims or their membership in the nation.
   reminder: 1h

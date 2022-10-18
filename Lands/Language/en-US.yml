@@ -1496,8 +1496,11 @@ wars:
       success:
         normal: '&7You &8({object}&8) &7successfully declared war against {enemy}&7.
           The war will start in&5 {time}&7.'
-        mutual: '&7You &8({object}&8) &7accepted the war against {enemy}&7. The war
-          will start in&5 {time}&7.'
+        mutual:
+          accepted: '&7You &8({object}&8) &7accepted the war against {enemy}&7. The
+            war will start in&5 {time}&7.'
+          sent: '&7You &8({object}&8) &7sent a war request to {enemy}&7. They need
+            to accept it, before this war can start.'
       target: '&7The enemy {attacker} &7declared war against {defender} &8(&7YOU&8)&7.
         The war will start in&5 {time}&7.'
       mutual:

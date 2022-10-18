@@ -35,7 +35,7 @@ sounds:
     volume: 1
     pitch: 1
 advancedLore:
-  - ''
+  - ""
   - "<g:#0052f5>&lADVANCED BONUS</g:#00297a>"
   - "&8» &#0052f5Get 50% more damage below 0"
   - "&8» &#0052f5Permanent Night Vision"
@@ -60,7 +60,7 @@ shard:
 helmet:
   item: netherite_helmet custom-model-data:6
   name: "<g:#0052f5>Sculk Helmet</g:#00297a>"
-  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Helmet"
+  advancedName: "<g:#0052f5>Advanced Sculk Helmet</g:#00297a>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -68,7 +68,7 @@ helmet:
     - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
     - "&8» &#0052f5Permanent Night Vision"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -80,13 +80,13 @@ helmet:
     - air
     - netherite_helmet
     - air
-    - gold_block
+    - sculk_catalyst
     - enchanted_golden_apple
-    - gold_block
+    - sculk_catalyst
 chestplate:
   item: netherite_chestplate custom-model-data:6
   name: "<g:#0052f5>Sculk Chestplate</g:#00297a>"
-  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Chestplate"
+  advancedName: "<g:#0052f5>Advanced Sculk Chestplate</g:#00297a>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -94,7 +94,7 @@ chestplate:
     - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
     - "&8» &#0052f5Permanent Night Vision"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -106,13 +106,13 @@ chestplate:
     - air
     - netherite_chestplate
     - air
-    - gold_block
+    - sculk_catalyst
     - enchanted_golden_apple
-    - gold_block
+    - sculk_catalyst
 elytra:
   item: elytra custom-model-data:6
   name: "<g:#0052f5>Sculk Elytra</g:#00297a>"
-  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Elytra"
+  advancedName: "<g:#0052f5>Advanced Sculk Elytra</g:#00297a>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -120,7 +120,7 @@ elytra:
     - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
     - "&8» &#0052f5Permanent Night Vision"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -132,13 +132,13 @@ elytra:
     - air
     - elytra
     - air
-    - gold_block
+    - sculk_catalyst
     - enchanted_golden_apple
-    - gold_block
+    - sculk_catalyst
 leggings:
   item: netherite_leggings custom-model-data:6
   name: "<g:#0052f5>Sculk Leggings</g:#00297a>"
-  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Leggings"
+  advancedName: "<g:#0052f5>Advanced Sculk Leggings</g:#00297a>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -146,7 +146,7 @@ leggings:
     - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
     - "&8» &#0052f5Permanent Night Vision"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -158,13 +158,13 @@ leggings:
     - air
     - netherite_leggings
     - air
-    - gold_block
+    - sculk_catalyst
     - enchanted_golden_apple
-    - gold_block
+    - sculk_catalyst
 boots:
   item: netherite_boots custom-model-data:6
   name: "<g:#0052f5>Sculk Boots</g:#00297a>"
-  advancedName: "<g:#0052f5>Advanced</g:#00297a>&#0052f5 Sculk Boots"
+  advancedName: "<g:#0052f5>Advanced Sculk Boots</g:#00297a>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -172,7 +172,7 @@ boots:
     - "<g:#0052f5>&lSCULK SET BONUS</g:#00297a>"
     - "&8» &#0052f5Permanent Night Vision"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -184,6 +184,6 @@ boots:
     - air
     - netherite_boots
     - air
-    - gold_block
+    - sculk_catalyst
     - enchanted_golden_apple
-    - gold_block
+    - sculk_catalyst

@@ -20,10 +20,19 @@ item:
     - ""
 baseDamage: 6
 baseAttackSpeed: 1
-effects: [ ]
+effects:
+  - id: potion_effect
+    args:
+      chance: 20
+      effect: blindness # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 1 # The level to give
+      duration: 60 # The duration of the effect (in ticks)
+      apply_to_player: false # True to apply to the player, false to apply to the victim
+    triggers:
+      - melee_attack
 conditions:
   - id: is_wearing_set
     args:
       set: sculk
 
-fuels: [ ]
+fuels: []

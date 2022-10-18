@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.15.3
+ip-address: 192.168.15.5
 afk: false
 socialspy: false
 npc: false
@@ -16,13 +16,13 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665593001049
-  login: 1665592997871
+  logout: 1665951474637
+  login: 1665951448735
   kits:
     pet: 1665230193862
     tools: 1661916647295
     noob: 1665325117544
-money: '1468.68513789398699846'
+money: '1412.23648838598334375'
 last-account-name: devbaraus
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
@@ -35,8 +35,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2081.237500011921
+  x: 2080.1941740204247
   y: 63.0
-  z: 5713.243236907214
-  yaw: -174.45005798339844
-  pitch: 11.70001220703125
+  z: 5709.467614488343
+  yaw: -64.20002746582031
+  pitch: 6.000008583068848

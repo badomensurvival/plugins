@@ -4,3 +4,5 @@ squaremap/web/tiles
 *.zip
 //teste
 EssentialsDiscord/config.yml
+DiscordSRV/config.yml
+*.db

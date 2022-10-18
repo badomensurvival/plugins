@@ -1,8 +1,13 @@
 conditions: []
 effects:
-  - id: hunger_multiplier
+  - id: damage_multiplier
     args:
-      multiplier: 0
+      multiplier: 0.5
+    filters:
+      projectiles:
+        - arrow
+    triggers:
+      - take_damage
 
 advancedEffects:
   - id: hunger_multiplier
@@ -12,7 +17,7 @@ advancedEffects:
     args:
       multiplier: 0.5
     filters:
-      projectiles: 
+      projectiles:
         - arrow
     triggers:
       - take_damage
@@ -34,7 +39,7 @@ sounds:
     volume: 1
     pitch: 1
 advancedLore:
-  - ''
+  - ""
   - "<g:#F8F8FF>&lADVANCED BONUS</g:#DCDCDC>"
   - "&8» &fTake no damage from arrows"
   - "&8» &fPermanent no hunger"
@@ -59,7 +64,7 @@ shard:
 helmet:
   item: netherite_helmet custom-model-data:10
   name: "<g:#F8F8FF>Skeletal Helmet</g:#DCDCDC>"
-  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Helmet"
+  advancedName: "<g:#F8F8FF>Advanced Skeletal Helmet</g:#DCDCDC>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -67,7 +72,7 @@ helmet:
     - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
     - "&8» &fPermanent no hunger"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -85,7 +90,7 @@ helmet:
 chestplate:
   item: netherite_chestplate custom-model-data:10
   name: "<g:#F8F8FF>Skeletal Chestplate</g:#DCDCDC>"
-  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Chestplate"
+  advancedName: "<g:#F8F8FF>Advanced Skeletal Chestplate</g:#DCDCDC>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -93,7 +98,7 @@ chestplate:
     - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
     - "&8» &fPermanent no hunger"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -111,7 +116,7 @@ chestplate:
 elytra:
   item: elytra custom-model-data:10
   name: "<g:#F8F8FF>Skeletal Elytra</g:#DCDCDC>"
-  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Elytra"
+  advancedName: "<g:#F8F8FF>Advanced Skeletal Elytra</g:#DCDCDC>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -119,7 +124,7 @@ elytra:
     - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
     - "&8» &fPermanent no hunger"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -137,7 +142,7 @@ elytra:
 leggings:
   item: netherite_leggings custom-model-data:10
   name: "<g:#F8F8FF>Skeletal Leggings</g:#DCDCDC>"
-  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Leggings"
+  advancedName: "<g:#F8F8FF>Advanced Skeletal Leggings</g:#DCDCDC>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -145,7 +150,7 @@ leggings:
     - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
     - "&8» &fPermanent no hunger"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -163,7 +168,7 @@ leggings:
 boots:
   item: netherite_boots custom-model-data:10
   name: "<g:#F8F8FF>Skeletal Boots</g:#DCDCDC>"
-  advancedName: "<g:#F8F8FF>Advanced</g:#DCDCDC>&6 Skeletal Boots"
+  advancedName: "<g:#F8F8FF>Advanced Skeletal Boots</g:#DCDCDC>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -171,7 +176,7 @@ boots:
     - "<g:#F8F8FF>&lSKELETAL SET BONUS</g:#DCDCDC>"
     - "&8» &fPermanent no hunger"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true

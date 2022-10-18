@@ -1,14 +1,13 @@
 conditions: []
 effects:
+  - id: bonus_health
+    args:
+      health: 10
   - id: damage_multiplier
     args:
       multiplier: 1.2
     triggers:
       - take_damage
-  - id: permanent_potion_effect
-    args:
-      effect: regeneration
-      level: 1
 advancedEffects:
   - id: damage_multiplier
     args:
@@ -39,7 +38,7 @@ sounds:
     volume: 1
     pitch: 1
 advancedLore:
-  - ''
+  - ""
   - "<g:#FDC830>&lADVANCED BONUS</g:#F37335>"
   - "&8» &eGet 10 more hearts"
   - "&8» &ePermanent Regeneration I"
@@ -65,17 +64,17 @@ shard:
 helmet:
   item: netherite_helmet custom-model-data:1
   name: "<g:#FDC830>Angelic Helmet</g:#F37335>"
-  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Helmet"
+  advancedName: "<g:#FDC830>Advanced Angelic Helmet</g:#F37335>"
   effects: []
   advancedEffects: []
   conditions: []
   lore:
     - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
-    - "&8» &ePermanent Regeneration I"
-    
+    - "&8» &eGet 10 more hearts"
+
     - "&8» &eTake 20% more damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -93,17 +92,17 @@ helmet:
 chestplate:
   item: netherite_chestplate custom-model-data:1
   name: "<g:#FDC830>Angelic Chestplate</g:#F37335>"
-  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Chestplate"
+  advancedName: "<g:#FDC830>Advanced Angelic Chestplate</g:#F37335>"
   effects: []
   advancedEffects: []
   conditions: []
   lore:
     - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
-    - "&8» &ePermanent Regeneration I"
-    
+    - "&8» &eGet 10 more hearts"
+
     - "&8» &eTake 20% more damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -121,17 +120,17 @@ chestplate:
 elytra:
   item: elytra custom-model-data:1
   name: "<g:#FDC830>Angelic Elytra</g:#F37335>"
-  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Elytra"
+  advancedName: "<g:#FDC830>Advanced Angelic Elytra</g:#F37335>"
   effects: []
   advancedEffects: []
   conditions: []
   lore:
     - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
-    - "&8» &ePermanent Regeneration I"
-    
+    - "&8» &eGet 10 more hearts"
+
     - "&8» &eTake 20% more damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -149,17 +148,17 @@ elytra:
 leggings:
   item: netherite_leggings custom-model-data:1
   name: "<g:#FDC830>Angelic Leggings</g:#F37335>"
-  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Leggings"
+  advancedName: "<g:#FDC830>Advanced Angelic Leggings</g:#F37335>"
   effects: []
   advancedEffects: []
   conditions: []
   lore:
     - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
-    - "&8» &ePermanent Regeneration I"
-    
+    - "&8» &eGet 10 more hearts"
+
     - "&8» &eTake 20% more damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -177,17 +176,17 @@ leggings:
 boots:
   item: netherite_boots custom-model-data:1
   name: "<g:#FDC830>Angelic Boots</g:#F37335>"
-  advancedName: "<g:#FDC830>Advanced</g:#F37335>&6 Angelic Boots"
+  advancedName: "<g:#FDC830>Advanced Angelic Boots</g:#F37335>"
   effects: []
   advancedEffects: []
   conditions: []
   lore:
     - "<g:#FDC830>&lANGELIC SET BONUS</g:#F37335>"
-    - "&8» &ePermanent Regeneration I"
-    
+    - "&8» &eGet 10 more hearts"
+
     - "&8» &eTake 20% more damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true

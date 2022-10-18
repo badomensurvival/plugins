@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665619340561
+  lastteleport: 1666050310152
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665620444891
-  login: 1665618413433
+  logout: 1666060501045
+  login: 1666054912606
   kits:
-    pet: 1665536854232
-    noob: 1665619025360
-money: '343.78807944670729918'
+    pet: 1666058358377
+    noob: 1666059293133
+money: '31.588048257329553201104298755526'
 last-account-name: D4vimf
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4056.350181291832
+  x: 4051.4472875767974
   y: 230.0
-  z: 3572.777334199643
-  yaw: -24.662689208984375
-  pitch: 5.55012845993042
+  z: 3574.591703127955
+  yaw: 52.11614990234375
+  pitch: -18.000064849853516
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4055.3835865033366
-  y: 232.875
-  z: 3578.8351807880113
-  yaw: 96.22415161132812
-  pitch: 41.8499755859375
+  x: 4053.300000011921
+  y: 230.0
+  z: 3573.850846003978
+  yaw: -3.569580078125
+  pitch: -2.8494603633880615

@@ -134,7 +134,7 @@ start-commands:
 - server:kickall Backup is starting!
 - server:maintenance on
 - server:save-all
-- 'server:dbcast backup :floppy_disk: Backup started!'
+- 'server:discord bcast #951998051097124883 :floppy_disk: Backup started!'
 # Commands which will be executed once a backup starts
 #  
 # Prefixes:
@@ -146,7 +146,7 @@ start-commands:
 # server:say I just found out how the command feature works
 finish-commands:
 - server:maintenance off
-- 'server:dbcast backup :floppy_disk: Backup finished!'
+- 'server:discord bcast #951998051097124883 :floppy_disk: Backup finished!'
 - server:stop
 # Commands which will be executed once a backup fails
 #  
@@ -159,5 +159,5 @@ finish-commands:
 # server:say I just found out how the command feature works
 fail-commands:
 - server:maintenance off
-- 'server:dbcast backup :skull_and_crossbones: Backup failed!'
+- 'server:discord bcast #951998051097124883 :skull_and_crossbones: Backup failed!'
 - server:stop

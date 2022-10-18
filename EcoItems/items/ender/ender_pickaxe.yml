@@ -1,0 +1,48 @@
+item:
+  item: netherite_pickaxe glow_artifact:1 custom-model-data:11
+  lore:
+    - ""
+    - "<g:#c4bc8c>&lENDER PICKAXE BONUS</g:#142c34>"
+    - "&8» &#c4bc8cDeal 20% more damage against"
+    - "&#c4bc8cenderman"
+    - "&8» &#c4bc8c20% chance to deal levitation"
+  displayName: "<g:#c4bc8c>Ender Pickaxe</g:#142c34>"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:ender_shard
+    - ""
+    - ""
+    - netherite_pickaxe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6
+baseAttackSpeed: 1
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - enderman
+    triggers:
+      - melee_attack
+  - id: potion_effect
+    args:
+      chance: 20
+      effect: levitation # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
+      level: 1
+      duration: 40 # The duration of the effect (in ticks)
+      apply_to_player: false
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: ender
+
+fuels: []

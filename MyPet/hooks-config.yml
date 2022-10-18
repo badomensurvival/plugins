@@ -26,3 +26,5 @@ CombatLogX:
     Hooks:
       CombatLogX:
         Ignore-Plugin-Settings: false
+SuperVanish:
+  Enabled: true

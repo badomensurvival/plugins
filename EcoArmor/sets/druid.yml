@@ -41,7 +41,7 @@ sounds:
     volume: 1
     pitch: 1
 advancedLore:
-  - ''
+  - ""
   - "<g:#4DCA39>&lADVANCED BONUS</g:#2BA817>"
   - "&8» &aMove 20% faster"
   - "&8» &aDeal 50% more damage with bows and crossbows"
@@ -76,7 +76,7 @@ helmet:
     - "&8» &aDeal 25% more damage with bows and crossbows"
     - "&8» &aDeal 10% less melee damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -94,7 +94,7 @@ helmet:
 chestplate:
   item: netherite_chestplate custom-model-data:2
   name: "<g:#4DCA39>Druid Chestplate</g:#2BA817>"
-  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Chestplate"
+  advancedName: "<g:#4DCA39>Advanced Druid Chestplate</g:#2BA817>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -103,7 +103,7 @@ chestplate:
     - "&8» &aDeal 25% more damage with bows and crossbows"
     - "&8» &aDeal 10% less melee damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -121,7 +121,7 @@ chestplate:
 elytra:
   item: elytra custom-model-data:2
   name: "<g:#4DCA39>Druid Elytra</g:#2BA817>"
-  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Elytra"
+  advancedName: "<g:#4DCA39>Advanced Druid Elytra</g:#2BA817>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -130,7 +130,7 @@ elytra:
     - "&8» &aDeal 25% more damage with bows and crossbows"
     - "&8» &aDeal 10% less melee damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -148,7 +148,7 @@ elytra:
 leggings:
   item: netherite_leggings custom-model-data:2
   name: "<g:#4DCA39>Druid Leggings</g:#2BA817>"
-  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Leggings"
+  advancedName: "<g:#4DCA39>Advanced Druid Leggings</g:#2BA817>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -157,7 +157,7 @@ leggings:
     - "&8» &aDeal 25% more damage with bows and crossbows"
     - "&8» &aDeal 10% less melee damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true
@@ -175,7 +175,7 @@ leggings:
 boots:
   item: netherite_boots custom-model-data:2
   name: "<g:#4DCA39>Druid Boots</g:#2BA817>"
-  advancedName: "<g:#4DCA39>Advanced</g:#2BA817>&a Druid Boots"
+  advancedName: "<g:#4DCA39>Advanced Druid Boots</g:#2BA817>"
   effects: []
   advancedEffects: []
   conditions: []
@@ -184,7 +184,7 @@ boots:
     - "&8» &aDeal 25% more damage with bows and crossbows"
     - "&8» &aDeal 10% less melee damage"
     - "&8&oRequires full set to be worn"
-    - ''
+    - ""
     - "&fTier: %tier%"
     - "&8&oUpgrade with an Upgrade Crystal"
   craftable: true

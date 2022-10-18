@@ -1,0 +1,19 @@
+name: Damon_f
+current: Global
+ignores: ''
+listen: Trade,Help,Announcement,Local,Global
+mutes:
+  Global:
+    time: 1665702121203
+    reason: Spamming
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Oct/13 20:00:53
