@@ -13,7 +13,7 @@ drop_items_after_expire: true
 lava_spawning: true
 lava_protection: true
 old_lava_protection: false
-void_spawning_chest: true
+void_spawning_chest: false
 auto_equip_armor: true
 clickable_message: true
 spawn_chest_on_highest_block: false

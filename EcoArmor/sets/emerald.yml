@@ -1,0 +1,195 @@
+conditions: []
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 0
+    filters:
+      - villager
+    triggers:
+      - melee_attack
+      - bow_attack
+
+advancedEffects:
+  - id: damage_multiplier
+    args:
+      multiplier: 0
+    filters:
+      - villager
+    triggers:
+      - melee_attack
+      - bow_attack
+  - id: permanent_potion_effect
+    args:
+      effect: hero_of_the_village
+      level: 1
+
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore:
+  - ""
+  - "<g:#55ff55>&lADVANCED BONUS</g:#3c663c>"
+  - "&8» &aDeal no damage to villagers"
+  - "&8» &aPermanent hero of the village"
+  - ""
+  - "&8&oRequires full set to be worn"
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<g:#55ff55>Advancement Shard:</g:#3c663c> &aEmerald"
+  lore:
+    - "&8Drop this onto &aEmerald Armor"
+    - "&8to make it <g:#55ff55>Advanced</g:#3c663c>."
+  craftable: true
+  recipe:
+    - prismarine_shard
+    - ecoitems:emerald_shard
+    - prismarine_shard
+    - ecoitems:emerald_shard
+    - nether_star
+    - ecoitems:emerald_shard
+    - prismarine_shard
+    - ecoitems:emerald_shard
+    - prismarine_shard
+helmet:
+  item: netherite_helmet custom-model-data:5
+  name: "<g:#55ff55>Emerald Helmet</g:#3c663c>"
+  advancedName: "<g:#55ff55>Advanced Emerald Helmet</g:#3c663c>"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#55ff55>&lEMERALD SET BONUS</g:#3c663c>"
+    - "&8» &aDeal no damage to villagers"
+    - "&8&oRequires full set to be worn"
+    - ""
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:emerald_shard
+    - diamond
+    - air
+    - netherite_helmet
+    - air
+    - emerald_block
+    - bell
+    - emerald_block
+chestplate:
+  item: netherite_chestplate custom-model-data:5
+  name: "<g:#55ff55>Emerald Chestplate</g:#3c663c>"
+  advancedName: "<g:#55ff55>Advanced Emerald Chestplate</g:#3c663c>"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#55ff55>&lEMERALD SET BONUS</g:#3c663c>"
+    - "&8» &aDeal no damage to villagers"
+    - "&8&oRequires full set to be worn"
+    - ""
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:emerald_shard
+    - diamond
+    - air
+    - netherite_chestplate
+    - air
+    - emerald_block
+    - bell
+    - emerald_block
+elytra:
+  item: elytra custom-model-data:5
+  name: "<g:#55ff55>Emerald Elytra</g:#3c663c>"
+  advancedName: "<g:#55ff55>Advanced Emerald Elytra</g:#3c663c>"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#55ff55>&lEMERALD SET BONUS</g:#3c663c>"
+    - "&8» &aDeal no damage to villagers"
+    - "&8&oRequires full set to be worn"
+    - ""
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:emerald_shard
+    - diamond
+    - air
+    - elytra
+    - air
+    - emerald_block
+    - bell
+    - emerald_block
+leggings:
+  item: netherite_leggings custom-model-data:5
+  name: "<g:#55ff55>Emerald Leggings</g:#3c663c>"
+  advancedName: "<g:#55ff55>Advanced Emerald Leggings</g:#3c663c>"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#55ff55>&lEMERALD SET BONUS</g:#3c663c>"
+    - "&8» &aDeal no damage to villagers"
+    - "&8&oRequires full set to be worn"
+    - ""
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:emerald_shard
+    - diamond
+    - air
+    - netherite_leggings
+    - air
+    - emerald_block
+    - bell
+    - emerald_block
+boots:
+  item: netherite_boots custom-model-data:5
+  name: "<g:#55ff55>Emerald Boots</g:#3c663c>"
+  advancedName: "<g:#55ff55>Advanced Emerald Boots</g:#3c663c>"
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - "<g:#55ff55>&lEMERALD SET BONUS</g:#3c663c>"
+    - "&8» &aDeal no damage to villagers"
+    - "&8&oRequires full set to be worn"
+    - ""
+    - "&fTier: %tier%"
+    - "&8&oUpgrade with an Upgrade Crystal"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - netherite_ingot
+    - ecoitems:emerald_shard
+    - diamond
+    - air
+    - netherite_boots
+    - air
+    - emerald_block
+    - bell
+    - emerald_block

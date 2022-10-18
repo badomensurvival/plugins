@@ -95,9 +95,9 @@ use-update-checker: true
 kill-skip-conditions:
 
   # ||  These ones are self-explanatory.
-  nametagged: false
-  tamed: false
-  leashed: false
+  nametagged: true
+  tamed: true
+  leashed: true
 
   # ||  If the mob is a zombie villager that is converting, skip.
   convertingZombieVillager: true
@@ -121,7 +121,7 @@ player-levelling-relevel-min-time: 5s
 
 # ||  This setting determines how far away an entity can be
 # ||  for it to register under `%levelledmobs_mob-target%`.
-nametag-placeholder-maxblocks: 30
+nametag-placeholder-maxblocks: 128
 
 # || ADVANCED USERS ONLY
 # || If your server software (e.g. Paper) has

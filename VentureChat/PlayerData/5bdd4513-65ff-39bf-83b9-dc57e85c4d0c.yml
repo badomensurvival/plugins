@@ -1,0 +1,16 @@
+name: Giovanigb
+current: Local
+ignores: ''
+listen: Trade,Help,Announcement,Local,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Oct/15 18:28:53

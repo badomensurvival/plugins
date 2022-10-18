@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 170.83.45.44
+ip-address: 170.83.46.5
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665635811738
-  login: 1665635634707
+  logout: 1665776628648
+  login: 1665776552455
 money: '19.53435123795664925192135948687792'
 last-account-name: CDZINx
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 71.37149319166573
+  x: 80.05000001192093
   y: 76.0
-  z: 29.876254392653085
-  yaw: -19.2139892578125
-  pitch: 18.283798217773438
+  z: 84.30000001192093
+  yaw: 160.8697967529297
+  pitch: 2.2480804920196533

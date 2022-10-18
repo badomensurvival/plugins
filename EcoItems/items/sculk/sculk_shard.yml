@@ -16,7 +16,7 @@ item:
     - sculk_catalyst
     - sculk_catalyst
 
-effects: [ ]
-conditions: [ ]
+effects: []
+conditions: []
 
-fuels: [ ]
+fuels: []

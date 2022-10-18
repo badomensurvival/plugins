@@ -20,7 +20,17 @@ item:
     - ""
 baseDamage: 6.5
 baseAttackSpeed: 1
-effects: [ ]
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.2
+    filters:
+      entities:
+        - skeleton
+        - stray
+        - wither_skeleton
+    triggers:
+      - melee_attack
 conditions:
   - id: is_wearing_set
     args:

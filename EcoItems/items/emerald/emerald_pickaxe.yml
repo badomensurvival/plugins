@@ -1,0 +1,39 @@
+item:
+  item: netherite_pickaxe glow_artifact:1 custom-model-data:5
+  lore:
+    - ""
+    - "<g:#55ff55>&lEMERALD PICKAXE BONUS</g:#3c663c>"
+    - "&8» &aDeal 50% more damage against"
+    - "&#55ff55pillagers"
+  displayName: "<g:#55ff55>Emerald Pickaxe</g:#3c663c>"
+  effectiveDurability: 2031
+  craftable: true
+  craftingPermission:
+  recipe:
+    - ""
+    - ecoitems:emerald_shard
+    - ""
+    - ""
+    - netherite_pickaxe
+    - ""
+    - ""
+    - ""
+    - ""
+baseDamage: 6
+baseAttackSpeed: 1
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 1.5
+    filters:
+      entities:
+        - pillager
+        - ravager
+    triggers:
+      - melee_attack
+conditions:
+  - id: is_wearing_set
+    args:
+      set: emerald
+
+fuels: [ ]

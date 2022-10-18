@@ -23,6 +23,7 @@ baseAttackSpeed: 1
 effects:
   - id: potion_effect
     args:
+      chance: 20
       effect: blindness # The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
       level: 1 # The level to give
       duration: 60 # The duration of the effect (in ticks)
@@ -34,4 +35,4 @@ conditions:
     args:
       set: sculk
 
-fuels: [ ]
+fuels: []
