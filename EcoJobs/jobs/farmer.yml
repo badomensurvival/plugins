@@ -42,22 +42,22 @@ level-xp-requirements:
   - 24000
   - 29000
   - 34000
-  - 41000
+  - 39000
+  - 45000
   - 50000
+  - 55000
   - 60000
+  - 65000
   - 70000
+  - 75000
+  - 80000
   - 85000
+  - 90000
+  - 95000
   - 100000
+  - 105000
+  - 110000
   - 120000
-  - 150000
-  - 180000
-  - 210000
-  - 250000
-  - 300000
-  - 360000
-  - 440000
-  - 580000
-  - 750000
 
 xp-gain-methods:
   - trigger: mine_block
@@ -77,7 +77,7 @@ xp-gain-methods:
         - "nether_wart"
         - "sweet_berries"
         - "glow_berries"
-      fully_grown: true
+        - "nether Warth"
 
 level-placeholders:
   - id: "money"
@@ -115,6 +115,7 @@ effects:
         - "nether_wart"
         - "sweet_berries"
         - "glow_berries"
+        - "nether Warth"
     triggers:
       - mine_block
 
