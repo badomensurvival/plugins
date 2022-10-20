@@ -77,8 +77,7 @@ xp-gain-methods:
         - "nether_wart"
         - "sweet_berries"
         - "glow_berries"
-        - "nether_wart"
-        - "sugar_cane"
+
 
 level-placeholders:
   - id: "money"
