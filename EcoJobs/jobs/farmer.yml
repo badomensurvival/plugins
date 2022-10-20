@@ -77,7 +77,8 @@ xp-gain-methods:
         - "nether_wart"
         - "sweet_berries"
         - "glow_berries"
-        - "nether Warth"
+        - "nether_wart"
+        - "sugar_cane"
 
 level-placeholders:
   - id: "money"
@@ -115,7 +116,8 @@ effects:
         - "nether_wart"
         - "sweet_berries"
         - "glow_berries"
-        - "nether Warth"
+        - "nether_wart"
+        - "sugar_cane"
     triggers:
       - mine_block
 
