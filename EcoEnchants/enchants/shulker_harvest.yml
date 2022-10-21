@@ -5,8 +5,8 @@ type: normal
 
 targets:
   - sword
-conflicts:
-  - looting
+  - book
+conflicts: [ ]
 rarity: epic
 max-level: 3
 

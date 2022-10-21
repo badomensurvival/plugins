@@ -6,6 +6,7 @@ targets:
   - pickaxe
   - sword
   - axe
+  - book
 conflicts: [ ]
 rarity: common
 max-level: 1

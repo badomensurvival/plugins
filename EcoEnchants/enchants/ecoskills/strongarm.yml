@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - trident
+  - book
 conflicts: [ ]
 rarity: rare
 max-level: 2

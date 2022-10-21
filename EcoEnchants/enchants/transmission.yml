@@ -5,6 +5,7 @@ type: spell
 
 targets:
   - sword
+  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 2
@@ -26,7 +27,7 @@ effects:
           volume: 1
 
     args:
-      cooldown: 90
+      cooldown: "90 - %level% * 15"
       send_cooldown_message: true
     triggers:
       - alt_click

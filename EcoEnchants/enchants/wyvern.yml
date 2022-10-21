@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - elytra
+  - book
 conflicts: [ ]
 rarity: epic
 max-level: 2

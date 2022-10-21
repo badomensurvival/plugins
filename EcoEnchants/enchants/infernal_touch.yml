@@ -4,6 +4,7 @@ type: normal
 
 targets:
   - pickaxe
+  - book
 conflicts:
   - silk_touch
 rarity: legendary

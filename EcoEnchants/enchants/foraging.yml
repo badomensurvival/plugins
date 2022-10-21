@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - shears
+  - book
 conflicts: [ ]
 rarity: common
 max-level: 4

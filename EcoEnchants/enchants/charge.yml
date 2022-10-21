@@ -5,6 +5,7 @@ type: spell
 
 targets:
   - sword
+  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 2

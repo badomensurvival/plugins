@@ -5,6 +5,7 @@ type: common
 
 targets:
   - sword
+  - book
 conflicts:
   - sharpness
   - smite
