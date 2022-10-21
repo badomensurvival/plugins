@@ -8,6 +8,7 @@ targets:
   - bow
   - trident
   - crossbow
+  - book
 conflicts: [ ]
 rarity: rare
 max-level: 3

@@ -5,9 +5,10 @@ type: normal
 
 targets:
   - armor
+  - book
 conflicts: [ ]
 rarity: legendary
-max-level: 3
+max-level: 8
 
 tradeable: true
 discoverable: true

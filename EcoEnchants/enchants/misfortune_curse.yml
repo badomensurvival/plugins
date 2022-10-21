@@ -8,6 +8,7 @@ targets:
 - shovel
 - pickaxe
 - axe
+- book
 conflicts: []
 rarity: legendary
 max-level: 1

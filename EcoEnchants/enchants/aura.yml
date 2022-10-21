@@ -8,6 +8,7 @@ type: special
 targets:
   - chestplate
   - leggings
+  - book
 conflicts: [ ]
 rarity: special
 max-level: 2

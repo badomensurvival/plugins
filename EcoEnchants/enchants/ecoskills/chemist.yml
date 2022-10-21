@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - helmet
+  - book
 conflicts:
   - enriched_plating
   - sorcery

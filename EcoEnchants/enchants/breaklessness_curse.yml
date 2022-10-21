@@ -8,6 +8,7 @@ targets:
 - hoe
 - pickaxe
 - shovel
+- book
 conflicts: []
 rarity: legendary
 max-level: 1

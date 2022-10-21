@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - armor
+  - book
 conflicts:
   - sorcery
   - chemist

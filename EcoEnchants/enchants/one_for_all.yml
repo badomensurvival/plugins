@@ -6,6 +6,7 @@ type: special
 targets:
   - sword
   - axe
+  - book
 conflicts:
   - everything
 rarity: veryspecial
@@ -18,7 +19,7 @@ enchantable: true
 effects:
   - id: damage_multiplier
     args:
-      multiplier: 5
+      multiplier: 10
     triggers:
       - melee_attack
 

@@ -5,6 +5,7 @@ type: normal
 
 targets:
   - chestplate
+  - book
 conflicts: [ ]
 rarity: rare
 max-level: 4

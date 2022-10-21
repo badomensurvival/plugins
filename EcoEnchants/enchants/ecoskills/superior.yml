@@ -5,6 +5,7 @@ type: special
 
 targets:
   - armor
+  - book
 conflicts: [ ]
 rarity: veryspecial
 max-level: 2

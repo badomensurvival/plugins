@@ -8,6 +8,7 @@ type: normal
 targets:
   - bow
   - crossbow
+  - book
 conflicts: [ ]
 rarity: epic
 max-level: 4

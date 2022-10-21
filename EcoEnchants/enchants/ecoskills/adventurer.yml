@@ -5,10 +5,11 @@ type: normal
 
 targets:
   - boots
+  - book
 conflicts:
   - enriched_plating
 rarity: uncommon
-max-level: 6
+max-level: 10
 
 tradeable: true
 discoverable: true
