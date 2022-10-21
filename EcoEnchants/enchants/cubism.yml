@@ -8,7 +8,6 @@ targets:
   - axe
   - bow
   - crossbow
-  - book
 conflicts: [ ]
 rarity: rare
 max-level: 7

@@ -7,7 +7,6 @@ type: spell
 
 targets:
   - pickaxe
-  - book
 conflicts: [ ]
 rarity: special
 max-level: 3

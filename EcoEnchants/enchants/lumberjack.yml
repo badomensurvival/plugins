@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - axe
-  - book
 conflicts: [ ]
 rarity: rare
 max-level: 6

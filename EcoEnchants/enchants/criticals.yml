@@ -6,7 +6,6 @@ type: normal
 targets:
   - sword
   - axe
-  - book
 conflicts: [ ]
 rarity: epic
 max-level: 3

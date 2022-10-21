@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - helmet
-  - book
 conflicts: [ ]
 rarity: common
 max-level: 3

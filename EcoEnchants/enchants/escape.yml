@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - boots
-  - book
 conflicts:
   - streamlining
 rarity: epic

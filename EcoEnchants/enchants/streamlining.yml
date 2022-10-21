@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - boots
-  - book
 conflicts: [ ]
 rarity: special
 max-level: 4

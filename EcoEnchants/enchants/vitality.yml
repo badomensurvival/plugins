@@ -7,7 +7,6 @@ targets:
   - axe
   - pickaxe
   - shovel
-  - book
 conflicts: []
 rarity: special
 max-level: 1

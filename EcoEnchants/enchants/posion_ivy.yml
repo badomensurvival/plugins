@@ -7,7 +7,6 @@ type: normal
 
 targets:
   - leggings
-  - book
 conflicts:
   - thorns
 rarity: epic

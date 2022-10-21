@@ -7,7 +7,6 @@ targets:
   - sword
   - bow
   - trident
-  - book
 conflicts:
   - nether_affinity
 rarity: epic

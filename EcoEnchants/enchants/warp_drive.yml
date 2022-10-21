@@ -5,7 +5,6 @@ type: special
 
 targets:
   - bow
-  - book
 conflicts: [ ]
 rarity: veryspecial
 max-level: 1
