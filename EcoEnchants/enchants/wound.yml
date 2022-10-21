@@ -9,7 +9,6 @@ type: normal
 targets:
   - bow
   - crossbow
-  - book
 conflicts:
   - sharpness
 rarity: legendary

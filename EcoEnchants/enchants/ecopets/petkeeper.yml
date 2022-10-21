@@ -7,7 +7,7 @@ targets:
   - armor
 conflicts: [ ]
 rarity: epic
-max-level: 10
+max-level: 4
 
 tradeable: true
 discoverable: true

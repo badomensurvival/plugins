@@ -12,10 +12,9 @@ targets:
   - bow
   - crossbow
   - trident
-  - book
 conflicts: [ ]
 rarity: uncommon
-max-level: 5
+max-level: 3
 
 tradeable: true
 discoverable: true

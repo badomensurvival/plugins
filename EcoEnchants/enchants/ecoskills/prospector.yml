@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - pickaxe
-  - book
 conflicts: [ ]
 rarity: uncommon
 max-level: 5

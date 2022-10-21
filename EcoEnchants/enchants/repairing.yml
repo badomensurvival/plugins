@@ -7,7 +7,8 @@ placeholders:
 
 targets:
   - all
-conflicts: [ ]
+conflicts:
+  - mending
 rarity: veryspecial
 max-level: 3
 
@@ -17,6 +18,6 @@ enchantable: true
 
 conditions: [ ]
 
-repair-per-level: 2 # The amount of durability to add on each item
+repair-per-level: 1 # The amount of durability to add on each item
 frequency: 30 # How often to repair the item (in ticks, doesn't support %level%)
 not-while-holding: true # If items shouldn't be repaired while they are being held

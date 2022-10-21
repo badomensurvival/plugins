@@ -5,7 +5,6 @@ type: special
 
 targets:
   - sword
-  - book
 conflicts: [ ]
 rarity: special
 max-level: 4

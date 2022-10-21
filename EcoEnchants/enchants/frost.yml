@@ -7,7 +7,6 @@ type: normal
 
 targets:
   - bow
-  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 3

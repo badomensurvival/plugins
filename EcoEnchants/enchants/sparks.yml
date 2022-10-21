@@ -7,7 +7,6 @@ type: normal
 
 targets:
   - fishing_rod
-  - book
 conflicts: [ ]
 rarity: rare
 max-level: 5

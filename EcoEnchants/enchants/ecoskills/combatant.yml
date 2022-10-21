@@ -5,10 +5,9 @@ type: normal
 
 targets:
   - pickaxe
-  - book
 conflicts: [ ]
 rarity: uncommon
-max-level: 8
+max-level: 3
 
 tradeable: true
 discoverable: true

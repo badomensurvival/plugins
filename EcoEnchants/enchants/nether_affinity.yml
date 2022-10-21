@@ -7,7 +7,6 @@ targets:
   - sword
   - bow
   - trident
-  - book
 conflicts:
   - end_affinity
 rarity: epic

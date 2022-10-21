@@ -5,7 +5,6 @@ type: curse
 
 targets:
 - helmet
-- book
 conflicts: []
 rarity: legendary
 max-level: 1

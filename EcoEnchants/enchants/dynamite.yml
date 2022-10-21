@@ -5,7 +5,6 @@ type: spell
 
 targets:
   - pickaxe
-  - book
 conflicts: []
 rarity: legendary
 max-level: 2
@@ -28,7 +27,6 @@ effects:
           - obsidian
           - barrier
           - bedrock
-          - chest
         check_hardness: false
 
     - id: play_sound

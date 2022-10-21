@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - shield
-  - book
 conflicts: [ ]
 rarity: epic
 max-level: 3

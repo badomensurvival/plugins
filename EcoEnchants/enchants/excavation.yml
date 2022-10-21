@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - shovel
-  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 5

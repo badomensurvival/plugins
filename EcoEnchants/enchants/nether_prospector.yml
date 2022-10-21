@@ -5,11 +5,11 @@ type: normal
 
 targets:
   - pickaxe
-  - book
 conflicts:
+  - fortune
   - silk_touch
 rarity: legendary
-max-level: 3
+max-level: 2
 
 tradeable: true
 discoverable: true
@@ -22,7 +22,7 @@ effects:
         - ancient_debris
       fortune: "%level%"
     filters:
-      player_placed: true
+      player_placed: false
     triggers:
       - block_item_drop
 

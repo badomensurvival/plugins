@@ -4,7 +4,6 @@ type: normal
 
 targets:
   - boots
-  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 1

@@ -8,7 +8,6 @@ type: normal
 
 targets:
   - trident
-  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 3

@@ -5,7 +5,6 @@ type: normal
 
 targets:
   - armor
-  - book
 conflicts: [ ]
 rarity: epic
 max-level: 5

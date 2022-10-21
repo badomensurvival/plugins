@@ -5,10 +5,9 @@ type: normal
 
 targets:
   - hoe
-  - book
 conflicts: [ ]
 rarity: uncommon
-max-level: 8
+max-level: 2
 
 tradeable: true
 discoverable: true

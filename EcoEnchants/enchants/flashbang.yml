@@ -6,7 +6,6 @@ type: normal
 targets:
   - bow
   - crossbow
-  - book
 conflicts: [ ]
 rarity: rare
 max-level: 6

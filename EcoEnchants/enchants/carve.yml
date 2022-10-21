@@ -7,7 +7,6 @@ type: normal
 
 targets:
   - axe
-  - book
 conflicts: [ ]
 rarity: legendary
 max-level: 4
