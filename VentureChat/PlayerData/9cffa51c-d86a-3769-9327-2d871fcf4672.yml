@@ -1,0 +1,19 @@
+name: Fluvio__
+current: Local
+ignores: ''
+listen: Trade,Help,Announcement,Local,Global
+mutes:
+  Local:
+    time: 1666216089496
+    reason: Spamming
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Oct/19 18:44:13

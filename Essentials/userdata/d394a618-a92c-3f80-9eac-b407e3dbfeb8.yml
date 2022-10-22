@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1666052331602
+  lastteleport: 1666321052433
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1666058928807
-  login: 1666055029295
+  logout: 1666406104086
+  login: 1666397743050
   kits:
     noob: 1666052134390
-    pet: 1666057413403
-money: '1347.14987173155098235'
+    pet: 1666302298267
+money: '0.0'
 last-account-name: Zander404
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4054.0654404503334
+  x: 4061.1735190417053
   y: 230.0
-  z: 3574.8186475877546
-  yaw: 25.285797119140625
-  pitch: 37.50004577636719
+  z: 3576.2831661296063
+  yaw: -100.11373901367188
+  pitch: 27.599964141845703
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4800.399058751735
+  x: 4791.889860840827
   y: 63.0
-  z: 3197.5110662974425
-  yaw: 117.28593444824219
-  pitch: 42.75020980834961
+  z: 3200.868811448964
+  yaw: -140.865966796875
+  pitch: 19.200176239013672

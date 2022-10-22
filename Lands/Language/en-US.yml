@@ -972,9 +972,6 @@ lands:
           region management plugin: {plugin}'
         selection: '&cYou can''t claim this selection. &7It contains parts of a region
           from another region management plugin: {plugin}'
-      land: |
-        &cYou don''t own or are trusted in a land that you're allowed to claim for.
-          [T]&7✖ Create one: &e/lands create &8<&ename&8> &8[&8CLICK&8][SC]lands create[/SC][H]&7Click to copy this command.[/H][/T]
       war: '&cYou can''t claim while being engaged in a war against {object}&c.'
       already: '&cYou can''t claim this chunk. &7It already belongs to land&2 {land}&7.'
       initial-world: '&cFor land&4 {land} &cyou can only claim in its initial land

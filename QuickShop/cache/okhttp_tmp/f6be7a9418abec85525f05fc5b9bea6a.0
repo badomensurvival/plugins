@@ -9,17 +9,17 @@ accept-ranges: bytes
 x-amzn-internal-status: 304
 x-amz-server-side-encryption: AES256
 age: 45
-date: Tue, 18 Oct 2022 17:39:16 GMT
+date: Sat, 22 Oct 2022 11:38:44 GMT
 last-modified: Thu, 07 Apr 2022 02:00:02 GMT
 cache-control: no-cache
 server: AmazonS3
 etag: "c25a4890f92e095f454e70a5ed0acffe"
 x-cache: RefreshHit from cloudfront
-via: 1.1 0b631faf1a288a571bee18855438ce88.cloudfront.net (CloudFront)
-x-amz-cf-pop: GRU3-C2
-x-amz-cf-id: Q4uUSVDe43ebg-PPejr4tf1b5g_YD4Du6Ja79AiERxXFRFxl7C7flw==
-OkHttp-Sent-Millis: 1666114755240
-OkHttp-Received-Millis: 1666114755769
+via: 1.1 c6bf8e9f2951e1591e089a6bee732914.cloudfront.net (CloudFront)
+x-amz-cf-pop: GRU3-P2
+x-amz-cf-id: KdSJ2cSnOjA6Ec4rIQWqTJyP0cwJsVt52maXqGeCWve6fWPHkHLHvA==
+OkHttp-Sent-Millis: 1666438723292
+OkHttp-Received-Millis: 1666438723837
 
 TLS_AES_128_GCM_SHA256
 3

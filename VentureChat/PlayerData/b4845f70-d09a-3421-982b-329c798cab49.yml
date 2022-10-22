@@ -1,5 +1,5 @@
 name: Nervosa_77
-current: Local
+current: Trade
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/15 22:36:24
+date: 2022/Oct/21 20:24:27

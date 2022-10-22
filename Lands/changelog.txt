@@ -1,7 +1,6 @@
-+ Changed: Enabled first join items for new installations
-- Fixed: [#2143] Player not removed correctly from captureflag region on logout, in specific environments
++ Added: API: WarStartEvent
 
-
---> Language file (en-US.yml): 
-+ Message: wars.command.declare.success.mutual.accepted
-+ Message: wars.command.declare.success.mutual.sent
+- Fixed: Auto land selection at /l claim, if no land but edit land selected
+- Fixed: [#2148] /lands claim fill shape not found
++ Improved: Instant update /map view if claimed using other methods other than /lands map
++ Improved: Dynmap data prep and generation

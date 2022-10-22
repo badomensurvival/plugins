@@ -1,5 +1,5 @@
 name: suricatode
-current: Local
+current: Global
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/18 15:09:55
+date: 2022/Oct/19 23:02:25

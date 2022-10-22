@@ -18,7 +18,7 @@ sql:
       uuid: uuid
       rank: rank
 chat-format:
-  enabled: false
+  enabled: true
   default-format: '%thebestranks_rank% &r%vault_rankprefix% &f%player_name%&7: &r%message%'
   per-group:
     owner: '%vault_rankprefix% &4%player_name%&7: &r%message%'
@@ -39,6 +39,7 @@ messages:
   unknown-arg: '&e&lTBR &7We could not understand what you want to do. Try &a/rank help'
   status-done: '&a&l✔'
   status-not-done: '&c&l✘'
+  reloaded: '&e&lTBR &7All the files are reloaded'
   help-players:
     - '&e&lThe Best Ranks &7- &fEasy and simple rank plugin'
     - ' '

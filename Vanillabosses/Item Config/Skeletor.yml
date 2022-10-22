@@ -1,5 +1,5 @@
 dropChance: 0.05
-enableCraftingRecipe: true
+enableCraftingRecipe: false
 Lore:
   - The favorite bow of the Skeleton King
   - -Shoots TNT-

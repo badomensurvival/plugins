@@ -4,7 +4,8 @@ effects:
     args:
       multiplier: 0
     filters:
-      - villager
+      entities:
+        - villager
     triggers:
       - melee_attack
       - bow_attack
@@ -14,7 +15,8 @@ advancedEffects:
     args:
       multiplier: 0
     filters:
-      - villager
+      entities:
+        - villager
     triggers:
       - melee_attack
       - bow_attack

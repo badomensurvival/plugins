@@ -16,13 +16,13 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1666050003166
-  login: 1666047573381
+  logout: 1666310057029
+  login: 1666308151489
   kits:
     tools: 1661818418530
     pet: 1664837818193
-    noob: 1665963293490
-money: '19749.032785827883868680'
+    noob: 1666135009049
+money: '0.0'
 last-account-name: oLemonBr
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
@@ -35,8 +35,8 @@ lastlocation:
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 274.7919
-  y: -22.0
-  z: -1407.9457
-  yaw: 6.443511962890625
-  pitch: -0.485321044921875
+  x: 314.1784
+  y: 63.0
+  z: -918.16693
+  yaw: -81.04173278808594
+  pitch: 12.042770385742188

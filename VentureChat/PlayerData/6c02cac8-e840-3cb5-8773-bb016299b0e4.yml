@@ -1,5 +1,5 @@
 name: devbaraus
-current: Global
+current: Local
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/16 17:17:54
+date: 2022/Oct/22 09:12:27

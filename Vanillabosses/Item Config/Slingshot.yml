@@ -1,13 +1,13 @@
-itemMaterial: Wooden_Hoe  # Must be a damageable item (weapon or tool. (Armor works too))
+itemMaterial: Wooden_Hoe # Must be a damageable item (weapon or tool. (Armor works too))
 enableSpawnCommand: true
 chance: 0.15
 thrustMultiplier: 1.5
 enableBoostSound: true
-boostSoundVolume: 1       #keep low, or earrape
+boostSoundVolume: 1 #keep low, or earrape
 enableDamagingOnUse: true
 damageOnUseAmount: 1
 antiFallDamageTime: 5 #in seconds, how long after you use the slingshot you are protected from fall damage for. Fall damage is cancelled once at the most
-enableCraftingRecipe: true
+enableCraftingRecipe: false
 Lore:
   - Makes you leap forward when rightclicked!
   - sneak to use

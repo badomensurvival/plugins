@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665766064249
-  login: 1665765515306
-money: '100'
+  logout: 1666285466643
+  login: 1666284991830
+money: '0.0'
 last-account-name: potato8627
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2195.69999
+  x: 4056.003
   y: 64.0
-  z: 1021.3002
-  yaw: -110.49022674560547
-  pitch: 13.713699340820312
+  z: 1740.9828
+  yaw: -81.12134552001953
+  pitch: 35.454254150390625
+lastlocation:
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2177.213
+  y: 64.5
+  z: 1039.4886
+  yaw: 83.7579345703125
+  pitch: 10.133377075195312

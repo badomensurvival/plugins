@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 179.55.88.35
+ip-address: 177.149.150.144
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665705498153
+  lastteleport: 1666403223517
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1666060307572
-  login: 1666056000703
+  logout: 1666412490948
+  login: 1666412289319
   kits:
-    noob: 1665707049192
-    pet: 1665707041174
-money: '1359.29721099379050165'
+    noob: 1666405931512
+    pet: 1666406039509
+money: '0.0'
 last-account-name: pedrofff
 lastlocation:
-  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
-  world-name: world
-  x: 3267.5
-  y: 9.0
-  z: 4464.5
-  yaw: -98.92162322998047
-  pitch: -1.6500004529953003
+  world: c7f35299-9408-444c-9dba-f0fc5c4dbdfb
+  world-name: world_nether
+  x: 604.3000000119209
+  y: 193.0
+  z: 419.69999998807907
+  yaw: -157.66259765625
+  pitch: -32.70068359375
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 4050.5435445360013
-  y: 234.0
-  z: 3584.2822850153902
-  yaw: 152.5732421875
-  pitch: 20.099884033203125
+  x: 4791.3828563129155
+  y: 63.0
+  z: 3190.3551972777286
+  yaw: -9.567444801330566
+  pitch: 49.20056915283203

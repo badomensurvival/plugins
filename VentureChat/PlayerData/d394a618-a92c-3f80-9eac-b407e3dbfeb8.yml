@@ -1,5 +1,5 @@
 name: Zander404
-current: Trade
+current: Local
 ignores: ''
 listen: Trade,Help,Announcement,Local,Global
 mutes: {}
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2022/Oct/17 23:08:48
+date: 2022/Oct/21 23:35:04

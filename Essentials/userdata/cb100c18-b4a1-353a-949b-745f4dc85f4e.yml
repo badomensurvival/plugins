@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 192.168.15.5
@@ -11,36 +11,36 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1666114992946
+  lastteleport: 1666440046773
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 0
-  login: 1666114824623
+  login: 1666438798467
   kits:
     tools: 1661819697278
     pet: 1665003622440
-    noob: 1665531748189
+    noob: 1666139968245
     test: 1665324792087
-money: '90.4501055287470598'
+money: '6.39999999999999364'
 last-account-name: nolsup
 lastlocation:
-  world: 2858a46a-7685-4506-8c98-38eaef5a8693
-  world-name: world_the_end
-  x: 281.5630496861506
-  y: 37.0
-  z: 5.849541891511708
-  yaw: 26.39617919921875
-  pitch: 6.299971103668213
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 2094.156060624869
+  y: 32.0
+  z: 5725.307075895208
+  yaw: 89.37158203125
+  pitch: -7.650254726409912
 logoutlocation:
-  world: 2858a46a-7685-4506-8c98-38eaef5a8693
-  world-name: world_the_end
-  x: 283.31996795388477
-  y: 37.0
-  z: 11.314322517071508
-  yaw: 135.8848876953125
-  pitch: 7.6497483253479
+  world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
+  world-name: world
+  x: 4850.402126327621
+  y: 164.0
+  z: 3308.739114600105
+  yaw: 92.23657989501953
+  pitch: 19.20001983642578
 homes:
   spawn:
     world: cd6e2a96-ee51-41a5-89dd-dd058e3be410

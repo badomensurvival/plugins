@@ -11,32 +11,32 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1665329208902
+  lastteleport: 1666308548919
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665951474637
-  login: 1665951448735
+  logout: 1666440747860
+  login: 1666440586919
   kits:
     pet: 1665230193862
     tools: 1661916647295
-    noob: 1665325117544
-money: '1412.23648838598334375'
+    noob: 1666306641337
+money: '4.99999999999999864'
 last-account-name: devbaraus
 lastlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2172.5
-  y: 101.0
-  z: 1030.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 2078.485125350785
+  y: 63.0
+  z: 5709.604762422645
+  yaw: 174.12013244628906
+  pitch: 15.74976634979248
 logoutlocation:
   world: cd6e2a96-ee51-41a5-89dd-dd058e3be410
   world-name: world
-  x: 2080.1941740204247
+  x: 2039.6524210247705
   y: 63.0
-  z: 5709.467614488343
-  yaw: -64.20002746582031
-  pitch: 6.000008583068848
+  z: 5695.1897385642405
+  yaw: 86.37042236328125
+  pitch: 20.699647903442383

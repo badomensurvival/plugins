@@ -9,60 +9,85 @@ join-price: 0
 leave-price: 0
 
 level-xp-requirements:
-  - 100
-  - 120
-  - 150
-  - 180
-  - 210
-  - 250
-  - 300
-  - 360
-  - 430
-  - 520
-  - 620
-  - 740
-  - 890
-  - 1000
-  - 1300
-  - 1500
-  - 1900
-  - 2200
-  - 2700
-  - 3200
-  - 3800
-  - 4600
-  - 5500
-  - 6600
-  - 7900
-  - 9500
-  - 11500
-  - 14000
-  - 17000
-  - 19000
-  - 24000
-  - 29000
-  - 34000
-  - 41000
-  - 50000
-  - 60000
-  - 70000
-  - 85000
-  - 100000
-  - 120000
-  - 150000
+  - 270
+  - 810
+  - 1621
+  - 2702
+  - 4054
+  - 5675
+  - 7567
+  - 9729
+  - 12162
+  - 14864
+  - 17837
+  - 21081
+  - 24594
+  - 28378
+  - 32432
+  - 36756
+  - 41351
+  - 46216
+  - 51351
+  - 56756
+  - 62432
+  - 68378
+  - 74594
+  - 81081
+  - 87837
+  - 94864
+  - 102162
+  - 109729
+  - 117567
+  - 125675
+  - 134054
+  - 142702
+  - 151621
+  - 160810
+  - 170270
   - 180000
-  - 210000
-  - 250000
-  - 300000
-  - 360000
-  - 440000
-  - 580000
+  - 190000
+  - 200270
+  - 210810
+  - 221621
+  - 232702
+  - 244054
+  - 255675
+  - 267567
+  - 279729
+  - 292162
+  - 304864
+  - 317837
+  - 331081
+  - 344594
+  - 358378
+  - 372432
+  - 386756
+  - 401351
+  - 416216
+  - 431351
+  - 446756
+  - 462432
+  - 478378
+  - 494594
+  - 511081
+  - 527837
+  - 544864
+  - 562162
+  - 579729
+  - 597567
+  - 615675
+  - 634054
+  - 652702
+  - 671621
+  - 690810
+  - 710270
+  - 730000
   - 750000
 
 xp-gain-methods:
   - trigger: mine_block
     multiplier: 0.5
-    conditions: [ ]
+    conditions: []
     filters:
       items:
         - "*wooden_axe"
@@ -87,26 +112,28 @@ level-placeholders:
   - id: "money"
     value: "max(1,log(%level%)/log(2)) * 0.4"
   - id: "blocks"
-    value: "ceil(10 - %level% / 10)"
+    value: "2"
+  # - id: "blocks"
+  #   value: "ceil(10 - %level% / 10)"
 
 effects-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 you chopped"
+    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 logs you chopped"
 
 rewards-description:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 you chopped"
+    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 logs you chopped"
 
 level-up-messages:
   1:
-    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 you chopped"
+    - "&8» &8Earn &a$%money%&8 for each &a%blocks%&8 logs you chopped"
 
-level-commands: [ ]
+level-commands: []
 
 effects:
   - id: give_money
     args:
-      every: "ceil(10 - %level% / 10)"
+      every: "2"
       amount: "0.4 * max(1,log(%level%)/log(2))"
     filters:
       player_placed: false
@@ -130,6 +157,6 @@ effects:
     triggers:
       - mine_block
 
-conditions: [ ]
+conditions: []
 
 icon: player_head texture:basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2MjA3MDJmODBiZDJjMjI0MmUyZjEzMWMzZjlhMjU5NDAyYjdmYTg5NzRjODZjZjM0NTBmZjczZTc3MDU5NSJ9fX0=
