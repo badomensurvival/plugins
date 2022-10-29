@@ -16,11 +16,6 @@ extra-enchantable-items:
 # means it will activate whenever its on the player.
 
 targets:
-  - id: book
-    display-name: "Books"
-    slot: any
-    items:
-      - "*book"
   - id: pickaxe
     display-name: "Pickaxes"
     slot: hands
